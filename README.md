@@ -54,6 +54,7 @@ If you want to reproduce the results of GLEEP specify 'leep_g' as the name of th
 ### 1.Pretrain on Source dataset
 In this step,we will pretrain our model on CIFAR10 dataset.
 ```
+cd /EXP2
 python Pretrain.py -m $model_name
 ```
 The `model_name` has `ResNet18` and `RstNet34` as options.

@@ -61,7 +61,7 @@ def w_kendall_metric(score, finetune_acc, dset):
     score = score.items()
     metric_score = [a[1] for a in score]
 
-    gt = finetune_acc[dset]# 找到对应数据集
+    gt = finetune_acc[dset]
     gt_ = []
     for a in score:
         gt_.append(gt[a[0]])
@@ -80,7 +80,7 @@ def w_kendall_metric_mmd(score, finetune_acc, dset):
     sum_exp_scores = np.sum(exp_scores)
     softmax_scores = exp_scores / sum_exp_scores
     final_scores = all_ones_vector - softmax_scores
-    gt = finetune_acc[dset]  # 找到对应数据集
+    gt = finetune_acc[dset]
     gt_ = []
     for a in score:
         gt_.append(gt[a[0]])
