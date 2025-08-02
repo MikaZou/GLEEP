@@ -124,12 +124,12 @@ def forward_pass(score_loader, model, fc_layer, model_name='resnet50'):
         outputs: outputs of model
         targets: ground-truth labels of dataset
     """
-    # 初始化的时候，features, outputs, targets都是空的
+
     features = []
     outputs = []
     targets = []
     model = model.cuda()
-    # 定义的一个hook函数，在最后一层全连接层上注册，记录前向传播的特征和输出
+
     def hook_fn_forward(module, input, output):
         #features.append(input[0].detach().cpu())
         # features.append(input[0].detach().cpu())
@@ -140,15 +140,6 @@ def forward_pass(score_loader, model, fc_layer, model_name='resnet50'):
     forward_hook = fc_layer.register_forward_hook(hook_fn_forward)
 
     model.eval()
-    # 这段代码有很大的问题，会导致我的内存溢出
-    # 这段代码是运行模型来获取特征的，采用了.register_forward_hook的方法
-    # 由于 hook_fn_forward 的Feature和outputs是.cpu的，
-    # 所以有可能的原因是在
-    # with torch.no_grad():
-    #     for _, (data, target) in enumerate(score_loader):
-    #         targets.append(target).cuda()
-    #         data = data.cuda()
-    #         _ = model(data)
 
     with torch.no_grad():
         for _, (data, target) in enumerate(score_loader):
@@ -157,7 +148,7 @@ def forward_pass(score_loader, model, fc_layer, model_name='resnet50'):
             _ = model(data)
 
     forward_hook.remove()
-    # 根据不同模型处理提取出的特征
+
     if model_name in ['pvt_tiny', 'pvt_small', 'pvt_medium', 'deit_small', 
                     'deit_tiny', 'deit_base', 'dino_base', 'dino_small', 
                     'mocov3_small']:
@@ -204,15 +195,7 @@ def forward_pass_source(score_loader, model, fc_layer, model_name='resnet50'):
     forward_hook = fc_layer.register_forward_hook(hook_fn_forward)
 
     model.eval()
-    # 这段代码有很大的问题，会导致我的内存溢出
-    # 这段代码是运行模型来获取特征的，采用了.register_forward_hook的方法
-    # 由于 hook_fn_forward 的Feature和outputs是.cpu的，
-    # 所以有可能的原因是在
-    # with torch.no_grad():
-    #     for _, (data, target) in enumerate(score_loader):
-    #         targets.append(target).cuda()
-    #         data = data.cuda()
-    #         _ = model(data)
+
     with torch.no_grad():
         for _, (data, target) in enumerate(score_loader):
             targets.append(target)

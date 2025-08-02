@@ -143,21 +143,21 @@ class FinetuneModel(nn.Module):
         
         running = True
         while running:
-            # 从目标域中加载数据
+
             for data, targets in train_loader:
-                # 如果step超过设定的steps
+
                 if step >= self.steps:
                     running = False
                     break
-                # 加载的是目标域的数据
+
                 data, targets = data.to(self.device), targets.to(self.device)
-                # 如果标准是mAP，mAP是什么意思
+
                 if self.metric == 'mAP':
                     targets = targets.to(torch.float32)
-                # 前向传播
+
                 optimizer.zero_grad()
                 output = self.model(data)
-                # 计算损失
+
                 loss = self.criterion(output, targets)
 
                 if self.metric == 'mAP':
@@ -165,11 +165,11 @@ class FinetuneModel(nn.Module):
                 else:
                     output = output.argmax(dim=1)
                 # during training we can always track traditional accuracy, it'll be easier
-                # 调用函数计算准确率
+
                 acc = 100. * count_acc(output, targets, "accuracy")
-                # 反向传播
+
                 loss.backward()
-                # 计算模型参数的梯度范数（gradient norm）
+
 
                 gnorm = 0.
                 for p in self.model.parameters():
@@ -178,12 +178,12 @@ class FinetuneModel(nn.Module):
                 gnorm = gnorm ** (1. / 2)
                 optimizer.step()
 
-                # 调用函数，更新损失，准确率
+
                 total_norm.update(gnorm, data.size(0))
                 train_loss.update(loss.item(), data.size(0))
                 train_acc.update(acc, data.size(0))
 
-                # 打印，保持模型
+
                 if step % 100 == 0:
                     _logger.info(
                         'Train: {} [{:>4d}/{} ({:>3.0f}%)]  '
@@ -217,12 +217,12 @@ class FinetuneModel(nn.Module):
         return val_acc
 
     def test_classifier(self, data_loader):
-        self.model.eval() # 模型设置为测试模式
+        self.model.eval()
         test_loss, test_acc = 0, 0
         num_data_points = 0
         preds, labels = [], []
         with torch.no_grad():
-            # 加载测试数据集
+
             for i, (data, targets) in enumerate(data_loader):
                 num_data_points += data.size(0)
                 data, targets = data.to(self.device), targets.to(self.device)
@@ -292,7 +292,7 @@ class FinetuneTester():
             # load pretrained model
             self.model, _ = initialize_model(self.model_name, self.num_classes)
             self.model = self.model.to(self.device)
-            # 定义 finetuner类
+
             self.finetuner = FinetuneModel(self.model, self.num_classes, self.steps,
                                            self.metric, self.device, self.feature_dim)
             #
