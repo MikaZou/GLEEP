@@ -22,11 +22,11 @@ def LEEP(X, y,model, model_path):
     #
     # }
     model = model
-    ckpt_loc = model_path  # 模型参数地址
+    ckpt_loc = model_path
 
-    fc_weight = 'fc.weight'  # 全连接层的权重
+    fc_weight = 'fc.weight'
     fc_bias = fc_weight.replace('weight', 'bias')
-    ckpt = torch.load(ckpt_loc, map_location='cpu',weights_only=False)  # 加载模型
+    ckpt = torch.load(ckpt_loc, map_location='cpu',weights_only=False)
     fc_weight = ckpt[fc_weight].detach().numpy()  #
     fc_bias = ckpt[fc_bias].detach().numpy()
 
@@ -39,11 +39,11 @@ def LEEP(X, y,model, model_path):
         indices = np.where(y == y_)[0]  #
         filter_ = np.take(prob, indices, axis=0)
         pyz[y_] = np.sum(filter_, axis=0) / n
-    # 延一个维度的求和，获得边缘概率
-    pz = np.sum(pyz, axis=0)  # marginal probability 边缘概率
+
+    pz = np.sum(pyz, axis=0)  # marginal probability
     py_z = pyz / pz  # conditional probability, C x C(source)
     py_x = np.dot(prob, py_z.T)  # N x C
 
     # leep = E[p(y|x)]
-    leep_score = np.sum(py_x[np.arange(n), y]) / n  # 取平均
+    leep_score = np.sum(py_x[np.arange(n), y]) / n  #
     return leep_score

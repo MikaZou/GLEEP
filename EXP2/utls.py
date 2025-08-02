@@ -13,13 +13,13 @@ def forward_pass(score_loader, model, fc_layer, model_name='resnet50'):
         outputs: outputs of model
         targets: ground-truth labels of dataset
     """
-    # 初始化的时候，features, outputs, targets都是空的
+
     features = []
     outputs = []
     targets = []
     model = model.cuda()
 
-    # 定义的一个hook函数，在最后一层全连接层上注册，记录前向传播的特征和输出
+
     def hook_fn_forward(module, input, output):
         # features.append(input[0].detach().cpu())
         # features.append(input[0].detach().cpu())
@@ -36,7 +36,7 @@ def forward_pass(score_loader, model, fc_layer, model_name='resnet50'):
             _ = model(data)
 
     forward_hook.remove()
-    # # 根据不同模型处理提取出的特征
+
     # if model_name in ['pvt_tiny', 'pvt_small', 'pvt_medium', 'deit_small',
     #                   'deit_tiny', 'deit_base', 'dino_base', 'dino_small',
     #                   'mocov3_small']:
@@ -71,21 +71,17 @@ class FilteredDataset(torch.utils.data.Dataset):
         return len(self.indices)
 
 def prepare_data(num_classes, transform_train, transform_test):
-    # 获取类别信息
+
     temp_set = torchvision.datasets.CIFAR100(
         root='./data/CIFAR100', train=True, download=True, transform=None)
     all_classes = torch.randperm(100)[:num_classes].sort()[0].tolist()
     class_names = [temp_set.classes[i] for i in all_classes]
 
-    # 打印选择的类别
+
     print(f"Selected {num_classes} classes:")
     for idx, name in enumerate(class_names):
         print(f"{idx:2d}: {name}")
 
-    # 定义数据集包装类
-
-
-    # 加载并过滤数据集
     train_set = torchvision.datasets.CIFAR100(
         root='./data/CIFAR100', train=True, download=True, transform=transform_train)
     test_set = torchvision.datasets.CIFAR100(
@@ -98,7 +94,7 @@ def prepare_data(num_classes, transform_train, transform_test):
 def plot_from_history(history_data, save_path=None):
     plt.figure(figsize=(12, 5))
 
-    # Loss曲线
+
     plt.subplot(1, 2, 1)
     plt.plot(history_data['train_loss'], label='Train')
     plt.plot(history_data['test_loss'], label='Test')
@@ -107,7 +103,7 @@ def plot_from_history(history_data, save_path=None):
     plt.ylabel('Loss')
     plt.legend()
 
-    # Accuracy曲线
+
     plt.subplot(1, 2, 2)
     plt.plot(history_data['train_acc'], label='Train')
     plt.plot(history_data['test_acc'], label='Test')

@@ -2,10 +2,7 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-"""
-使用的数据集：CIFAR10
-采用的神经网络：ResNet20
-预训练"""
+
 
 import torch
 
@@ -27,11 +24,11 @@ import json
 from models.group2.resnet18 import ResNet18
 from models.group2.resnet34 import ResNet34
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-# 设置随机种子保证可重复性
+
 torch.manual_seed(42)
 torch.cuda.manual_seed_all(42)
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-# 基本参数设定
+
 num_epochs = 30
 batch_size_train = 64
 batch_size_test = 128
@@ -51,8 +48,7 @@ transform_test = transforms.Compose([
 
 
 def create_pretrained_model(model_name='ResNet20',Source_dataset='CIFAR10'):
-    # 初始化模型
-    # model = None
+
     Pretrain_CHECKPOINT_PATH = f'checkpoint/Pretrain/{model_name}/40_64_0.001/best_model.pth'
     if Source_dataset == 'CIFAR10':
         if model_name == 'ResNet18':
@@ -73,19 +69,19 @@ def create_pretrained_model(model_name='ResNet20',Source_dataset='CIFAR10'):
             model = torchvision.models.resnet34(
                 weights='IMAGENET1K_V1' if pretrained_path is None else None
             )
-    # 加载预训练权重
+
 
     return model.to(DEVICE)
 
 def create_model(NUM_CLASSES, model_name='ResNet18',Source_dataset='CIFAR10',Train_type='Finetune'):
-    """创建微调模型，支持 ResNet18/34"""
-    # 参数校验
+
+
     assert isinstance(NUM_CLASSES, int) and NUM_CLASSES > 0
 
     save_path = os.path.join(f'./checkpoint/{Train_type}/{model_name}/{Source_dataset}/C{NUM_CLASSES}', f'{num_epochs}_{batch_size_train}_{lr}')
     checkpoint_path = os.path.join(save_path,'best_model.pth')
     print(checkpoint_path)
-    # 初始化模型
+
     if Source_dataset == 'CIFAR10':
         if model_name == 'ResNet18':
             model = ResNet18()
@@ -110,7 +106,7 @@ def create_model(NUM_CLASSES, model_name='ResNet18',Source_dataset='CIFAR10',Tra
             in_features = model.fc.in_features
             model.fc = nn.Linear(in_features, NUM_CLASSES)
     model.load_state_dict(torch.load(checkpoint_path, map_location=DEVICE))
-    # 替换分类头
+
     return model.to(DEVICE)
 
 def save_score(score_dict, fpath):
@@ -139,7 +135,7 @@ def test(Finetune_Model,test_loader,device,criterion):
     return avg_loss, acc
 
 def Transferability(dataloader,model,model_path,metrics='LEEP',cov_type='full',init_method='random'):
-    "预训练模型，CIFAR100目标数据集"
+
     fc = model.fc
     Score = 0
     Xt_feature, Xt_output, yt_label = forward_pass(dataloader,model,fc)
@@ -168,14 +164,13 @@ def Transferability(dataloader,model,model_path,metrics='LEEP',cov_type='full',i
         Score = LEEP(Xt_feature, yt_p_labels, model,model_path)
     print(f"Transferability Score: {Score:.4f}")
     return Score
-# 训练循环
+
 
 
 
 import time
 import itertools
 if __name__ == '__main__':
-    #
 
     model_names = ['ResNet18','ResNet34']
     source_datasets = ['CIFAR10']
@@ -194,7 +189,7 @@ if __name__ == '__main__':
         Pretrain_CHECKPOINT_PATH = f'checkpoint/Pretrain/{model_name}/40_64_0.001/best_model.pth'
         score_dict = {}
         output_dir = f'./result/{Train_type}/{model_name}/{Source_dataset}/{cov_type}/{init_method}'
-        # 保存测试数据集准确率
+
         ACC_dict = {}
         fpath_ACC = os.path.join(output_dir, 'test_ACC')
         if not os.path.exists(fpath_ACC):
@@ -205,7 +200,7 @@ if __name__ == '__main__':
         else:
             with open(fpath_ACC, "r") as f:
                 ACC_dict = json.load(f)
-        # 保存迁移性分数
+
         score_dict = {}
         fpath_score = os.path.join(output_dir, 'metrics')
         if not os.path.exists(fpath_score):
@@ -225,7 +220,7 @@ if __name__ == '__main__':
             train_set, test_set = prepare_data(NUM_CLASSES,transform_train,transform_test)
             test_loader = torch.utils.data.DataLoader(
                 test_set, batch_size=batch_size_test, shuffle=False, num_workers=1)
-            # 初始化模型、优化器和损失函数
+
             device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
             #
             Pretrained_model = create_pretrained_model(model_name=model_name,Source_dataset=Source_dataset)

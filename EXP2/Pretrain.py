@@ -2,12 +2,9 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-"""
-使用的数据集：CIFAR10
-采用的神经网络：ResNet20
-预训练"""
+
 import os
-os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'  # 必须在所有import之前
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -22,11 +19,11 @@ from utls import plot_from_history
 from models.group2.resnet18 import ResNet18
 from models.group2.resnet20 import ResNet20
 from models.group2.resnet34 import ResNet34
-# 设置随机种子保证可重复性
+
 torch.manual_seed(42)
 torch.cuda.manual_seed_all(42)
 
-# 基本参数设定
+
 num_epochs = 40
 batch_size_train = 64
 batch_size_test = 64
@@ -34,7 +31,7 @@ lr = 0.001
 from torchvision import datasets, transforms
 import torch
 
-# 数据集预设配置（可扩展）
+
 DATASET_CONFIG = {
     'CIFAR10': {
         'num_classes': 10,
@@ -54,12 +51,12 @@ DATASET_CONFIG = {
     },
     'ImageNet': {
         'num_classes': 1000,
-        'input_size': 224,  # 标准ImageNet输入尺寸
+        'input_size': 224,
         'mean': (0.485, 0.456, 0.406),
         'std': (0.229, 0.224, 0.225),
         'dataset_class': datasets.ImageNet,
         'root': './data/ImageNet',
-        # ImageNet需要指定split ('train'/'val')
+
     }
 }
 
@@ -77,7 +74,7 @@ transform_test = transforms.Compose([
 def get_data_transforms(dataset_name):
     cfg = DATASET_CONFIG[dataset_name]
     if dataset_name == 'ImageNet':
-        # ImageNet专用增强策略
+
         train_transform = transforms.Compose([
             transforms.RandomResizedCrop(cfg['input_size']),
             transforms.RandomHorizontalFlip(),
@@ -85,7 +82,7 @@ def get_data_transforms(dataset_name):
             transforms.Normalize(cfg['mean'], cfg['std']),
         ])
     else:
-        # CIFAR系列增强策略
+
         train_transform = transforms.Compose([
             transforms.RandomCrop(cfg['input_size'], padding=4),
             transforms.RandomHorizontalFlip(),
@@ -93,7 +90,7 @@ def get_data_transforms(dataset_name):
             transforms.Normalize(cfg['mean'], cfg['std']),
         ])
 
-    # 测试集统一处理
+
     test_transform = transforms.Compose([
         transforms.Resize(cfg['input_size']),
         transforms.ToTensor(),
@@ -175,7 +172,7 @@ def test():
 
 
 if __name__ == '__main__':
-    # 数据预处理和加载
+
     parser = argparse.ArgumentParser(description='Pretrain model on CIFAR10.')
     parser.add_argument('-m', '--model_name', type=str, default='ResNet34',
                         help='name of the pretrained model to load and evaluate')
@@ -194,7 +191,7 @@ if __name__ == '__main__':
     test_loader = torch.utils.data.DataLoader(
         test_set, batch_size=batch_size_test, shuffle=False, num_workers=2)
 
-    # 初始化模型、优化器和损失函数
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = init_model(model_name)
     optimizer = optim.SGD(model.parameters(), lr=lr,
@@ -219,27 +216,27 @@ if __name__ == '__main__':
     print(f"Epoch:{num_epochs} | Batch size: {batch_size_train} | Learning rate: {lr}")
     t1 = time.time()
     for epoch in range(num_epochs):
-        # 训练
+
         train_loss, train_acc = train()
-        # 测试
+
         test_loss, test_acc = test()
         scheduler.step()
 
-        # 记录训练指标
+
         history['train_loss'].append(train_loss)
         history['train_acc'].append(train_acc)
         history['test_loss'].append(test_loss)
         history['test_acc'].append(test_acc)
-        # 保存最佳模型
+
         if test_acc > best_acc:
             print(f'Saving best model with test acc: {test_acc:.2f}%')
             torch.save(model.state_dict(), os.path.join(SAVE_PATH,'best_model.pth'))
             best_acc = test_acc
 
-        # 打印信息
+
         print(f'Epoch: {epoch + 1:03d} | Train Loss: {train_loss:.3f} | Train Acc: {train_acc:.2f}% | '
               f'Test Loss: {test_loss:.3f} | Test Acc: {test_acc:.2f}%')
     t2 = time.time()
     print(f"Training completed in {t2-t1:.2f} seconds.")
-    # 保存训
+
     plot_from_history(history, save_path=os.path.join(SAVE_PATH, 'reloaded_plot.png'))

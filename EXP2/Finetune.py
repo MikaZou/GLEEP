@@ -1,5 +1,5 @@
 import os
-os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'  # 必须在所有import之前
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -13,26 +13,26 @@ from models.group2.resnet18 import ResNet18
 from models.group2.resnet20 import ResNet20
 from models.group2.resnet34 import ResNet34
 from utls import prepare_data
-# 配置参数
+
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 
 
 BATCH_SIZE = 128
-LR = 0.01  # 初始学习率
+LR = 0.01
 MOMENTUM = 0.9
 WEIGHT_DECAY = 5e-4
 EPOCHS = 100
-MILESTONES = [50, 75]  # 学习率衰减节点
-# 基本参数设定
+MILESTONES = [50, 75]
+
 num_epochs = 30
 batch_size_train = 64
 batch_size_test = 128
 lr = 0.001
 
 
-# 数据增强和预处理（与CIFAR10训练时保持一致）
+
 transform_train = transforms.Compose([
     transforms.RandomCrop(32, padding=4),
     transforms.RandomHorizontalFlip(),
@@ -46,10 +46,10 @@ transform_test = transforms.Compose([
 ])
 
 
-# 加载并修改预训练模型
+
 def create_finetune_model(NUM_CLASSES, model_name='ResNet20',Source_dataset='CIFAR10'):
-    """创建微调模型，支持 ResNet20/18"""
-    # 参数校验
+
+
     assert isinstance(NUM_CLASSES, int) and NUM_CLASSES > 0
     Pretrain_CHECKPOINT_PATH = f'checkpoint/Pretrain/{model_name}/40_64_0.001/best_model.pth'  # 预训练模型路径
     if Source_dataset == 'CIFAR10':
@@ -71,15 +71,14 @@ def create_finetune_model(NUM_CLASSES, model_name='ResNet20',Source_dataset='CIF
             model = torchvision.models.resnet34(
                 weights='IMAGENET1K_V1' if pretrained_path is None else None
             )
-    # 初始化模型
-    # 替换分类头
+
     in_features = model.fc.in_features
     model.fc = nn.Linear(in_features, NUM_CLASSES)
 
     return model.to(DEVICE)
 
 
-# 训练和验证函数
+
 def train():
     model.train()
 
@@ -126,7 +125,7 @@ def test():
 def plot_from_history(history_data, save_path=None):
     plt.figure(figsize=(12, 5))
 
-    # Loss曲线
+
     plt.subplot(1, 2, 1)
     plt.plot(history_data['train_loss'], label='Train')
     plt.plot(history_data['test_loss'], label='Test')
@@ -135,7 +134,7 @@ def plot_from_history(history_data, save_path=None):
     plt.ylabel('Loss')
     plt.legend()
 
-    # Accuracy曲线
+
     plt.subplot(1, 2, 2)
     plt.plot(history_data['train_acc'], label='Train')
     plt.plot(history_data['test_acc'], label='Test')
@@ -171,7 +170,7 @@ if __name__ == '__main__':
         SAVE_PATH = os.path.join(f'./checkpoint/Finetune/{model_name}/{Source_dataset}/C{NUM_CLASSES}', f'{num_epochs}_{batch_size_train}_{lr}')
         if not os.path.exists(SAVE_PATH):
             os.makedirs(SAVE_PATH)
-        # 加载CIFAR100数据集
+
 
         torch.manual_seed(42)
         torch.cuda.manual_seed_all(42)
@@ -185,7 +184,7 @@ if __name__ == '__main__':
             train_set, batch_size=batch_size_train, shuffle=True, num_workers=2)
         test_loader = torch.utils.data.DataLoader(
             test_set, batch_size=batch_size_test, shuffle=False, num_workers=2)
-        # 初始化模型、优化器和损失函数
+
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         model = create_finetune_model(NUM_CLASSES=NUM_CLASSES, model_name=model_name, Source_dataset=Source_dataset)
         print(model)
@@ -211,29 +210,29 @@ if __name__ == '__main__':
         print(f"Epoch:{num_epochs} | Batch size: {batch_size_train} | Learning rate: {lr}")
         t1 = time.time()
         for epoch in range(num_epochs):
-            # 训练
+
             train_loss, train_acc = train()
-            # 测试
+
             test_loss, test_acc = test()
             scheduler.step()
 
-            # 记录训练指标
+
             history['train_loss'].append(train_loss)
             history['train_acc'].append(train_acc)
             history['test_loss'].append(test_loss)
             history['test_acc'].append(test_acc)
-            # 保存最佳模型
+
             if test_acc > best_acc:
                 print(f'Saving best model with test acc: {test_acc:.2f}%')
                 torch.save(model.state_dict(), os.path.join(SAVE_PATH, 'best_model.pth'))
                 best_acc = test_acc
 
-            # 打印信息
+
             print(f'Epoch: {epoch + 1:03d} | Train Loss: {train_loss:.3f} | Train Acc: {train_acc:.2f}% | '
                   f'Test Loss: {test_loss:.3f} | Test Acc: {test_acc:.2f}%')
 
         t2 = time.time()
         print(f"Training completed in {t2 - t1:.2f} seconds.")
-        # 保存训
+
         plot_from_history(history, save_path=os.path.join(SAVE_PATH, 'reloaded_plot.png'))
 
