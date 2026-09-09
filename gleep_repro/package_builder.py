@@ -13,7 +13,7 @@ from .config import (
     exp2_results_root,
     load_config,
 )
-from .io_utils import human_bytes, sha256, write_json
+from .io_utils import human_bytes, portable_path, sha256, write_json
 
 
 MAX_PACKAGE_BYTES = 150 * 1024 * 1024
@@ -31,6 +31,10 @@ def _package_files() -> Iterable[tuple[Path, str]]:
             or path == PACKAGE_ROOT / "artifact_manifest.json"
             or path.suffix.lower() == ".zip"
             or any(part in excluded_parts for part in path.relative_to(PACKAGE_ROOT).parts)
+            or any(
+                part.startswith((".venv", ".repro-verify-env"))
+                for part in path.relative_to(PACKAGE_ROOT).parts
+            )
         ):
             continue
         yield path, path.relative_to(PACKAGE_ROOT).as_posix()
@@ -91,7 +95,7 @@ def build_server_package(
                 "role": role,
                 "bytes": path.stat().st_size,
                 "sha256": digest,
-                "source": str(path),
+                "source": portable_path(path, workspace),
             })
         config = load_config()
         embedded_manifest = {
@@ -114,7 +118,7 @@ def build_server_package(
     size = destination.stat().st_size
     report = {
         "profile": profile,
-        "archive": str(destination),
+        "archive": portable_path(destination, workspace),
         "archive_bytes": size,
         "archive_size": human_bytes(size),
         "archive_sha256": sha256(destination),

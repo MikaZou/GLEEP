@@ -1,0 +1,1719 @@
+{
+  "profile": "server-minimal",
+  "archive": "<external>/GLEEP-server-minimal-20260909.zip",
+  "archive_bytes": 120810818,
+  "archive_size": "115.21 MiB",
+  "archive_sha256": "d25f529d9403e33a46d1e56b01b4324d0553e09670817e483e46c565f12cfa36",
+  "entry_count": 245,
+  "within_150_mib_limit": true,
+  "entries": [
+    {
+      "path": ".gitignore",
+      "role": "implementation",
+      "bytes": 522,
+      "sha256": "e1eee391082cd706eae57fd8099b0faefbec5b70cfd04d4adcbfab8b4cf80bb4",
+      "source": ".gitignore"
+    },
+    {
+      "path": "configs/corrected.json",
+      "role": "implementation",
+      "bytes": 381,
+      "sha256": "3280c4b92d25bc13985692f4d7bce497ae9cda901c2b92449406a7444b091c68",
+      "source": "configs/corrected.json"
+    },
+    {
+      "path": "configs/published.json",
+      "role": "implementation",
+      "bytes": 1254,
+      "sha256": "83d5aa92beb42d0c09039ce8c3f879a2d3454c28b5dad61d9edadc5a02e0b03e",
+      "source": "configs/published.json"
+    },
+    {
+      "path": "docs/GLEEP_EXPERIMENT_COMPARISON.md",
+      "role": "implementation",
+      "bytes": 10507,
+      "sha256": "864f81bba5dfbc6e97baf57dfe6500a8b4fff1574abb83cbd0fee84ee0b4087f",
+      "source": "docs/GLEEP_EXPERIMENT_COMPARISON.md"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "role": "implementation",
+      "bytes": 2353,
+      "sha256": "832be7d53fadd8e74ee4c485dc272a5b5dbf9b8c9464e901dd1368cb30219aca",
+      "source": "docs/REPRODUCIBILITY.md"
+    },
+    {
+      "path": "docs/REPRODUCTION_STATUS.md",
+      "role": "implementation",
+      "bytes": 3273,
+      "sha256": "aa09c69509c05b76af775983a7fbaf0d1ae61b5439c25ed1bb5784a566bd795e",
+      "source": "docs/REPRODUCTION_STATUS.md"
+    },
+    {
+      "path": "docs/SERVER_REPRODUCTION_STATUS.md",
+      "role": "implementation",
+      "bytes": 5311,
+      "sha256": "150b5d2cb16bd9d2e580a1cbda8e8b700d6a33193e405d6e8b8f31e65f3beb41",
+      "source": "docs/SERVER_REPRODUCTION_STATUS.md"
+    },
+    {
+      "path": "docs/SOURCE_PROVENANCE.md",
+      "role": "implementation",
+      "bytes": 1482,
+      "sha256": "94e4821bb0a71f5c9ade1e559b7dc80b59a8958b3bc215ed33c22882e0384f14",
+      "source": "docs/SOURCE_PROVENANCE.md"
+    },
+    {
+      "path": "environment.yml",
+      "role": "implementation",
+      "bytes": 377,
+      "sha256": "3f6cc1cc28dc42907b7878aa013351b4f4d080e330327a6cc7bccdfc432f4f7d",
+      "source": "environment.yml"
+    },
+    {
+      "path": "EXP1/datasets/_init_.py",
+      "role": "implementation",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "source": "EXP1/datasets/_init_.py"
+    },
+    {
+      "path": "EXP1/datasets/aircraft.py",
+      "role": "implementation",
+      "bytes": 6289,
+      "sha256": "fd87569a27e1e4a98c687704e73d8ff6721659a7697773c76f7fa15ea608b4c0",
+      "source": "EXP1/datasets/aircraft.py"
+    },
+    {
+      "path": "EXP1/datasets/caltech101.py",
+      "role": "implementation",
+      "bytes": 2927,
+      "sha256": "0c0f028c18e9a9db06f7bcf6757d8b754b78aacf19880d498e7f49fa61d90c5e",
+      "source": "EXP1/datasets/caltech101.py"
+    },
+    {
+      "path": "EXP1/datasets/cars.py",
+      "role": "implementation",
+      "bytes": 2947,
+      "sha256": "c0e4f4b12a97260de092aa05404116a7cabd6d511e3671713c501315248e2297",
+      "source": "EXP1/datasets/cars.py"
+    },
+    {
+      "path": "EXP1/datasets/chestx.py",
+      "role": "implementation",
+      "bytes": 10038,
+      "sha256": "c28b42b9361a2d7681d4d4babe418c2dc46402c810112de4e8e049ec0393ab60",
+      "source": "EXP1/datasets/chestx.py"
+    },
+    {
+      "path": "EXP1/datasets/cropdiseases.py",
+      "role": "implementation",
+      "bytes": 8061,
+      "sha256": "3d26645fe3c139b5dd1cc9ac6732e78a2c6e9d02b7d14ca72cd7163df1018a2b",
+      "source": "EXP1/datasets/cropdiseases.py"
+    },
+    {
+      "path": "EXP1/datasets/dtd.py",
+      "role": "implementation",
+      "bytes": 1887,
+      "sha256": "2f13f9b4dc02278594eec651504b8c0aa578e33c0d1c880f51ec7a05718790a8",
+      "source": "EXP1/datasets/dtd.py"
+    },
+    {
+      "path": "EXP1/datasets/eurosat.py",
+      "role": "implementation",
+      "bytes": 7731,
+      "sha256": "ac09d9e26f82e38ff747d076f5b3d2e9948a45f3dde65cd42a505cb4052c48e2",
+      "source": "EXP1/datasets/eurosat.py"
+    },
+    {
+      "path": "EXP1/datasets/few_shot_dataset.py",
+      "role": "implementation",
+      "bytes": 8147,
+      "sha256": "eee21eaf8fcde4135810e48c1f5cd3317cd962cb98dc8969a9947552dfdba08a",
+      "source": "EXP1/datasets/few_shot_dataset.py"
+    },
+    {
+      "path": "EXP1/datasets/flowers.py",
+      "role": "implementation",
+      "bytes": 3135,
+      "sha256": "da5a98f3aaa1f2758c10ae0615fc0e1142b547d8fdeb9381cd0ec3df050c1740",
+      "source": "EXP1/datasets/flowers.py"
+    },
+    {
+      "path": "EXP1/datasets/food.py",
+      "role": "implementation",
+      "bytes": 2423,
+      "sha256": "814fa11c32ddbcf11c1d50d594e1ef96e959317a883f05d7c3cf13d059e9d453",
+      "source": "EXP1/datasets/food.py"
+    },
+    {
+      "path": "EXP1/datasets/imagenet.py",
+      "role": "implementation",
+      "bytes": 772,
+      "sha256": "de164051f24a435450582c16a79268d9348150d31ed8a9b88224fbc0d192fa06",
+      "source": "EXP1/datasets/imagenet.py"
+    },
+    {
+      "path": "EXP1/datasets/isic.py",
+      "role": "implementation",
+      "bytes": 9476,
+      "sha256": "ffb523d0c4b75fa43c268ca65b1f8fdbb7a3994afca4c2e802b23cb9c90927be",
+      "source": "EXP1/datasets/isic.py"
+    },
+    {
+      "path": "EXP1/datasets/pets.py",
+      "role": "implementation",
+      "bytes": 3104,
+      "sha256": "4a01efa85a60ce5b37c3630e42c7824ac9749ce47bdc5f1c02a65c88494a8179",
+      "source": "EXP1/datasets/pets.py"
+    },
+    {
+      "path": "EXP1/datasets/sun397.py",
+      "role": "implementation",
+      "bytes": 2001,
+      "sha256": "c2cd2612e1efd3ad65368eaeda17374ee2c71169fb39f39b2359b02f5ffe737c",
+      "source": "EXP1/datasets/sun397.py"
+    },
+    {
+      "path": "EXP1/datasets/voc2007.py",
+      "role": "implementation",
+      "bytes": 10482,
+      "sha256": "060128e232ead0545ab9a85318ffbe1bbec052b590347642b4a58897a35e7a31",
+      "source": "EXP1/datasets/voc2007.py"
+    },
+    {
+      "path": "EXP1/evaluate_metric.py",
+      "role": "implementation",
+      "bytes": 5846,
+      "sha256": "05e74aac2bde9164622af128760f6664c1a90897faab154585d04a1081c80a37",
+      "source": "EXP1/evaluate_metric.py"
+    },
+    {
+      "path": "EXP1/Figures/__init__.py",
+      "role": "implementation",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "EXP1/Figures/__init__.py"
+    },
+    {
+      "path": "EXP1/finetune.py",
+      "role": "implementation",
+      "bytes": 24890,
+      "sha256": "5e9d1fbef5d4f6aa9836b3bca15ad548a838a0210c1d27c4b3de3e6d0dcfd8c0",
+      "source": "EXP1/finetune.py"
+    },
+    {
+      "path": "EXP1/forward_feature.py",
+      "role": "implementation",
+      "bytes": 3487,
+      "sha256": "d1f1ff94294bd58e1316ed0497bf27cf3b5c57aaeefd7a99cb7669261a629967",
+      "source": "EXP1/forward_feature.py"
+    },
+    {
+      "path": "EXP1/get_dataloader.py",
+      "role": "implementation",
+      "bytes": 9923,
+      "sha256": "51cc34e2c306783dd0d47623a8b94c43abd3861aa86fda52e4ec7d6eb85e8b19",
+      "source": "EXP1/get_dataloader.py"
+    },
+    {
+      "path": "EXP1/metrics.py",
+      "role": "implementation",
+      "bytes": 59718,
+      "sha256": "2abbf873917d44aaeb7d5f2f006c3649b94c6968c4b1ef50cd62b65aa9940bb7",
+      "source": "EXP1/metrics.py"
+    },
+    {
+      "path": "EXP1/models/group1/__init__.py",
+      "role": "implementation",
+      "bytes": 150,
+      "sha256": "25065254400d97b7bc6fd5436f4e6e04f4899fbf19cf3069af4fd593e7809471",
+      "source": "EXP1/models/group1/__init__.py"
+    },
+    {
+      "path": "EXP1/models/group1/densenet.py",
+      "role": "implementation",
+      "bytes": 11150,
+      "sha256": "5060c1653f13ac073f92f35dbaa50bb63f35c9127637e1819efa3b5b0a82a861",
+      "source": "EXP1/models/group1/densenet.py"
+    },
+    {
+      "path": "EXP1/models/group1/googlenet.py",
+      "role": "implementation",
+      "bytes": 11281,
+      "sha256": "30238743f9f09c4aed84e7198fc3dfc65096f9a69e55fc76edf21adf28a9808e",
+      "source": "EXP1/models/group1/googlenet.py"
+    },
+    {
+      "path": "EXP1/models/group1/inception.py",
+      "role": "implementation",
+      "bytes": 17175,
+      "sha256": "365f7942cc8b1420786ca481323675ea7ba3d057907538e44f4e3f7f18fb9c9d",
+      "source": "EXP1/models/group1/inception.py"
+    },
+    {
+      "path": "EXP1/models/group1/initialize_model.py",
+      "role": "implementation",
+      "bytes": 3461,
+      "sha256": "82db589216372ab8cc868bf3365ae6ff1b29b91c7de34e164bac75e092c282f8",
+      "source": "EXP1/models/group1/initialize_model.py"
+    },
+    {
+      "path": "EXP1/models/group1/mnasnet.py",
+      "role": "implementation",
+      "bytes": 10731,
+      "sha256": "3b270779f2cb21791632e21a1754efe30f704fb7d56a4a9d0e552aa1d5f9fede",
+      "source": "EXP1/models/group1/mnasnet.py"
+    },
+    {
+      "path": "EXP1/models/group1/mobilenet.py",
+      "role": "implementation",
+      "bytes": 7286,
+      "sha256": "3fe8103a4eb3672cca123f22dffce6e57f946d0f83b41ae4bf25f2d131930232",
+      "source": "EXP1/models/group1/mobilenet.py"
+    },
+    {
+      "path": "EXP1/models/group1/resnet.py",
+      "role": "implementation",
+      "bytes": 10815,
+      "sha256": "f9e419d69caf6b3eaac44d6f4372c911503358929d69a6433ce9b40801fd8bc7",
+      "source": "EXP1/models/group1/resnet.py"
+    },
+    {
+      "path": "EXP1/p.py",
+      "role": "implementation",
+      "bytes": 5056,
+      "sha256": "0886e5ba9be050e3edb259b2db73fbfdfc6b7ed88b2e2bef0faea1be68bd11fa",
+      "source": "EXP1/p.py"
+    },
+    {
+      "path": "EXP1/rank_correlation.py",
+      "role": "implementation",
+      "bytes": 3519,
+      "sha256": "ea85b88a1fd21cecfe0eea38806c42dda797f1bea7ca45918ef5acf7f5219069",
+      "source": "EXP1/rank_correlation.py"
+    },
+    {
+      "path": "EXP1/tw.py",
+      "role": "implementation",
+      "bytes": 4946,
+      "sha256": "db293e0d43f84d1065e16e528936b4b896b1d6252dd243e5b4dbd9d046dbfb53",
+      "source": "EXP1/tw.py"
+    },
+    {
+      "path": "EXP1/utils.py",
+      "role": "implementation",
+      "bytes": 10749,
+      "sha256": "4eab32f74ed55d383bd873301d7fa78827a7fdaf278646a730f04b12047c48d3",
+      "source": "EXP1/utils.py"
+    },
+    {
+      "path": "EXP2/Ablation/exp2/compare.py",
+      "role": "implementation",
+      "bytes": 3198,
+      "sha256": "b2a0cc5b21a93ff9c581fac5c82a94aeda2ff2d7671a6a542acbf04b3702b287",
+      "source": "EXP2/Ablation/exp2/compare.py"
+    },
+    {
+      "path": "EXP2/Ablation/test1.py",
+      "role": "implementation",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source": "EXP2/Ablation/test1.py"
+    },
+    {
+      "path": "EXP2/Finetune.py",
+      "role": "implementation",
+      "bytes": 8201,
+      "sha256": "a6e0650b9e633f6d50ee07e98a52995f8864e1b873c5204d8a467ecb69e76b76",
+      "source": "EXP2/Finetune.py"
+    },
+    {
+      "path": "EXP2/forward_feature_ablation.py",
+      "role": "implementation",
+      "bytes": 10252,
+      "sha256": "72a8e43aab32bb4958086dd941f6fdf0251d142e1b538e798d3204e245f5f966",
+      "source": "EXP2/forward_feature_ablation.py"
+    },
+    {
+      "path": "EXP2/forward_feature_exp2.py",
+      "role": "implementation",
+      "bytes": 12369,
+      "sha256": "24b63d9e9eb58d383691cb38a3d9179a4e0ca8f62ded508d8e4c967896f7f177",
+      "source": "EXP2/forward_feature_exp2.py"
+    },
+    {
+      "path": "EXP2/models/group2/resnet18.py",
+      "role": "implementation",
+      "bytes": 2660,
+      "sha256": "e9ee706a4907f57a2d4decb87d29433438577fdc0e45137d00d198cebff25446",
+      "source": "EXP2/models/group2/resnet18.py"
+    },
+    {
+      "path": "EXP2/models/group2/resnet20.py",
+      "role": "implementation",
+      "bytes": 2478,
+      "sha256": "f758d45a6977f0eccc20ec2108caf53750115fc19047650d141ec0ad2059b50e",
+      "source": "EXP2/models/group2/resnet20.py"
+    },
+    {
+      "path": "EXP2/models/group2/resnet34.py",
+      "role": "implementation",
+      "bytes": 2659,
+      "sha256": "c7c2d08d45f8a0a13561ffb134b4a4f37d9200d12f85caee4e815e9ed2698294",
+      "source": "EXP2/models/group2/resnet34.py"
+    },
+    {
+      "path": "EXP2/Pretrain.py",
+      "role": "implementation",
+      "bytes": 8358,
+      "sha256": "d05c9c1df7e7c4751c6f38f73af99b7ef066f217bf38fab566cf983af78aa6b1",
+      "source": "EXP2/Pretrain.py"
+    },
+    {
+      "path": "EXP2/relation_ablation.py",
+      "role": "implementation",
+      "bytes": 1848,
+      "sha256": "29df72ecdff7374a1d367137ca0368c82cd36c1810351dd1e731d1411b26bce8",
+      "source": "EXP2/relation_ablation.py"
+    },
+    {
+      "path": "EXP2/relation_exp2.py",
+      "role": "implementation",
+      "bytes": 1706,
+      "sha256": "81a2d5481f88bcbda924aa8c121012ac231d95be6694e8e81e2f04ff210bf6d2",
+      "source": "EXP2/relation_exp2.py"
+    },
+    {
+      "path": "EXP2/Retrain.py",
+      "role": "implementation",
+      "bytes": 8202,
+      "sha256": "13bb22ef17b3a13ef96f76e5f4975015991a23e7113a0a614807d6f8a4e38a1a",
+      "source": "EXP2/Retrain.py"
+    },
+    {
+      "path": "EXP2/Tr_method/LEEP.py",
+      "role": "implementation",
+      "bytes": 1509,
+      "sha256": "6ec552f0ddc1c9f4b39512594af386f5f3a8c6b9d0476415b8c87009a1c3df10",
+      "source": "EXP2/Tr_method/LEEP.py"
+    },
+    {
+      "path": "EXP2/utls.py",
+      "role": "implementation",
+      "bytes": 4236,
+      "sha256": "fd954c3eed7043d2081beaaa62dadce84a6e157d26fd7462421fed00c72c7411",
+      "source": "EXP2/utls.py"
+    },
+    {
+      "path": "gleep_repro/__init__.py",
+      "role": "implementation",
+      "bytes": 92,
+      "sha256": "065549b56d0250ab7766786345c3a9404087051accdde865a0048ef853027e74",
+      "source": "gleep_repro/__init__.py"
+    },
+    {
+      "path": "gleep_repro/__main__.py",
+      "role": "implementation",
+      "bytes": 81,
+      "sha256": "2cdd23d4f5cd6c3b3e4cb690ad16d560637767b9ca5b2a3cf129fcc0a5ebc82b",
+      "source": "gleep_repro/__main__.py"
+    },
+    {
+      "path": "gleep_repro/artifacts.py",
+      "role": "implementation",
+      "bytes": 3895,
+      "sha256": "45611c423c1eec67ae9ea3c549398f60ec3056169f433f4e394076a7bc346cd9",
+      "source": "gleep_repro/artifacts.py"
+    },
+    {
+      "path": "gleep_repro/audit.py",
+      "role": "implementation",
+      "bytes": 13471,
+      "sha256": "d5dad5799b873cc0e52ac1ebfc770a13a6f410758fa707d3594adea7eeb6c2a0",
+      "source": "gleep_repro/audit.py"
+    },
+    {
+      "path": "gleep_repro/cli.py",
+      "role": "implementation",
+      "bytes": 11400,
+      "sha256": "3e3f3e0e8b15e7d00127db69e6af2bd8d56e1607a8b8891ef89e7e06c30dd803",
+      "source": "gleep_repro/cli.py"
+    },
+    {
+      "path": "gleep_repro/config.py",
+      "role": "implementation",
+      "bytes": 1902,
+      "sha256": "c2335f2e3040317ffd2b20cff6fc7580344632f1d3e46b4f34abd7128c828ca8",
+      "source": "gleep_repro/config.py"
+    },
+    {
+      "path": "gleep_repro/exp1.py",
+      "role": "implementation",
+      "bytes": 10077,
+      "sha256": "85e83a408b60a952b081dc7313809857edd4ebe7abf1a60f60dfb195e9a29925",
+      "source": "gleep_repro/exp1.py"
+    },
+    {
+      "path": "gleep_repro/exp2.py",
+      "role": "implementation",
+      "bytes": 34065,
+      "sha256": "8b87cd563a5be2f0cdf5e2f398518ee13bda8d8305b37d2a8a4c6ba812e5d68b",
+      "source": "gleep_repro/exp2.py"
+    },
+    {
+      "path": "gleep_repro/io_utils.py",
+      "role": "implementation",
+      "bytes": 3587,
+      "sha256": "6a2e88cd5e68893897477c10ced96894dda50a985af1fd1d735c598509fbd3e7",
+      "source": "gleep_repro/io_utils.py"
+    },
+    {
+      "path": "gleep_repro/metrics.py",
+      "role": "implementation",
+      "bytes": 3529,
+      "sha256": "3fcc683bf79bcb4f051f59aa0e13bd2bde753fe49c6a692423cde836d82a8353",
+      "source": "gleep_repro/metrics.py"
+    },
+    {
+      "path": "gleep_repro/models.py",
+      "role": "implementation",
+      "bytes": 4028,
+      "sha256": "68a9ccb6cbaea56d6f3eac7e1c8c8a9a2901d6baffb65b50dd01fc970177612f",
+      "source": "gleep_repro/models.py"
+    },
+    {
+      "path": "gleep_repro/package_builder.py",
+      "role": "implementation",
+      "bytes": 5285,
+      "sha256": "caa305730458ba124b2985b93d906ddbc1b6dcad30e0f28193238116acc3f841",
+      "source": "gleep_repro/package_builder.py"
+    },
+    {
+      "path": "gleep_repro/smoke.py",
+      "role": "implementation",
+      "bytes": 2872,
+      "sha256": "9ef0baf809686b2e1b5d61f093388d4c255645d895c1691969511bebd21e5cd3",
+      "source": "gleep_repro/smoke.py"
+    },
+    {
+      "path": "gleep_repro/stats.py",
+      "role": "implementation",
+      "bytes": 2532,
+      "sha256": "b969addf6a083f9fff916946684f3b4f2b77dbd10045cf27df1805ce414f5d12",
+      "source": "gleep_repro/stats.py"
+    },
+    {
+      "path": "gleep_repro/verify.py",
+      "role": "implementation",
+      "bytes": 14715,
+      "sha256": "7e19f8fa720566384604044a7267c3ceecb00ea5597a9e5c1700aa49373f6a76",
+      "source": "gleep_repro/verify.py"
+    },
+    {
+      "path": "LICENSE",
+      "role": "implementation",
+      "bytes": 1087,
+      "sha256": "6f972ce1f52ea44053a0cafcefa9510279086a39d2138c9f7f981dad8fe15d30",
+      "source": "LICENSE"
+    },
+    {
+      "path": "pyproject.toml",
+      "role": "implementation",
+      "bytes": 404,
+      "sha256": "f213383383b85e65faeba3a0a2efa4ac814a4bc97bffa8d69b3cdddfba5cae79",
+      "source": "pyproject.toml"
+    },
+    {
+      "path": "README.md",
+      "role": "implementation",
+      "bytes": 4024,
+      "sha256": "9e126824bb3404d105cd611e6fe27eff50a3e9242b844ed7730dbbf7944824eb",
+      "source": "README.md"
+    },
+    {
+      "path": "research/negative_results/relational_v1/code/relational.py",
+      "role": "implementation",
+      "bytes": 4535,
+      "sha256": "99cf18cb17c27f3e3773f373dd010fba605b6f235bcbd846c6432c9e3cc49b5e",
+      "source": "research/negative_results/relational_v1/code/relational.py"
+    },
+    {
+      "path": "research/negative_results/relational_v1/code/relational_experiment.py",
+      "role": "implementation",
+      "bytes": 6141,
+      "sha256": "e89084cd59e18979d436775936a40268057d6a29a1c8de6d8b85e4aaa95543e2",
+      "source": "research/negative_results/relational_v1/code/relational_experiment.py"
+    },
+    {
+      "path": "research/negative_results/relational_v1/code/relational_report.py",
+      "role": "implementation",
+      "bytes": 7636,
+      "sha256": "31183c42626a218a3a30d93b69620379a7e839166a2453fff22377f212e92e7e",
+      "source": "research/negative_results/relational_v1/code/relational_report.py"
+    },
+    {
+      "path": "research/negative_results/relational_v1/code/test_relational.py",
+      "role": "implementation",
+      "bytes": 1944,
+      "sha256": "107b17db5dc2647ca95c063051f239409feba7e9ac8726f49917696079b7ae9f",
+      "source": "research/negative_results/relational_v1/code/test_relational.py"
+    },
+    {
+      "path": "research/negative_results/relational_v1/RELATIONAL_EXPERIMENT_REPORT.json",
+      "role": "implementation",
+      "bytes": 163526,
+      "sha256": "0ec5e8e403d0b20ce5a594772cbaca107a63c6d7af5c674f76febad6a1ca94aa",
+      "source": "research/negative_results/relational_v1/RELATIONAL_EXPERIMENT_REPORT.json"
+    },
+    {
+      "path": "research/negative_results/relational_v1/RELATIONAL_EXPERIMENT_REPORT.md",
+      "role": "implementation",
+      "bytes": 3670,
+      "sha256": "cb5e052dde81300678789986bc3e82d2cab8c234ed651d663e56cfe7f0c14a21",
+      "source": "research/negative_results/relational_v1/RELATIONAL_EXPERIMENT_REPORT.md"
+    },
+    {
+      "path": "research/negative_results/relational_v1/UNSUPERVISED_TRANSFERABILITY_PROPOSAL.md",
+      "role": "implementation",
+      "bytes": 13537,
+      "sha256": "552a4a9f185ba3c88ee5893f95235e7ed3109ff5d7185885500d45dd7a40f7a4",
+      "source": "research/negative_results/relational_v1/UNSUPERVISED_TRANSFERABILITY_PROPOSAL.md"
+    },
+    {
+      "path": "research/negative_results/upr_v1/code/test_upr.py",
+      "role": "implementation",
+      "bytes": 2390,
+      "sha256": "517aa82436108d25282348dbbdc523652dfdd23e9ecd76f6365b1d3bd1fb3c9c",
+      "source": "research/negative_results/upr_v1/code/test_upr.py"
+    },
+    {
+      "path": "research/negative_results/upr_v1/code/upr.py",
+      "role": "implementation",
+      "bytes": 5616,
+      "sha256": "f33aee62d168e44643ed2bbf0247fae08cb0d15ce54fff7ded04383f4abeecfe",
+      "source": "research/negative_results/upr_v1/code/upr.py"
+    },
+    {
+      "path": "research/negative_results/upr_v1/code/upr_experiment.py",
+      "role": "implementation",
+      "bytes": 22614,
+      "sha256": "62214adc1de68b4998fe4eac4955d52df1f447a1208d3398a529434a8f0b96bc",
+      "source": "research/negative_results/upr_v1/code/upr_experiment.py"
+    },
+    {
+      "path": "research/negative_results/upr_v1/code/upr_review.py",
+      "role": "implementation",
+      "bytes": 8554,
+      "sha256": "f3c7096f81fb95944d9a5d76aefeff47a86d886af337d1e6de6f81de05191e29",
+      "source": "research/negative_results/upr_v1/code/upr_review.py"
+    },
+    {
+      "path": "research/negative_results/upr_v1/UPR_README.md",
+      "role": "implementation",
+      "bytes": 5693,
+      "sha256": "4b19d569693df4ac2009be5271c7e3ad5be6e71fa063399c72a4bbf4df17e5cf",
+      "source": "research/negative_results/upr_v1/UPR_README.md"
+    },
+    {
+      "path": "research/negative_results/upr_v1/UPR_RESULTS.md",
+      "role": "implementation",
+      "bytes": 7838,
+      "sha256": "21ab5cafdc7ec1bde65d29c0d3d60619e125ca92603fccae7f5899387ef63a10",
+      "source": "research/negative_results/upr_v1/UPR_RESULTS.md"
+    },
+    {
+      "path": "research/negative_results/upr_v1/UPR_REVIEW.md",
+      "role": "implementation",
+      "bytes": 2951,
+      "sha256": "7f23f18d8d1ef43bfb7cdb7dde7c348ee05fa81c6fb4f2b61811dfba2b936831",
+      "source": "research/negative_results/upr_v1/UPR_REVIEW.md"
+    },
+    {
+      "path": "research/negative_results/upr_v1/UPR_THEORY.md",
+      "role": "implementation",
+      "bytes": 9974,
+      "sha256": "5ebf9026cf90144206aab639a4dba7c0d38b6a7f84641581965f16d93ba948d7",
+      "source": "research/negative_results/upr_v1/UPR_THEORY.md"
+    },
+    {
+      "path": "research/README.md",
+      "role": "implementation",
+      "bytes": 390,
+      "sha256": "8af1beb5e4ee419da30795f68bc2c8363a841f9746a6244279e8356c9471977e",
+      "source": "research/README.md"
+    },
+    {
+      "path": "scripts/build_artifact_index.py",
+      "role": "implementation",
+      "bytes": 4031,
+      "sha256": "d6e4d92b645834b6162fa1f30f288ab7429cc81541c8333cbde34ec09d01e463",
+      "source": "scripts/build_artifact_index.py"
+    },
+    {
+      "path": "scripts/check_git_payload.py",
+      "role": "implementation",
+      "bytes": 1995,
+      "sha256": "ed1d899ca6467097a179b7427f4e753049118c73640f4733366de1f6a778300a",
+      "source": "scripts/check_git_payload.py"
+    },
+    {
+      "path": "scripts/validate_artifact_arrays.py",
+      "role": "implementation",
+      "bytes": 3592,
+      "sha256": "ce42de79017a304d74cc374783b95ebf6be60701e04397f37e3f5a4aef37be0c",
+      "source": "scripts/validate_artifact_arrays.py"
+    },
+    {
+      "path": "scripts/validate_exp2_manifests.py",
+      "role": "implementation",
+      "bytes": 3535,
+      "sha256": "18dcdab572f4c7c5ae936dcce2749f2ac572dddf4ff29a1e7c5ae53b76fcca74",
+      "source": "scripts/validate_exp2_manifests.py"
+    },
+    {
+      "path": "tests/test_artifacts.py",
+      "role": "implementation",
+      "bytes": 1392,
+      "sha256": "bb7839c368e354af49a596fe4cd36de7822471261a59213eaf51b4f14e833a95",
+      "source": "tests/test_artifacts.py"
+    },
+    {
+      "path": "tests/test_exp2.py",
+      "role": "implementation",
+      "bytes": 3694,
+      "sha256": "fdb4584cc4f432d9c411c8ba4c5d3a17790fd831cda2f6bb460df54863fdda9d",
+      "source": "tests/test_exp2.py"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "role": "implementation",
+      "bytes": 1165,
+      "sha256": "3b3f2b0d8ff432952088f8d8a903b20cda9275400a4cde1a06cfde383f72c3f5",
+      "source": "tests/test_metrics.py"
+    },
+    {
+      "path": "tests/test_stats.py",
+      "role": "implementation",
+      "bytes": 689,
+      "sha256": "d6293bb0488dc04e0e76e2b6c07a02d33f00787e62062aeb851a01123f76c727",
+      "source": "tests/test_stats.py"
+    },
+    {
+      "path": "legacy_source/EXP1/evaluate_metric.py",
+      "role": "legacy_source",
+      "bytes": 5846,
+      "sha256": "05e74aac2bde9164622af128760f6664c1a90897faab154585d04a1081c80a37",
+      "source": "EXP1/evaluate_metric.py"
+    },
+    {
+      "path": "legacy_source/EXP1/finetune.py",
+      "role": "legacy_source",
+      "bytes": 24890,
+      "sha256": "5e9d1fbef5d4f6aa9836b3bca15ad548a838a0210c1d27c4b3de3e6d0dcfd8c0",
+      "source": "EXP1/finetune.py"
+    },
+    {
+      "path": "legacy_source/EXP1/forward_feature.py",
+      "role": "legacy_source",
+      "bytes": 3487,
+      "sha256": "d1f1ff94294bd58e1316ed0497bf27cf3b5c57aaeefd7a99cb7669261a629967",
+      "source": "EXP1/forward_feature.py"
+    },
+    {
+      "path": "legacy_source/EXP1/get_dataloader.py",
+      "role": "legacy_source",
+      "bytes": 9923,
+      "sha256": "51cc34e2c306783dd0d47623a8b94c43abd3861aa86fda52e4ec7d6eb85e8b19",
+      "source": "EXP1/get_dataloader.py"
+    },
+    {
+      "path": "legacy_source/EXP1/metrics.py",
+      "role": "legacy_source",
+      "bytes": 59718,
+      "sha256": "2abbf873917d44aaeb7d5f2f006c3649b94c6968c4b1ef50cd62b65aa9940bb7",
+      "source": "EXP1/metrics.py"
+    },
+    {
+      "path": "legacy_source/EXP1/p.py",
+      "role": "legacy_source",
+      "bytes": 5056,
+      "sha256": "0886e5ba9be050e3edb259b2db73fbfdfc6b7ed88b2e2bef0faea1be68bd11fa",
+      "source": "EXP1/p.py"
+    },
+    {
+      "path": "legacy_source/EXP1/rank_correlation.py",
+      "role": "legacy_source",
+      "bytes": 3519,
+      "sha256": "ea85b88a1fd21cecfe0eea38806c42dda797f1bea7ca45918ef5acf7f5219069",
+      "source": "EXP1/rank_correlation.py"
+    },
+    {
+      "path": "legacy_source/EXP1/tw.py",
+      "role": "legacy_source",
+      "bytes": 4946,
+      "sha256": "db293e0d43f84d1065e16e528936b4b896b1d6252dd243e5b4dbd9d046dbfb53",
+      "source": "EXP1/tw.py"
+    },
+    {
+      "path": "legacy_source/EXP1/utils.py",
+      "role": "legacy_source",
+      "bytes": 10749,
+      "sha256": "4eab32f74ed55d383bd873301d7fa78827a7fdaf278646a730f04b12047c48d3",
+      "source": "EXP1/utils.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/_init_.py",
+      "role": "legacy_source",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "source": "EXP1/datasets/_init_.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/aircraft.py",
+      "role": "legacy_source",
+      "bytes": 6289,
+      "sha256": "fd87569a27e1e4a98c687704e73d8ff6721659a7697773c76f7fa15ea608b4c0",
+      "source": "EXP1/datasets/aircraft.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/caltech101.py",
+      "role": "legacy_source",
+      "bytes": 2927,
+      "sha256": "0c0f028c18e9a9db06f7bcf6757d8b754b78aacf19880d498e7f49fa61d90c5e",
+      "source": "EXP1/datasets/caltech101.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/cars.py",
+      "role": "legacy_source",
+      "bytes": 2947,
+      "sha256": "c0e4f4b12a97260de092aa05404116a7cabd6d511e3671713c501315248e2297",
+      "source": "EXP1/datasets/cars.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/chestx.py",
+      "role": "legacy_source",
+      "bytes": 10038,
+      "sha256": "c28b42b9361a2d7681d4d4babe418c2dc46402c810112de4e8e049ec0393ab60",
+      "source": "EXP1/datasets/chestx.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/cropdiseases.py",
+      "role": "legacy_source",
+      "bytes": 8061,
+      "sha256": "3d26645fe3c139b5dd1cc9ac6732e78a2c6e9d02b7d14ca72cd7163df1018a2b",
+      "source": "EXP1/datasets/cropdiseases.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/dtd.py",
+      "role": "legacy_source",
+      "bytes": 1887,
+      "sha256": "2f13f9b4dc02278594eec651504b8c0aa578e33c0d1c880f51ec7a05718790a8",
+      "source": "EXP1/datasets/dtd.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/eurosat.py",
+      "role": "legacy_source",
+      "bytes": 7731,
+      "sha256": "ac09d9e26f82e38ff747d076f5b3d2e9948a45f3dde65cd42a505cb4052c48e2",
+      "source": "EXP1/datasets/eurosat.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/few_shot_dataset.py",
+      "role": "legacy_source",
+      "bytes": 8147,
+      "sha256": "eee21eaf8fcde4135810e48c1f5cd3317cd962cb98dc8969a9947552dfdba08a",
+      "source": "EXP1/datasets/few_shot_dataset.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/flowers.py",
+      "role": "legacy_source",
+      "bytes": 3135,
+      "sha256": "da5a98f3aaa1f2758c10ae0615fc0e1142b547d8fdeb9381cd0ec3df050c1740",
+      "source": "EXP1/datasets/flowers.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/food.py",
+      "role": "legacy_source",
+      "bytes": 2423,
+      "sha256": "814fa11c32ddbcf11c1d50d594e1ef96e959317a883f05d7c3cf13d059e9d453",
+      "source": "EXP1/datasets/food.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/imagenet.py",
+      "role": "legacy_source",
+      "bytes": 772,
+      "sha256": "de164051f24a435450582c16a79268d9348150d31ed8a9b88224fbc0d192fa06",
+      "source": "EXP1/datasets/imagenet.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/isic.py",
+      "role": "legacy_source",
+      "bytes": 9476,
+      "sha256": "ffb523d0c4b75fa43c268ca65b1f8fdbb7a3994afca4c2e802b23cb9c90927be",
+      "source": "EXP1/datasets/isic.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/pets.py",
+      "role": "legacy_source",
+      "bytes": 3104,
+      "sha256": "4a01efa85a60ce5b37c3630e42c7824ac9749ce47bdc5f1c02a65c88494a8179",
+      "source": "EXP1/datasets/pets.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/sun397.py",
+      "role": "legacy_source",
+      "bytes": 2001,
+      "sha256": "c2cd2612e1efd3ad65368eaeda17374ee2c71169fb39f39b2359b02f5ffe737c",
+      "source": "EXP1/datasets/sun397.py"
+    },
+    {
+      "path": "legacy_source/EXP1/datasets/voc2007.py",
+      "role": "legacy_source",
+      "bytes": 10482,
+      "sha256": "060128e232ead0545ab9a85318ffbe1bbec052b590347642b4a58897a35e7a31",
+      "source": "EXP1/datasets/voc2007.py"
+    },
+    {
+      "path": "legacy_source/EXP1/models/group1/__init__.py",
+      "role": "legacy_source",
+      "bytes": 150,
+      "sha256": "25065254400d97b7bc6fd5436f4e6e04f4899fbf19cf3069af4fd593e7809471",
+      "source": "EXP1/models/group1/__init__.py"
+    },
+    {
+      "path": "legacy_source/EXP1/models/group1/densenet.py",
+      "role": "legacy_source",
+      "bytes": 11150,
+      "sha256": "5060c1653f13ac073f92f35dbaa50bb63f35c9127637e1819efa3b5b0a82a861",
+      "source": "EXP1/models/group1/densenet.py"
+    },
+    {
+      "path": "legacy_source/EXP1/models/group1/googlenet.py",
+      "role": "legacy_source",
+      "bytes": 11281,
+      "sha256": "30238743f9f09c4aed84e7198fc3dfc65096f9a69e55fc76edf21adf28a9808e",
+      "source": "EXP1/models/group1/googlenet.py"
+    },
+    {
+      "path": "legacy_source/EXP1/models/group1/inception.py",
+      "role": "legacy_source",
+      "bytes": 17175,
+      "sha256": "365f7942cc8b1420786ca481323675ea7ba3d057907538e44f4e3f7f18fb9c9d",
+      "source": "EXP1/models/group1/inception.py"
+    },
+    {
+      "path": "legacy_source/EXP1/models/group1/initialize_model.py",
+      "role": "legacy_source",
+      "bytes": 3461,
+      "sha256": "82db589216372ab8cc868bf3365ae6ff1b29b91c7de34e164bac75e092c282f8",
+      "source": "EXP1/models/group1/initialize_model.py"
+    },
+    {
+      "path": "legacy_source/EXP1/models/group1/mnasnet.py",
+      "role": "legacy_source",
+      "bytes": 10731,
+      "sha256": "3b270779f2cb21791632e21a1754efe30f704fb7d56a4a9d0e552aa1d5f9fede",
+      "source": "EXP1/models/group1/mnasnet.py"
+    },
+    {
+      "path": "legacy_source/EXP1/models/group1/mobilenet.py",
+      "role": "legacy_source",
+      "bytes": 7286,
+      "sha256": "3fe8103a4eb3672cca123f22dffce6e57f946d0f83b41ae4bf25f2d131930232",
+      "source": "EXP1/models/group1/mobilenet.py"
+    },
+    {
+      "path": "legacy_source/EXP1/models/group1/resnet.py",
+      "role": "legacy_source",
+      "bytes": 10815,
+      "sha256": "f9e419d69caf6b3eaac44d6f4372c911503358929d69a6433ce9b40801fd8bc7",
+      "source": "EXP1/models/group1/resnet.py"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/aircraft_metrics.json",
+      "role": "historical_result",
+      "bytes": 353,
+      "sha256": "c00a6ee954e515bb19ed16c2fd7b4ae83fb4178d3a2c1b920d70dcf6a21af13f",
+      "source": "results/published/EXP1/results_metrics/group1/leep_g/aircraft_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/caltech101_metrics.json",
+      "role": "historical_result",
+      "bytes": 339,
+      "sha256": "59a7b1585a4b830478a80d06255036a25ddd0ac19f8456f6682e254e271bfbd5",
+      "source": "results/published/EXP1/results_metrics/group1/leep_g/caltech101_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/cars_metrics.json",
+      "role": "historical_result",
+      "bytes": 357,
+      "sha256": "2b8769085a42d4ee4719655515398f5e016c6b14af1b45cb0536eb784e771d3a",
+      "source": "results/published/EXP1/results_metrics/group1/leep_g/cars_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/cifar100_metrics.json",
+      "role": "historical_result",
+      "bytes": 344,
+      "sha256": "afd05c3bcb749c518cfd8542d3e53e40d9a3774dc9ccdbb6fb1e70c4569259f1",
+      "source": "results/published/EXP1/results_metrics/group1/leep_g/cifar100_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/cifar10_metrics.json",
+      "role": "historical_result",
+      "bytes": 341,
+      "sha256": "bfde10a9b9cb6392645b73955c7201ad09372498f1c79f46dfaa5e09c3d918f5",
+      "source": "results/published/EXP1/results_metrics/group1/leep_g/cifar10_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/dtd_metrics.json",
+      "role": "historical_result",
+      "bytes": 342,
+      "sha256": "7890af849dc1a1ad4dc967ba5896443e2a2a3e5cbe7bb1301281fc9eee24cf5b",
+      "source": "results/published/EXP1/results_metrics/group1/leep_g/dtd_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/flowers_metrics.json",
+      "role": "historical_result",
+      "bytes": 345,
+      "sha256": "c0d7157e2d0bc4eb3af386fd09cf9c46b1a11b9f06b86d06c618062003223467",
+      "source": "results/published/EXP1/results_metrics/group1/leep_g/flowers_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/food_metrics.json",
+      "role": "historical_result",
+      "bytes": 349,
+      "sha256": "af874de1796b1b7a99fba68726df700479c0195a7976949e07bd50b653924faa",
+      "source": "results/published/EXP1/results_metrics/group1/leep_g/food_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/pets_metrics.json",
+      "role": "historical_result",
+      "bytes": 338,
+      "sha256": "1775df59625a93d6ff3164df61106c003998e99582658ca3acba2cd8fbe7f851",
+      "source": "results/published/EXP1/results_metrics/group1/leep_g/pets_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/sun397_metrics.json",
+      "role": "historical_result",
+      "bytes": 344,
+      "sha256": "31871e3a3d6a0142be23f8208019dea0955a527d4dd45506b6536575b4864e86",
+      "source": "results/published/EXP1/results_metrics/group1/leep_g/sun397_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/voc2007_metrics.json",
+      "role": "historical_result",
+      "bytes": 338,
+      "sha256": "b840040219380b47552a95912d641e655cd56b7fe25a1c40f72c82a2e7daa6e0",
+      "source": "results/published/EXP1/results_metrics/group1/leep_g/voc2007_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/aircraft_metrics.json",
+      "role": "historical_result",
+      "bytes": 356,
+      "sha256": "0dcd3a1811cf7ba5ab7c23b25b34ee6e8fd6bde446205d2a0f62634284c0868c",
+      "source": "results/published/EXP1/results_metrics/group2/leep/aircraft_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/caltech101_metrics.json",
+      "role": "historical_result",
+      "bytes": 337,
+      "sha256": "7b37813b282ad62cc7e5d9287d6cb0e315022acea728febc9d8958a65096ac5f",
+      "source": "results/published/EXP1/results_metrics/group2/leep/caltech101_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/cars_metrics.json",
+      "role": "historical_result",
+      "bytes": 354,
+      "sha256": "656c6ed1180bbde8dcf766f37c3957b47674e34efed36f8cfc3fbaaeff8423f5",
+      "source": "results/published/EXP1/results_metrics/group2/leep/cars_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/cifar100_metrics.json",
+      "role": "historical_result",
+      "bytes": 345,
+      "sha256": "0d270c95704e0e62234d3ac069d93d98427a3dc2ca21d36c3d34e3ad3712d563",
+      "source": "results/published/EXP1/results_metrics/group2/leep/cifar100_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/cifar10_metrics.json",
+      "role": "historical_result",
+      "bytes": 340,
+      "sha256": "b03d179165682ee231f4f13bcfe8b1ff7aa9d5d3099ec8bfd4a4c1b7ecf33418",
+      "source": "results/published/EXP1/results_metrics/group2/leep/cifar10_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/dtd_metrics.json",
+      "role": "historical_result",
+      "bytes": 345,
+      "sha256": "f008e72e50f187486586380780e5c558ba85e605f34866e890b4546b353e71bb",
+      "source": "results/published/EXP1/results_metrics/group2/leep/dtd_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/flowers_metrics.json",
+      "role": "historical_result",
+      "bytes": 352,
+      "sha256": "3fecfc682bf8fbe7ee5e901e2c512e885cdf907f0602d0b6976affd96d4e63fe",
+      "source": "results/published/EXP1/results_metrics/group2/leep/flowers_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/food_metrics.json",
+      "role": "historical_result",
+      "bytes": 350,
+      "sha256": "c8314edf8169f4cc14fdaca89c648a6745e728fb981ca2d1290d265102573a51",
+      "source": "results/published/EXP1/results_metrics/group2/leep/food_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/pets_metrics.json",
+      "role": "historical_result",
+      "bytes": 339,
+      "sha256": "fb7de0143dc8d5f498081f9f0a1f8a61ab1770958a8b803ffdcac05978d2f718",
+      "source": "results/published/EXP1/results_metrics/group2/leep/pets_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/sun397_metrics.json",
+      "role": "historical_result",
+      "bytes": 345,
+      "sha256": "3d4880545bbf446367a7d98416c787f449d3cc1f4549b0a01654b983db102627",
+      "source": "results/published/EXP1/results_metrics/group2/leep/sun397_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/voc2007_metrics.json",
+      "role": "historical_result",
+      "bytes": 333,
+      "sha256": "f7f0d64230f8c1f47e02ccbec59be1e6b4d0ea8c1c3ebc2b28645b6d5d153e20",
+      "source": "results/published/EXP1/results_metrics/group2/leep/voc2007_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/aircraft_metrics.json",
+      "role": "historical_result",
+      "bytes": 353,
+      "sha256": "c00a6ee954e515bb19ed16c2fd7b4ae83fb4178d3a2c1b920d70dcf6a21af13f",
+      "source": "results/published/EXP1/results_metrics/group2/leep_g/aircraft_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/caltech101_metrics.json",
+      "role": "historical_result",
+      "bytes": 339,
+      "sha256": "59a7b1585a4b830478a80d06255036a25ddd0ac19f8456f6682e254e271bfbd5",
+      "source": "results/published/EXP1/results_metrics/group2/leep_g/caltech101_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/cars_metrics.json",
+      "role": "historical_result",
+      "bytes": 357,
+      "sha256": "2b8769085a42d4ee4719655515398f5e016c6b14af1b45cb0536eb784e771d3a",
+      "source": "results/published/EXP1/results_metrics/group2/leep_g/cars_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/cifar100_metrics.json",
+      "role": "historical_result",
+      "bytes": 344,
+      "sha256": "afd05c3bcb749c518cfd8542d3e53e40d9a3774dc9ccdbb6fb1e70c4569259f1",
+      "source": "results/published/EXP1/results_metrics/group2/leep_g/cifar100_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/cifar10_metrics.json",
+      "role": "historical_result",
+      "bytes": 341,
+      "sha256": "bfde10a9b9cb6392645b73955c7201ad09372498f1c79f46dfaa5e09c3d918f5",
+      "source": "results/published/EXP1/results_metrics/group2/leep_g/cifar10_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/dtd_metrics.json",
+      "role": "historical_result",
+      "bytes": 342,
+      "sha256": "7890af849dc1a1ad4dc967ba5896443e2a2a3e5cbe7bb1301281fc9eee24cf5b",
+      "source": "results/published/EXP1/results_metrics/group2/leep_g/dtd_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/flowers_metrics.json",
+      "role": "historical_result",
+      "bytes": 345,
+      "sha256": "c0d7157e2d0bc4eb3af386fd09cf9c46b1a11b9f06b86d06c618062003223467",
+      "source": "results/published/EXP1/results_metrics/group2/leep_g/flowers_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/food_metrics.json",
+      "role": "historical_result",
+      "bytes": 349,
+      "sha256": "af874de1796b1b7a99fba68726df700479c0195a7976949e07bd50b653924faa",
+      "source": "results/published/EXP1/results_metrics/group2/leep_g/food_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/pets_metrics.json",
+      "role": "historical_result",
+      "bytes": 338,
+      "sha256": "1775df59625a93d6ff3164df61106c003998e99582658ca3acba2cd8fbe7f851",
+      "source": "results/published/EXP1/results_metrics/group2/leep_g/pets_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/sun397_metrics.json",
+      "role": "historical_result",
+      "bytes": 344,
+      "sha256": "31871e3a3d6a0142be23f8208019dea0955a527d4dd45506b6536575b4864e86",
+      "source": "results/published/EXP1/results_metrics/group2/leep_g/sun397_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/voc2007_metrics.json",
+      "role": "historical_result",
+      "bytes": 338,
+      "sha256": "b840040219380b47552a95912d641e655cd56b7fe25a1c40f72c82a2e7daa6e0",
+      "source": "results/published/EXP1/results_metrics/group2/leep_g/voc2007_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/aircraft_metrics.json",
+      "role": "historical_result",
+      "bytes": 337,
+      "sha256": "9270c15d0fc53243efd09bbcb766c3ac992fbb79b8d9b6d83354b7c2a6c1910e",
+      "source": "results/published/EXP1/results_metrics/group2/logme/aircraft_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/caltech101_metrics.json",
+      "role": "historical_result",
+      "bytes": 334,
+      "sha256": "6ba37b8f75765d80100813343c5caa258a93ea206f88c583653fc7d372a560cc",
+      "source": "results/published/EXP1/results_metrics/group2/logme/caltech101_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/cars_metrics.json",
+      "role": "historical_result",
+      "bytes": 331,
+      "sha256": "beb3683d2b45951f768a16fdddeb43e94add49f79189f5ab71ed451f95ed84e6",
+      "source": "results/published/EXP1/results_metrics/group2/logme/cars_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/cifar100_metrics.json",
+      "role": "historical_result",
+      "bytes": 336,
+      "sha256": "7e026d9ccd0a0e740070939c6e0691fb650f2cf0fabec1f9f3e109701b5cf05a",
+      "source": "results/published/EXP1/results_metrics/group2/logme/cifar100_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/cifar10_metrics.json",
+      "role": "historical_result",
+      "bytes": 340,
+      "sha256": "420fe8bb34524e54d5068f4e289d2698a91b52f9fec2cce5e4aa2b092c4ed193",
+      "source": "results/published/EXP1/results_metrics/group2/logme/cifar10_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/dtd_metrics.json",
+      "role": "historical_result",
+      "bytes": 335,
+      "sha256": "b64ee53a584f84f45957d265eb5dcf925fbe0a05c489493eea54fc7b73aff7d9",
+      "source": "results/published/EXP1/results_metrics/group2/logme/dtd_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/flowers_metrics.json",
+      "role": "historical_result",
+      "bytes": 332,
+      "sha256": "cabf551093d31b747288bd6f25767db444340fe04e00ac6fa6ca0f7d256ad112",
+      "source": "results/published/EXP1/results_metrics/group2/logme/flowers_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/food_metrics.json",
+      "role": "historical_result",
+      "bytes": 335,
+      "sha256": "058a3281a9bd83488f20165141abdbf4e2097bf060061cda39c1f02ad57b3371",
+      "source": "results/published/EXP1/results_metrics/group2/logme/food_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/pets_metrics.json",
+      "role": "historical_result",
+      "bytes": 336,
+      "sha256": "93836cec71581e5a5908f3d6da62efe661f5196e7ffb77c7ce677b181b1e8853",
+      "source": "results/published/EXP1/results_metrics/group2/logme/pets_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/sfda_metrics.json",
+      "role": "historical_result",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "source": "results/published/EXP1/results_metrics/group2/logme/sfda_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/sun397_metrics.json",
+      "role": "historical_result",
+      "bytes": 337,
+      "sha256": "eededdcb7f99687d8d58caee8d0e777c4a19c8b8c3834982a8acadc754a1e0aa",
+      "source": "results/published/EXP1/results_metrics/group2/logme/sun397_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/voc2007_metrics.json",
+      "role": "historical_result",
+      "bytes": 338,
+      "sha256": "68040497163c7fdba5d6144e1d94e3b6482445a981197f002aa4942eb59c5429",
+      "source": "results/published/EXP1/results_metrics/group2/logme/voc2007_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/aircraft_metrics.json",
+      "role": "historical_result",
+      "bytes": 343,
+      "sha256": "7210e834698049b4372179bcd7c628977b0c5e7a864aae3a51555dfca9b38438",
+      "source": "results/published/EXP1/results_metrics/group2/nleep/aircraft_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/caltech101_metrics.json",
+      "role": "historical_result",
+      "bytes": 334,
+      "sha256": "be4d50a57ce048f649227203da303331c59608b92c1b19e216940553a703f62c",
+      "source": "results/published/EXP1/results_metrics/group2/nleep/caltech101_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/cars_metrics.json",
+      "role": "historical_result",
+      "bytes": 345,
+      "sha256": "91a91ce1de1929b6c5bef68bfbbc34b1ef7e10374b8a5b8832c6ebc883f9473f",
+      "source": "results/published/EXP1/results_metrics/group2/nleep/cars_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/cifar100_metrics.json",
+      "role": "historical_result",
+      "bytes": 341,
+      "sha256": "ec5db453ab2e9baaf219fecea306fd7580a908903c01b528f3d825d35ffb9490",
+      "source": "results/published/EXP1/results_metrics/group2/nleep/cifar100_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/cifar10_metrics.json",
+      "role": "historical_result",
+      "bytes": 338,
+      "sha256": "9457962c473ec643b6edce8700429c47eb6fa588c2998873b6aa1da261376494",
+      "source": "results/published/EXP1/results_metrics/group2/nleep/cifar10_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/dtd_metrics.json",
+      "role": "historical_result",
+      "bytes": 140,
+      "sha256": "6ade96068fa1f9e4d157b9895fbfd19494ef4177bf36f6b1487336e14e075c39",
+      "source": "results/published/EXP1/results_metrics/group2/nleep/dtd_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/flowers_metrics.json",
+      "role": "historical_result",
+      "bytes": 336,
+      "sha256": "a5047b2840d8a7abf2024e667d761f0ed5b49df8f6999bd61ff55fa9439df113",
+      "source": "results/published/EXP1/results_metrics/group2/nleep/flowers_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/food_metrics.json",
+      "role": "historical_result",
+      "bytes": 279,
+      "sha256": "dbbe62cee2295183069bf7374e02744315636b96bb7269ce31be8cedc1418a19",
+      "source": "results/published/EXP1/results_metrics/group2/nleep/food_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/pets_metrics.json",
+      "role": "historical_result",
+      "bytes": 338,
+      "sha256": "07f16ee9507270949a6084c7b6c5d16a6dac2b946d0f16a99ee93646406b0db1",
+      "source": "results/published/EXP1/results_metrics/group2/nleep/pets_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/sun397_metrics.json",
+      "role": "historical_result",
+      "bytes": 340,
+      "sha256": "0b21057b904a5bfb6c5b8782a6abd0609b5015429b5f1ec3ee4a5d585cc8b27f",
+      "source": "results/published/EXP1/results_metrics/group2/nleep/sun397_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/voc2007_metrics.json",
+      "role": "historical_result",
+      "bytes": 338,
+      "sha256": "2d535ab1da4c7a4169293078ec0933fdf42d08f222b67962fe817eef53d84d7c",
+      "source": "results/published/EXP1/results_metrics/group2/nleep/voc2007_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/aircraft_metrics.json",
+      "role": "historical_result",
+      "bytes": 348,
+      "sha256": "91eb63eeb55626fa99256a0c5f37eabf4c1e999590487002b3986fc1b13f3b5b",
+      "source": "results/published/EXP1/results_metrics/group2/pac/aircraft_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/caltech101_metrics.json",
+      "role": "historical_result",
+      "bytes": 345,
+      "sha256": "23a4c65dedd641906eeda15334e203dc27c7b4cff7554ff00e6fa9fb1fec5078",
+      "source": "results/published/EXP1/results_metrics/group2/pac/caltech101_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/cars_metrics.json",
+      "role": "historical_result",
+      "bytes": 343,
+      "sha256": "2a925a06fc637fe8771397dc9bc2c2ee87576c048adef4e0871c2323479027e1",
+      "source": "results/published/EXP1/results_metrics/group2/pac/cars_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/cifar100_metrics.json",
+      "role": "historical_result",
+      "bytes": 344,
+      "sha256": "b202e2b5af161b232b1ccc1619ea43a877ab8b7b39ea0d1e1a9ba16bacc399f7",
+      "source": "results/published/EXP1/results_metrics/group2/pac/cifar100_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/cifar10_metrics.json",
+      "role": "historical_result",
+      "bytes": 350,
+      "sha256": "e14465425b4fd55982883cf894ebdd28402933560be3ceca4ca6d66b4fcdb9c8",
+      "source": "results/published/EXP1/results_metrics/group2/pac/cifar10_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/dtd_metrics.json",
+      "role": "historical_result",
+      "bytes": 339,
+      "sha256": "d3144ac0245f70e7b1b69db20ba3821a1546b219fc1bb422cac541af9c318902",
+      "source": "results/published/EXP1/results_metrics/group2/pac/dtd_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/flowers_metrics.json",
+      "role": "historical_result",
+      "bytes": 344,
+      "sha256": "85225ab0eba7d12755a80d49824b87ededb1b3f116d30db2db3eb9932fcce911",
+      "source": "results/published/EXP1/results_metrics/group2/pac/flowers_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/food_metrics.json",
+      "role": "historical_result",
+      "bytes": 346,
+      "sha256": "561769584825a567c5841876b60870656d9e53d931a51e65241625695e6569b9",
+      "source": "results/published/EXP1/results_metrics/group2/pac/food_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/pets_metrics.json",
+      "role": "historical_result",
+      "bytes": 338,
+      "sha256": "8f68d9872267c948739d2f7f71e3db6aa7d5b251a269c6837e9ce71cd46e2c89",
+      "source": "results/published/EXP1/results_metrics/group2/pac/pets_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/sun397_metrics.json",
+      "role": "historical_result",
+      "bytes": 346,
+      "sha256": "f7f94b35dca3e299cfc620e57fc96c2a29b943b12690743d212ac0dd2fb96aa1",
+      "source": "results/published/EXP1/results_metrics/group2/pac/sun397_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/voc2007_metrics.json",
+      "role": "historical_result",
+      "bytes": 344,
+      "sha256": "edf38f85d40dbabaafb9d92e3b64d56afe4bc6e032402d3ab1b6a286331fd5e3",
+      "source": "results/published/EXP1/results_metrics/group2/pac/voc2007_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/aircraft_metrics.json",
+      "role": "historical_result",
+      "bytes": 358,
+      "sha256": "d13a527e6fb644afa49934581649579dca5b3d251bb590a652394910dfc0df0f",
+      "source": "results/published/EXP1/results_metrics/group2/sfda/aircraft_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/caltech101_metrics.json",
+      "role": "historical_result",
+      "bytes": 356,
+      "sha256": "2c0666a0fc2bb94e752942660ac6aea63183fd57db84cc475df2a7997aad8bc6",
+      "source": "results/published/EXP1/results_metrics/group2/sfda/caltech101_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/cars_metrics.json",
+      "role": "historical_result",
+      "bytes": 360,
+      "sha256": "5c1ef82e35ec934455c035fc249e592c27dfea62a0562addf1c74f366fe423ea",
+      "source": "results/published/EXP1/results_metrics/group2/sfda/cars_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/cifar100_metrics.json",
+      "role": "historical_result",
+      "bytes": 357,
+      "sha256": "1db02d1d8ccf1541ba4bd9d7a3b5e86a63c406e966aa687d695adb7961f2a3d4",
+      "source": "results/published/EXP1/results_metrics/group2/sfda/cifar100_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/cifar10_metrics.json",
+      "role": "historical_result",
+      "bytes": 348,
+      "sha256": "db4dc3743a3e8303c229c986963e6aa6be28e45fcc3481bdf28f59f42b1af389",
+      "source": "results/published/EXP1/results_metrics/group2/sfda/cifar10_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/dtd_metrics.json",
+      "role": "historical_result",
+      "bytes": 358,
+      "sha256": "b49fcd519ad3bc120982bdfdf8c78dec6dde8cb4b4c94cf587cba22bc535d142",
+      "source": "results/published/EXP1/results_metrics/group2/sfda/dtd_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/flowers_metrics.json",
+      "role": "historical_result",
+      "bytes": 355,
+      "sha256": "c92bd8853ee4ae31b89874da4c97648e8729457cc4e5dacae609fd4aaf8d21af",
+      "source": "results/published/EXP1/results_metrics/group2/sfda/flowers_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/food_metrics.json",
+      "role": "historical_result",
+      "bytes": 353,
+      "sha256": "80b59689c635e8f5f41e3619c18d26202d46a9d6c8fa00aa65f7bb5a42d13a04",
+      "source": "results/published/EXP1/results_metrics/group2/sfda/food_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/pets_metrics.json",
+      "role": "historical_result",
+      "bytes": 352,
+      "sha256": "5a81ee471241c3240950517d17f04a9b21f73b11bddc61b01ab32d5a4bcde3e0",
+      "source": "results/published/EXP1/results_metrics/group2/sfda/pets_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/sun397_metrics.json",
+      "role": "historical_result",
+      "bytes": 364,
+      "sha256": "00dc12d4f27779e7c1507c92418c9214a077db3ca1c46e9248c951de2921f001",
+      "source": "results/published/EXP1/results_metrics/group2/sfda/sun397_metrics.json"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/voc2007_metrics.json",
+      "role": "historical_result",
+      "bytes": 348,
+      "sha256": "96b6635d1c05d4090d1fda3387200266c86f9df2f8d63d36ef1208aa94f120fc",
+      "source": "results/published/EXP1/results_metrics/group2/sfda/voc2007_metrics.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/metrics/GLEEP.json",
+      "role": "historical_result",
+      "bytes": 2760,
+      "sha256": "fdf08670532cf5aabe98f50c3a05e51bc0e0f129e8014c341a04584e8d0338df",
+      "source": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/metrics/GLEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/metrics/LEEP.json",
+      "role": "historical_result",
+      "bytes": 2784,
+      "sha256": "d4b8d1c65194ddea291f5e808b845aa844e5a887a58862b78e17cd138f81606c",
+      "source": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/metrics/LEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/test_ACC/GLEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2327,
+      "sha256": "231b7bdb86a1e5f01d8bd7fdf8dd80013e0e39661320e1de2934793a8aee9c2d",
+      "source": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/test_ACC/GLEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/test_ACC/LEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2327,
+      "sha256": "231b7bdb86a1e5f01d8bd7fdf8dd80013e0e39661320e1de2934793a8aee9c2d",
+      "source": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/test_ACC/LEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/metrics/GLEEP.json",
+      "role": "historical_result",
+      "bytes": 2812,
+      "sha256": "664b3c03c72e1d2f30c9602c03c3100494ee6723d4447522fef94e232a4424a5",
+      "source": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/metrics/GLEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/metrics/LEEP.json",
+      "role": "historical_result",
+      "bytes": 2810,
+      "sha256": "b5123fe650caa84408f04a0e8ed3c4080afa1dc4126b424f5e7fc80eaaa76101",
+      "source": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/metrics/LEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/test_ACC/GLEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2307,
+      "sha256": "5160009a3f5444aa5d8b5b1c1374ad3cd2d0704244690be9248da059390e2de6",
+      "source": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/test_ACC/GLEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/test_ACC/LEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2307,
+      "sha256": "5160009a3f5444aa5d8b5b1c1374ad3cd2d0704244690be9248da059390e2de6",
+      "source": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/test_ACC/LEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/metrics/GLEEP.json",
+      "role": "historical_result",
+      "bytes": 2756,
+      "sha256": "c82a2bd039072c3c68d4389382abaa9109f3cb9a62ab765c29f339c9e6282656",
+      "source": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/metrics/GLEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/metrics/LEEP.json",
+      "role": "historical_result",
+      "bytes": 2787,
+      "sha256": "77aa78eaaf3223c5b3f45cc5c1f49083ab67442a32cd488bf2f8e515e76cba25",
+      "source": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/metrics/LEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/test_ACC/GLEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2242,
+      "sha256": "0bd2bf4a3f7fe8fa0d5d1615a89d20f19cff53168c0abee92198935e395de2b8",
+      "source": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/test_ACC/GLEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/test_ACC/LEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2242,
+      "sha256": "0bd2bf4a3f7fe8fa0d5d1615a89d20f19cff53168c0abee92198935e395de2b8",
+      "source": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/test_ACC/LEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/metrics/GLEEP.json",
+      "role": "historical_result",
+      "bytes": 2795,
+      "sha256": "363389c80cce24a800bd28806f16196d76d9f35f7b3fbc25ae6006011216318b",
+      "source": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/metrics/GLEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/metrics/LEEP.json",
+      "role": "historical_result",
+      "bytes": 2817,
+      "sha256": "ffd2a02ad548ea501862966401808ec91e3ce06d54f7545a8b60a882c9738329",
+      "source": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/metrics/LEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/test_ACC/GLEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2325,
+      "sha256": "0aacdc568482a9db21b6f2469054d6862bb1c7a049da98d097661ad23222b1a0",
+      "source": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/test_ACC/GLEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/test_ACC/LEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2325,
+      "sha256": "0aacdc568482a9db21b6f2469054d6862bb1c7a049da98d097661ad23222b1a0",
+      "source": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/test_ACC/LEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/metrics/GLEEP.json",
+      "role": "historical_result",
+      "bytes": 2754,
+      "sha256": "94feac53e079a18dee6129f7e4d6c31ab3eddf04df0c02533d0405f84f341d57",
+      "source": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/metrics/GLEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/metrics/LEEP.json",
+      "role": "historical_result",
+      "bytes": 2784,
+      "sha256": "d4b8d1c65194ddea291f5e808b845aa844e5a887a58862b78e17cd138f81606c",
+      "source": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/metrics/LEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/test_ACC/GLEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2359,
+      "sha256": "066cdd78f105f6f2d4e4ae6b9d9bdbd8ce0aa69b6b3851d1174399258708af8a",
+      "source": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/test_ACC/GLEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/test_ACC/LEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2359,
+      "sha256": "066cdd78f105f6f2d4e4ae6b9d9bdbd8ce0aa69b6b3851d1174399258708af8a",
+      "source": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/test_ACC/LEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/metrics/GLEEP.json",
+      "role": "historical_result",
+      "bytes": 1803,
+      "sha256": "ea9f7715276723112ad0b53a5c7e539a10d6ec3bf1ba72c7ff3fbbc08e8f52d4",
+      "source": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/metrics/GLEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/metrics/LEEP.json",
+      "role": "historical_result",
+      "bytes": 2810,
+      "sha256": "b5123fe650caa84408f04a0e8ed3c4080afa1dc4126b424f5e7fc80eaaa76101",
+      "source": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/metrics/LEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/test_ACC/GLEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 1477,
+      "sha256": "4d4dae1b66803bb41b5f7dd567f3ef975878200fb8fea52352629e12291ffc82",
+      "source": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/test_ACC/GLEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/test_ACC/LEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2363,
+      "sha256": "4b36b01f732efa2a155bae4887b9f18cab81c254bafab41b6b6668305d59254e",
+      "source": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/test_ACC/LEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/metrics/GLEEP.json",
+      "role": "historical_result",
+      "bytes": 2764,
+      "sha256": "807f6357bd9daad71998e9d1fb7e7132bf385edd06e50ca5240550eaa2e72741",
+      "source": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/metrics/GLEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/metrics/LEEP.json",
+      "role": "historical_result",
+      "bytes": 2787,
+      "sha256": "77aa78eaaf3223c5b3f45cc5c1f49083ab67442a32cd488bf2f8e515e76cba25",
+      "source": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/metrics/LEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/test_ACC/GLEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2304,
+      "sha256": "d4958d089c9571ee155f9e3b75e0e2fc23435ef7d3b17eed5ebf365b358ba724",
+      "source": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/test_ACC/GLEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/test_ACC/LEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2304,
+      "sha256": "d4958d089c9571ee155f9e3b75e0e2fc23435ef7d3b17eed5ebf365b358ba724",
+      "source": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/test_ACC/LEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/metrics/GLEEP.json",
+      "role": "historical_result",
+      "bytes": 2795,
+      "sha256": "d4fdd954e5c018573ee7074a0842dc5fe8d6f72f3912a675aa681ca83939f4e5",
+      "source": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/metrics/GLEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/metrics/LEEP.json",
+      "role": "historical_result",
+      "bytes": 2817,
+      "sha256": "ffd2a02ad548ea501862966401808ec91e3ce06d54f7545a8b60a882c9738329",
+      "source": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/metrics/LEEP.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/test_ACC/GLEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2347,
+      "sha256": "6559efa294c17c61ae18439757c9d1f40057df5f6072c1c0e10bf88be0bf2d83",
+      "source": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/test_ACC/GLEEP_ACC.json"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/test_ACC/LEEP_ACC.json",
+      "role": "historical_result",
+      "bytes": 2347,
+      "sha256": "6559efa294c17c61ae18439757c9d1f40057df5f6072c1c0e10bf88be0bf2d83",
+      "source": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/test_ACC/LEEP_ACC.json"
+    },
+    {
+      "path": "artifacts/checkpoints/Pretrain/ResNet18/40_64_0.001/best_model.pth",
+      "role": "source_checkpoint",
+      "bytes": 85453720,
+      "sha256": "88324e64eca48302bdaf1330c9c66f0c9921f5275590faef0e60ef8191726314",
+      "source": "artifacts/checkpoints/Pretrain/ResNet18/40_64_0.001/best_model.pth"
+    },
+    {
+      "path": "artifacts/checkpoints/Pretrain/ResNet34/40_64_0.001/best_model.pth",
+      "role": "source_checkpoint",
+      "bytes": 44959544,
+      "sha256": "33b6235f8feae581a32286cf250b7ec69d0a4cc75ba2c373fbb15e3c2aeb06d8",
+      "source": "artifacts/checkpoints/Pretrain/ResNet34/40_64_0.001/best_model.pth"
+    }
+  ]
+}
