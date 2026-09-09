@@ -1,0 +1,7478 @@
+{
+  "summary": {
+    "GLEEP": [
+      0.9099155706355432,
+      0.9501884314518928,
+      0.9296924387728837,
+      0.9490453050156344
+    ],
+    "LEEP": [
+      0.8924987182581413,
+      0.954601505513992,
+      0.9085737530346284,
+      0.9531428305499554
+    ],
+    "rpt": [
+      0.7450630476018153,
+      0.5332276491134951,
+      0.7182153172424096,
+      0.5235174399366632
+    ],
+    "relation_raw": [
+      0.8405026132801858,
+      0.5890374122302395,
+      0.842695530494845,
+      0.5872110181347878
+    ],
+    "negative_entropy": [
+      0.7772458185435223,
+      0.6256147442730807,
+      0.7149954778613704,
+      0.5440409879663889
+    ],
+    "mutual_information": [
+      0.06116663373612271,
+      0.22348198587913554,
+      -0.08632138023364862,
+      0.2207410467943892
+    ],
+    "projected_cka32": [
+      0.834083736798474,
+      0.6316520899866263,
+      0.8423127532019299,
+      0.7021629323232664
+    ],
+    "minus_class_count": [
+      0.9146601936412714,
+      0.9542922590363394,
+      0.9182780416070002,
+      0.9527305019130854
+    ]
+  },
+  "correlations": [
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "GLEEP",
+      "n": 99,
+      "pearson": 0.9548285773847329,
+      "kendall": 0.9348587920016491
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "LEEP",
+      "n": 99,
+      "pearson": 0.9254611270627257,
+      "kendall": 0.9332096474953617
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "rpt",
+      "n": 99,
+      "pearson": 0.6664910070854221,
+      "kendall": 0.5827664399092971
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "relation_raw",
+      "n": 99,
+      "pearson": 0.8914850581483255,
+      "kendall": 0.681302824159967
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "negative_entropy",
+      "n": 99,
+      "pearson": 0.4834155802214507,
+      "kendall": 0.531230674087817
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "mutual_information",
+      "n": 99,
+      "pearson": -0.23550344426060993,
+      "kendall": 0.35971964543393115
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "projected_cka32",
+      "n": 99,
+      "pearson": 0.8286951406717211,
+      "kendall": 0.8173572459286745
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "minus_class_count",
+      "n": 99,
+      "pearson": 0.9331075026425162,
+      "kendall": 0.9323850752422181
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "GLEEP",
+      "n": 99,
+      "pearson": 0.8111171641128928,
+      "kendall": 0.9443413729128015
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "LEEP",
+      "n": 99,
+      "pearson": 0.7925109028267022,
+      "kendall": 0.943104514533086
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "rpt",
+      "n": 99,
+      "pearson": 0.6208207592962901,
+      "kendall": 0.23314780457637602
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "relation_raw",
+      "n": 99,
+      "pearson": 0.6612586638930837,
+      "kendall": 0.36384250669964957
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "negative_entropy",
+      "n": 99,
+      "pearson": 0.8207019364113376,
+      "kendall": 0.4227994227994228
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "mutual_information",
+      "n": 99,
+      "pearson": 0.1844433079992741,
+      "kendall": -0.05710162853019996
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "projected_cka32",
+      "n": 99,
+      "pearson": 0.743035183131215,
+      "kendall": 0.3992991135848279
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "minus_class_count",
+      "n": 99,
+      "pearson": 0.9475679248805141,
+      "kendall": 0.943104514533086
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "GLEEP",
+      "n": 99,
+      "pearson": 0.9266137039584221,
+      "kendall": 0.9263917722689293
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "LEEP",
+      "n": 99,
+      "pearson": 0.9021882616980695,
+      "kendall": 0.9362886796957952
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "rpt",
+      "n": 99,
+      "pearson": 0.753955029199163,
+      "kendall": 0.6567010448868328
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "relation_raw",
+      "n": 99,
+      "pearson": 0.8961398191464881,
+      "kendall": 0.6971134168798687
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "negative_entropy",
+      "n": 99,
+      "pearson": 0.7579861913641601,
+      "kendall": 0.483092793773893
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "mutual_information",
+      "n": 99,
+      "pearson": -0.3751394740675086,
+      "kendall": 0.21381443753458262
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "projected_cka32",
+      "n": 99,
+      "pearson": 0.8535769461350756,
+      "kendall": 0.7235051700181778
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "minus_class_count",
+      "n": 99,
+      "pearson": 0.9455434116815346,
+      "kendall": 0.9346391951246509
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "GLEEP",
+      "n": 99,
+      "pearson": 0.7972514711878218,
+      "kendall": 0.9418676561533704
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "LEEP",
+      "n": 99,
+      "pearson": 0.7899747539513325,
+      "kendall": 0.9464028035456606
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "rpt",
+      "n": 99,
+      "pearson": 0.7675375351122355,
+      "kendall": 0.5600907029478458
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "relation_raw",
+      "n": 99,
+      "pearson": 0.7794235423151094,
+      "kendall": 0.5938981653267368
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "negative_entropy",
+      "n": 99,
+      "pearson": 0.9681598086225174,
+      "kendall": 0.8639455782312925
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "mutual_information",
+      "n": 99,
+      "pearson": 0.46390918798966485,
+      "kendall": 0.2290249433106576
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "projected_cka32",
+      "n": 99,
+      "pearson": 0.7509216143507633,
+      "kendall": 0.41950113378684806
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "minus_class_count",
+      "n": 99,
+      "pearson": 0.9431865074254143,
+      "kendall": 0.9464028035456606
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "GLEEP",
+      "n": 99,
+      "pearson": 0.9699641250409643,
+      "kendall": 0.9719645433931148
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "LEEP",
+      "n": 99,
+      "pearson": 0.944348520827542,
+      "kendall": 0.9802102659245516
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "rpt",
+      "n": 99,
+      "pearson": 0.6677240062496542,
+      "kendall": 0.5959595959595959
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "relation_raw",
+      "n": 99,
+      "pearson": 0.9057463800469514,
+      "kendall": 0.6986188414759843
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "negative_entropy",
+      "n": 99,
+      "pearson": 0.47300995463416323,
+      "kendall": 0.5576169861884147
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "mutual_information",
+      "n": 99,
+      "pearson": -0.2522538739192401,
+      "kendall": 0.3795093795093795
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "projected_cka32",
+      "n": 99,
+      "pearson": 0.8311292704004185,
+      "kendall": 0.8330241187384044
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "metric": "minus_class_count",
+      "n": 99,
+      "pearson": 0.9182922495656998,
+      "kendall": 0.9793856936714079
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "GLEEP",
+      "n": 64,
+      "pearson": 0.9599562319330331,
+      "kendall": 0.9444444444444444
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "LEEP",
+      "n": 64,
+      "pearson": 0.9514115690304296,
+      "kendall": 0.9484126984126984
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "rpt",
+      "n": 64,
+      "pearson": 0.8552247853554591,
+      "kendall": 0.3888888888888889
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "relation_raw",
+      "n": 64,
+      "pearson": 0.7972963490059736,
+      "kendall": 0.3740079365079365
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "negative_entropy",
+      "n": 64,
+      "pearson": 0.9795842319347184,
+      "kendall": 0.7718253968253969
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "mutual_information",
+      "n": 64,
+      "pearson": 0.5949515104973557,
+      "kendall": 0.20337301587301587
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "projected_cka32",
+      "n": 64,
+      "pearson": 0.9432428965364017,
+      "kendall": 0.7033730158730159
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "metric": "minus_class_count",
+      "n": 64,
+      "pearson": 0.8422955588210825,
+      "kendall": 0.9484126984126984
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "GLEEP",
+      "n": 99,
+      "pearson": 0.9556748302072564,
+      "kendall": 0.9722709050728677
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "LEEP",
+      "n": 99,
+      "pearson": 0.9355221367623016,
+      "kendall": 0.9776311772382398
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "rpt",
+      "n": 99,
+      "pearson": 0.745076316268469,
+      "kendall": 0.6836408653989884
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "relation_raw",
+      "n": 99,
+      "pearson": 0.9042469127282481,
+      "kendall": 0.7083805830853209
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "negative_entropy",
+      "n": 99,
+      "pearson": 0.7752749726023923,
+      "kendall": 0.497680654123389
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "mutual_information",
+      "n": 99,
+      "pearson": -0.4344263076511629,
+      "kendall": 0.22513143094562588
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "projected_cka32",
+      "n": 99,
+      "pearson": 0.8541970823367477,
+      "kendall": 0.7364189297964978
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "metric": "minus_class_count",
+      "n": 99,
+      "pearson": 0.9228616020506545,
+      "kendall": 0.9784558344944508
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "GLEEP",
+      "n": 99,
+      "pearson": 0.9039184612592216,
+      "kendall": 0.9653679653679653
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "LEEP",
+      "n": 99,
+      "pearson": 0.8985724739060272,
+      "kendall": 0.9715522572665429
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "rpt",
+      "n": 99,
+      "pearson": 0.8836749422478296,
+      "kendall": 0.564625850340136
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "relation_raw",
+      "n": 99,
+      "pearson": 0.8884241809573065,
+      "kendall": 0.5951350237064523
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "negative_entropy",
+      "n": 99,
+      "pearson": 0.9598338725574381,
+      "kendall": 0.8767264481550195
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "mutual_information",
+      "n": 99,
+      "pearson": 0.5433521633012085,
+      "kendall": 0.23438466295609153
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "projected_cka32",
+      "n": 99,
+      "pearson": 0.8678717608254494,
+      "kendall": 0.4207379921665636
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "metric": "minus_class_count",
+      "n": 99,
+      "pearson": 0.8644267920627554,
+      "kendall": 0.9715522572665429
+    }
+  ],
+  "fixed_class": [
+    {
+      "strategy": "Finetune",
+      "classes": 2,
+      "metric": "GLEEP",
+      "kendall": 0.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 2,
+      "metric": "LEEP",
+      "kendall": 0.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 2,
+      "metric": "rpt",
+      "kendall": 0.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 2,
+      "metric": "relation_raw",
+      "kendall": 0.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 2,
+      "metric": "negative_entropy",
+      "kendall": 0.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 2,
+      "metric": "mutual_information",
+      "kendall": -0.8164965809277261
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 2,
+      "metric": "projected_cka32",
+      "kendall": 0.8164965809277261
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 3,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 3,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 3,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 3,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 3,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 3,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 3,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 4,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 4,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 4,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 4,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 4,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 4,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 4,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 5,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 5,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 5,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 5,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 5,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 5,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 5,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 6,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 6,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 6,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 6,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 6,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 6,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 6,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 7,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 7,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 7,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 7,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 7,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 7,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 7,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 8,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 8,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 8,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 8,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 8,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 8,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 8,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 9,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 9,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 9,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 9,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 9,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 9,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 9,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 10,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 10,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 10,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 10,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 10,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 10,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 10,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 11,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 11,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 11,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 11,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 11,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 11,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 11,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 12,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 12,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 12,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 12,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 12,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 12,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 12,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 13,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 13,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 13,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 13,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 13,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 13,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 13,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 14,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 14,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 14,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 14,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 14,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 14,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 14,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 15,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 15,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 15,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 15,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 15,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 15,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 15,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 16,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 16,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 16,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 16,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 16,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 16,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 16,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 17,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 17,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 17,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 17,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 17,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 17,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 17,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 18,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 18,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 18,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 18,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 18,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 18,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 18,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 19,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 19,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 19,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 19,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 19,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 19,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 19,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 20,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 20,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 20,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 20,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 20,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 20,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 20,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 21,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 21,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 21,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 21,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 21,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 21,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 21,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 22,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 22,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 22,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 22,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 22,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 22,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 22,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 23,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 23,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 23,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 23,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 23,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 23,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 23,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 24,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 24,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 24,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 24,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 24,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 24,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 24,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 25,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 25,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 25,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 25,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 25,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 25,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 25,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 26,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 26,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 26,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 26,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 26,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 26,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 26,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 27,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 27,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 27,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 27,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 27,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 27,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 27,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 28,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 28,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 28,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 28,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 28,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 28,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 28,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 29,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 29,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 29,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 29,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 29,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 29,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 29,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 30,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 30,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 30,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 30,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 30,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 30,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 30,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 31,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 31,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 31,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 31,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 31,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 31,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 31,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 32,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 32,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 32,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 32,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 32,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 32,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 32,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 33,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 33,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 33,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 33,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 33,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 33,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 33,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 34,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 34,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 34,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 34,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 34,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 34,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 34,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 35,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 35,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 35,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 35,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 35,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 35,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 35,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 36,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 36,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 36,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 36,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 36,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 36,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 36,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 37,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 37,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 37,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 37,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 37,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 37,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 37,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 38,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 38,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 38,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 38,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 38,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 38,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 38,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 39,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 39,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 39,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 39,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 39,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 39,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 39,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 40,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 40,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 40,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 40,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 40,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 40,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 40,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 41,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 41,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 41,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 41,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 41,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 41,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 41,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 42,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 42,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 42,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 42,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 42,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 42,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 42,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 43,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 43,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 43,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 43,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 43,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 43,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 43,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 44,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 44,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 44,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 44,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 44,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 44,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 44,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 45,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 45,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 45,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 45,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 45,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 45,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 45,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 46,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 46,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 46,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 46,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 46,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 46,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 46,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 47,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 47,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 47,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 47,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 47,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 47,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 47,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 48,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 48,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 48,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 48,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 48,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 48,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 48,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 49,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 49,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 49,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 49,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 49,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 49,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 49,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 50,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 50,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 50,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 50,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 50,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 50,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 50,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 51,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 51,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 51,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 51,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 51,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 51,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 51,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 52,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 52,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 52,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 52,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 52,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 52,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 52,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 53,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 53,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 53,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 53,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 53,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 53,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 53,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 54,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 54,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 54,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 54,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 54,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 54,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 54,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 55,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 55,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 55,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 55,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 55,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 55,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 55,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 56,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 56,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 56,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 56,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 56,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 56,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 56,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 57,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 57,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 57,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 57,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 57,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 57,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 57,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 58,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 58,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 58,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 58,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 58,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 58,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 58,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 59,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 59,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 59,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 59,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 59,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 59,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 59,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 60,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 60,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 60,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 60,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 60,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 60,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 60,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 61,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 61,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 61,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 61,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 61,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 61,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 61,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 62,
+      "metric": "GLEEP",
+      "kendall": 0.8164965809277261
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 62,
+      "metric": "LEEP",
+      "kendall": 0.8164965809277261
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 62,
+      "metric": "rpt",
+      "kendall": 0.8164965809277261
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 62,
+      "metric": "relation_raw",
+      "kendall": 0.8164965809277261
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 62,
+      "metric": "negative_entropy",
+      "kendall": 0.8164965809277261
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 62,
+      "metric": "mutual_information",
+      "kendall": 0.8164965809277261
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 62,
+      "metric": "projected_cka32",
+      "kendall": -0.8164965809277261
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 63,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 63,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 63,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 63,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 63,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 63,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 63,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 64,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 64,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 64,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 64,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 64,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 64,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 64,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 65,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 65,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 65,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 65,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 65,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 65,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 65,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 66,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 66,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 66,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 66,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 66,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 66,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 66,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 67,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 67,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 67,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 67,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 67,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 67,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 67,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 68,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 68,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 68,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 68,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 68,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 68,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 68,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 69,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 69,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 69,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 69,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 69,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 69,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 69,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 70,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 70,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 70,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 70,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 70,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 70,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 70,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 71,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 71,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 71,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 71,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 71,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 71,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 71,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 72,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 72,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 72,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 72,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 72,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 72,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 72,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 73,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 73,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 73,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 73,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 73,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 73,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 73,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 74,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 74,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 74,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 74,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 74,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 74,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 74,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 75,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 75,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 75,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 75,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 75,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 75,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 75,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 76,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 76,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 76,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 76,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 76,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 76,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 76,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 77,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 77,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 77,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 77,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 77,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 77,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 77,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 78,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 78,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 78,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 78,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 78,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 78,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 78,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 79,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 79,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 79,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 79,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 79,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 79,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 79,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 80,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 80,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 80,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 80,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 80,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 80,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 80,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 81,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 81,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 81,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 81,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 81,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 81,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 81,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 82,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 82,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 82,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 82,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 82,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 82,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 82,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 83,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 83,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 83,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 83,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 83,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 83,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 83,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 84,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 84,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 84,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 84,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 84,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 84,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 84,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 85,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 85,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 85,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 85,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 85,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 85,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 85,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 86,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 86,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 86,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 86,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 86,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 86,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 86,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 87,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 87,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 87,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 87,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 87,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 87,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 87,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 88,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 88,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 88,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 88,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 88,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 88,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 88,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 89,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 89,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 89,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 89,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 89,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 89,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 89,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 90,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 90,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 90,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 90,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 90,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 90,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 90,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 91,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 91,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 91,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 91,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 91,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 91,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 91,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 92,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 92,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 92,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 92,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 92,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 92,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 92,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 93,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 93,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 93,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 93,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 93,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 93,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 93,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 94,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 94,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 94,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 94,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 94,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 94,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 94,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 95,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 95,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 95,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 95,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 95,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 95,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 95,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 96,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 96,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 96,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 96,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 96,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 96,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 96,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 97,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 97,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 97,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 97,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 97,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 97,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 97,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 98,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 98,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 98,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 98,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 98,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 98,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 98,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 99,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 99,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 99,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 99,
+      "metric": "relation_raw",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 99,
+      "metric": "negative_entropy",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 99,
+      "metric": "mutual_information",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 99,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 100,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 100,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 100,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 100,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 100,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 100,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Finetune",
+      "classes": 100,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 2,
+      "metric": "GLEEP",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 2,
+      "metric": "LEEP",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 2,
+      "metric": "rpt",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 2,
+      "metric": "relation_raw",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 2,
+      "metric": "negative_entropy",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 2,
+      "metric": "mutual_information",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 2,
+      "metric": "projected_cka32",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 3,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 3,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 3,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 3,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 3,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 3,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 3,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 4,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 4,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 4,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 4,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 4,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 4,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 4,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 5,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 5,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 5,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 5,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 5,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 5,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 5,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 6,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 6,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 6,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 6,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 6,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 6,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 6,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 7,
+      "metric": "GLEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 7,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 7,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 7,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 7,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 7,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 7,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 8,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 8,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 8,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 8,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 8,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 8,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 8,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 9,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 9,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 9,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 9,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 9,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 9,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 9,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 10,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 10,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 10,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 10,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 10,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 10,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 10,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 11,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 11,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 11,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 11,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 11,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 11,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 11,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 12,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 12,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 12,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 12,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 12,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 12,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 12,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 13,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 13,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 13,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 13,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 13,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 13,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 13,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 14,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 14,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 14,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 14,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 14,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 14,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 14,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 15,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 15,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 15,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 15,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 15,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 15,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 15,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 16,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 16,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 16,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 16,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 16,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 16,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 16,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 17,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 17,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 17,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 17,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 17,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 17,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 17,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 18,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 18,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 18,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 18,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 18,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 18,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 18,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 19,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 19,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 19,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 19,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 19,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 19,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 19,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 20,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 20,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 20,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 20,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 20,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 20,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 20,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 21,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 21,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 21,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 21,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 21,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 21,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 21,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 22,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 22,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 22,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 22,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 22,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 22,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 22,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 23,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 23,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 23,
+      "metric": "rpt",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 23,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 23,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 23,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 23,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 24,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 24,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 24,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 24,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 24,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 24,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 24,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 25,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 25,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 25,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 25,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 25,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 25,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 25,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 26,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 26,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 26,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 26,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 26,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 26,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 26,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 27,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 27,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 27,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 27,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 27,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 27,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 27,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 28,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 28,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 28,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 28,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 28,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 28,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 28,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 29,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 29,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 29,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 29,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 29,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 29,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 29,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 30,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 30,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 30,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 30,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 30,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 30,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 30,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 31,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 31,
+      "metric": "LEEP",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 31,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 31,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 31,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 31,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 31,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 32,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 32,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 32,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 32,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 32,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 32,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 32,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 33,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 33,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 33,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 33,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 33,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 33,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 33,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 34,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 34,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 34,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 34,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 34,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 34,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 34,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 35,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 35,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 35,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 35,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 35,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 35,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 35,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 36,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 36,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 36,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 36,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 36,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 36,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 36,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 37,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 37,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 37,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 37,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 37,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 37,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 37,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 38,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 38,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 38,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 38,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 38,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 38,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 38,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 39,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 39,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 39,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 39,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 39,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 39,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 39,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 40,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 40,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 40,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 40,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 40,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 40,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 40,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 41,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 41,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 41,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 41,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 41,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 41,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 41,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 42,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 42,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 42,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 42,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 42,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 42,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 42,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 43,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 43,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 43,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 43,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 43,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 43,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 43,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 44,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 44,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 44,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 44,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 44,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 44,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 44,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 45,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 45,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 45,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 45,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 45,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 45,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 45,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 46,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 46,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 46,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 46,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 46,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 46,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 46,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 47,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 47,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 47,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 47,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 47,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 47,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 47,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 48,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 48,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 48,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 48,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 48,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 48,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 48,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 49,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 49,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 49,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 49,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 49,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 49,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 49,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 50,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 50,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 50,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 50,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 50,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 50,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 50,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 51,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 51,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 51,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 51,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 51,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 51,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 51,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 52,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 52,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 52,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 52,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 52,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 52,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 52,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 53,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 53,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 53,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 53,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 53,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 53,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 53,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 54,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 54,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 54,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 54,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 54,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 54,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 54,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 55,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 55,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 55,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 55,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 55,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 55,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 55,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 56,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 56,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 56,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 56,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 56,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 56,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 56,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 57,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 57,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 57,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 57,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 57,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 57,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 57,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 58,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 58,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 58,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 58,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 58,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 58,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 58,
+      "metric": "projected_cka32",
+      "kendall": -1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 59,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 59,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 59,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 59,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 59,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 59,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 59,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 60,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 60,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 60,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 60,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 60,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 60,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 60,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 61,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 61,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 61,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 61,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 61,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 61,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 61,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 62,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 62,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 62,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 62,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 62,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 62,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 62,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 63,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 63,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 63,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 63,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 63,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 63,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 63,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 64,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 64,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 64,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 64,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 64,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 64,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 64,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 65,
+      "metric": "GLEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 65,
+      "metric": "LEEP",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 65,
+      "metric": "rpt",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 65,
+      "metric": "relation_raw",
+      "kendall": 1.0
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 65,
+      "metric": "negative_entropy",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 65,
+      "metric": "mutual_information",
+      "kendall": 0.3333333333333333
+    },
+    {
+      "strategy": "Retrain",
+      "classes": 65,
+      "metric": "projected_cka32",
+      "kendall": -0.3333333333333333
+    }
+  ]
+}
