@@ -1,0 +1,162 @@
+{
+  "environment": {
+    "python": "3.10",
+    "numpy": "1.24.4",
+    "scipy": "1.10.1",
+    "scikit_learn": "1.2.2"
+  },
+  "seed": 42,
+  "gmm_random_state": 0,
+  "covariance_type": "full",
+  "repeat_tolerance": 1e-12,
+  "cross_machine_full_run_tolerance": 5e-05,
+  "rows": [
+    {
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "task": 2,
+      "metric": "GLEEP",
+      "score": 0.6264776047965828,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 4.956992322169285e-07
+    },
+    {
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "task": 100,
+      "metric": "GLEEP",
+      "score": 0.04585743762216671,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 0.0
+    },
+    {
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "task": 2,
+      "metric": "LEEP",
+      "score": 0.5505951806752756,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 4.170175872619808e-06
+    },
+    {
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "task": 100,
+      "metric": "LEEP",
+      "score": 0.02268785057983581,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 0.0
+    },
+    {
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "task": 2,
+      "metric": "GLEEP",
+      "score": 0.5466371392337702,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 2.3114488434394787e-08
+    },
+    {
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "task": 10,
+      "metric": "GLEEP",
+      "score": 0.12352230129267018,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 8.457113537252425e-09
+    },
+    {
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "task": 2,
+      "metric": "LEEP",
+      "score": 0.5424978297689502,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 1.3881975141627478e-06
+    },
+    {
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "task": 10,
+      "metric": "LEEP",
+      "score": 0.10745610338339387,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 3.8482772246606345e-08
+    },
+    {
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "task": 2,
+      "metric": "GLEEP",
+      "score": 0.6589418694985898,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 3.864771649153553e-06
+    },
+    {
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "task": 100,
+      "metric": "GLEEP",
+      "score": 0.04307730530626109,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 0.0
+    },
+    {
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "task": 2,
+      "metric": "LEEP",
+      "score": 0.5850204848502409,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 2.905908737194096e-06
+    },
+    {
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "task": 100,
+      "metric": "LEEP",
+      "score": 0.022261949065682313,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 0.0
+    },
+    {
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "task": 2,
+      "metric": "GLEEP",
+      "score": 0.7569098799211497,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 1.3812782596489548e-05
+    },
+    {
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "task": 10,
+      "metric": "GLEEP",
+      "score": 0.1635221253502644,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 3.102656447595553e-07
+    },
+    {
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "task": 2,
+      "metric": "LEEP",
+      "score": 0.7648251496491284,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 1.7033866055338187e-05
+    },
+    {
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "task": 10,
+      "metric": "LEEP",
+      "score": 0.14555036482862774,
+      "repeat_absolute_delta": 0.0,
+      "full_run_absolute_delta": 5.880738954966436e-07
+    }
+  ],
+  "max_repeat_absolute_delta": 0.0,
+  "max_full_run_absolute_delta": 1.7033866055338187e-05,
+  "complete": true
+}

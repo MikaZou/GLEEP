@@ -1,0 +1,45 @@
+{
+  "device": "cpu",
+  "seed": 42,
+  "cudnn_disabled": false,
+  "exp1": {
+    "seed": 0,
+    "records": [
+      {
+        "dataset": "flowers",
+        "model": "mobilenet_v2",
+        "full_sample_count": 1020,
+        "leep": 0.06349669092698056,
+        "historical_leep": 0.06349668995985346,
+        "leep_absolute_delta": 9.671271006261861e-10,
+        "gleep_smoke_score": 0.27235705013656175,
+        "gleep_repeat_score": 0.27235705013656175,
+        "gleep_deterministic": true,
+        "gleep_subset_samples": 100,
+        "gleep_subset_target_classes": 10,
+        "gleep_subset_source_dimensions": 32,
+        "gleep_covariance_type": "diag",
+        "logits_path": "artifacts/cache/exp1/group1/mobilenet_v2_flowers_output.npy",
+        "labels_path": "artifacts/cache/exp1/group1/mobilenet_v2_flowers_label.npy"
+      },
+      {
+        "dataset": "flowers",
+        "model": "resnet34",
+        "full_sample_count": 1020,
+        "leep": 0.05927665659882561,
+        "historical_leep": 0.05927665449787241,
+        "leep_absolute_delta": 2.100953203076905e-09,
+        "gleep_smoke_score": 0.2367009096598823,
+        "gleep_repeat_score": 0.2367009096598823,
+        "gleep_deterministic": true,
+        "gleep_subset_samples": 100,
+        "gleep_subset_target_classes": 10,
+        "gleep_subset_source_dimensions": 32,
+        "gleep_covariance_type": "diag",
+        "logits_path": "artifacts/cache/exp1/group1/resnet34_flowers_output.npy",
+        "labels_path": "artifacts/cache/exp1/group1/resnet34_flowers_label.npy"
+      }
+    ]
+  },
+  "exp2": null
+}

@@ -1,0 +1,169 @@
+{
+  "manifest_origin": "downloaded together with the server-generated EXP2 cache",
+  "groups": 4,
+  "arrays": 16,
+  "all_label_hashes_identical": true,
+  "rows": [
+    {
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "array": "labels",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "array": "features",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "array": "clustering_logits",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "array": "prediction_logits",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "array": "labels",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "array": "features",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "array": "clustering_logits",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "array": "prediction_logits",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "array": "labels",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "array": "features",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "array": "clustering_logits",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "array": "prediction_logits",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "array": "labels",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "array": "features",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "array": "clustering_logits",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    },
+    {
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "array": "prediction_logits",
+      "bytes_ok": true,
+      "sha256_ok": true,
+      "shape_ok": true,
+      "dtype_ok": true,
+      "manifest_finite": true
+    }
+  ],
+  "complete": true
+}

@@ -1,0 +1,1699 @@
+{
+  "workspace": ".",
+  "official_repository": "https://github.com/MikaZou/GLEEP",
+  "official_commit": "20d8d7f91c8c5f409ef31081257676d655a27f29",
+  "storage": {
+    "exp1_cache_by_kind": {
+      "feature": {
+        "files": 0,
+        "bytes": 0
+      },
+      "output": {
+        "files": 121,
+        "bytes": 7789775488
+      },
+      "label": {
+        "files": 121,
+        "bytes": 15595008
+      },
+      "other": {
+        "files": 0,
+        "bytes": 0
+      }
+    },
+    "exp2_checkpoints": {
+      "files": 0,
+      "bytes": 0
+    },
+    "exp2_results": {
+      "files": 32,
+      "bytes": 79897
+    }
+  },
+  "source_problems": [],
+  "legacy_source_notes": [
+    {
+      "path": "EXP1/datasets/imagenet.py",
+      "kind": "syntax_error",
+      "detail": "IndentationError: expected an indented block after function definition on line 10 (imagenet.py, line 13)",
+      "note": "Official unused ImageNet dataset stub is syntactically incomplete."
+    },
+    {
+      "path": "EXP2/Ablation/test1.py",
+      "kind": "empty_or_all_nul",
+      "bytes": 0,
+      "note": "Official out-of-scope ablation placeholder is empty."
+    }
+  ],
+  "exp2_result_counts": [
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/metrics/GLEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/metrics/LEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/test_ACC/GLEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/test_ACC/LEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/metrics/GLEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/metrics/LEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/test_ACC/GLEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/test_ACC/LEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/metrics/GLEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/metrics/LEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/test_ACC/GLEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/test_ACC/LEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/metrics/GLEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/metrics/LEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/test_ACC/GLEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/test_ACC/LEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/metrics/GLEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/metrics/LEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/test_ACC/GLEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/test_ACC/LEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/metrics/GLEEP.json",
+      "entries": 64,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/metrics/LEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/test_ACC/GLEEP_ACC.json",
+      "entries": 64,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/test_ACC/LEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/metrics/GLEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/metrics/LEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/test_ACC/GLEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/test_ACC/LEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/metrics/GLEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/metrics/LEEP.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/test_ACC/GLEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/test_ACC/LEEP_ACC.json",
+      "entries": 99,
+      "error": null
+    }
+  ],
+  "checkpoint_coverage": [
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "checkpoint_count": 0,
+      "missing_tasks": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "checkpoint_count": 0,
+      "missing_tasks": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "checkpoint_count": 0,
+      "missing_tasks": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "strategy": "Finetune",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "checkpoint_count": 0,
+      "missing_tasks": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "CIFAR10",
+      "checkpoint_count": 0,
+      "missing_tasks": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet18",
+      "source": "ImageNet",
+      "checkpoint_count": 0,
+      "missing_tasks": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "CIFAR10",
+      "checkpoint_count": 0,
+      "missing_tasks": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "strategy": "Retrain",
+      "model": "ResNet34",
+      "source": "ImageNet",
+      "checkpoint_count": 0,
+      "missing_tasks": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ]
+    }
+  ],
+  "legacy_exp2_data_health": [
+    {
+      "path": "artifacts/cache/data/cifar-100-python/train",
+      "exists": false,
+      "bytes": 0,
+      "nul_prefix": null
+    },
+    {
+      "path": "artifacts/cache/data/cifar-100-python/test",
+      "exists": false,
+      "bytes": 0,
+      "nul_prefix": null
+    },
+    {
+      "path": "artifacts/cache/data/cifar-100-python/meta",
+      "exists": false,
+      "bytes": 0,
+      "nul_prefix": null
+    },
+    {
+      "path": "artifacts/cache/data/cifar-100-python.tar.gz",
+      "exists": false,
+      "bytes": 0,
+      "nul_prefix": null
+    }
+  ],
+  "environment": {
+    "python": "3.10.19 | packaged by conda-forge | (main, Oct 22 2025, 22:23:22) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.7.2",
+      "torch": "2.11.0+cu128",
+      "torchvision": "0.26.0+cu128",
+      "timm": null,
+      "matplotlib": "3.10.0",
+      "Pillow": "10.1.0"
+    },
+    "torch_numpy": {
+      "ok": true,
+      "error": null
+    },
+    "gpu": {
+      "ok": true,
+      "output": "NVIDIA GeForce RTX 3050 Ti Laptop GPU, 4096 MiB, 580.97",
+      "error": null
+    },
+    "gpu_compute": {
+      "cudnn_conv": {
+        "ok": true,
+        "returncode": 0,
+        "stdout": "(1, 8, 32, 32)",
+        "stderr": ""
+      },
+      "native_conv": {
+        "ok": true,
+        "returncode": 0,
+        "stdout": "(1, 8, 32, 32)",
+        "stderr": ""
+      },
+      "cublas_matmul": {
+        "ok": true,
+        "returncode": 0,
+        "stdout": "(8, 100)",
+        "stderr": ""
+      }
+    }
+  },
+  "artifact_hashes": [
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/aircraft_metrics.json",
+      "bytes": 353,
+      "sha256": "c00a6ee954e515bb19ed16c2fd7b4ae83fb4178d3a2c1b920d70dcf6a21af13f"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/caltech101_metrics.json",
+      "bytes": 339,
+      "sha256": "59a7b1585a4b830478a80d06255036a25ddd0ac19f8456f6682e254e271bfbd5"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/cars_metrics.json",
+      "bytes": 357,
+      "sha256": "2b8769085a42d4ee4719655515398f5e016c6b14af1b45cb0536eb784e771d3a"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/cifar100_metrics.json",
+      "bytes": 344,
+      "sha256": "afd05c3bcb749c518cfd8542d3e53e40d9a3774dc9ccdbb6fb1e70c4569259f1"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/cifar10_metrics.json",
+      "bytes": 341,
+      "sha256": "bfde10a9b9cb6392645b73955c7201ad09372498f1c79f46dfaa5e09c3d918f5"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/dtd_metrics.json",
+      "bytes": 342,
+      "sha256": "7890af849dc1a1ad4dc967ba5896443e2a2a3e5cbe7bb1301281fc9eee24cf5b"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/flowers_metrics.json",
+      "bytes": 345,
+      "sha256": "c0d7157e2d0bc4eb3af386fd09cf9c46b1a11b9f06b86d06c618062003223467"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/food_metrics.json",
+      "bytes": 349,
+      "sha256": "af874de1796b1b7a99fba68726df700479c0195a7976949e07bd50b653924faa"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/pets_metrics.json",
+      "bytes": 338,
+      "sha256": "1775df59625a93d6ff3164df61106c003998e99582658ca3acba2cd8fbe7f851"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/sun397_metrics.json",
+      "bytes": 344,
+      "sha256": "31871e3a3d6a0142be23f8208019dea0955a527d4dd45506b6536575b4864e86"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group1/leep_g/voc2007_metrics.json",
+      "bytes": 338,
+      "sha256": "b840040219380b47552a95912d641e655cd56b7fe25a1c40f72c82a2e7daa6e0"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/aircraft_metrics.json",
+      "bytes": 356,
+      "sha256": "0dcd3a1811cf7ba5ab7c23b25b34ee6e8fd6bde446205d2a0f62634284c0868c"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/caltech101_metrics.json",
+      "bytes": 337,
+      "sha256": "7b37813b282ad62cc7e5d9287d6cb0e315022acea728febc9d8958a65096ac5f"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/cars_metrics.json",
+      "bytes": 354,
+      "sha256": "656c6ed1180bbde8dcf766f37c3957b47674e34efed36f8cfc3fbaaeff8423f5"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/cifar100_metrics.json",
+      "bytes": 345,
+      "sha256": "0d270c95704e0e62234d3ac069d93d98427a3dc2ca21d36c3d34e3ad3712d563"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/cifar10_metrics.json",
+      "bytes": 340,
+      "sha256": "b03d179165682ee231f4f13bcfe8b1ff7aa9d5d3099ec8bfd4a4c1b7ecf33418"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/dtd_metrics.json",
+      "bytes": 345,
+      "sha256": "f008e72e50f187486586380780e5c558ba85e605f34866e890b4546b353e71bb"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/flowers_metrics.json",
+      "bytes": 352,
+      "sha256": "3fecfc682bf8fbe7ee5e901e2c512e885cdf907f0602d0b6976affd96d4e63fe"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/food_metrics.json",
+      "bytes": 350,
+      "sha256": "c8314edf8169f4cc14fdaca89c648a6745e728fb981ca2d1290d265102573a51"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/pets_metrics.json",
+      "bytes": 339,
+      "sha256": "fb7de0143dc8d5f498081f9f0a1f8a61ab1770958a8b803ffdcac05978d2f718"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/sun397_metrics.json",
+      "bytes": 345,
+      "sha256": "3d4880545bbf446367a7d98416c787f449d3cc1f4549b0a01654b983db102627"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep/voc2007_metrics.json",
+      "bytes": 333,
+      "sha256": "f7f0d64230f8c1f47e02ccbec59be1e6b4d0ea8c1c3ebc2b28645b6d5d153e20"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/aircraft_metrics.json",
+      "bytes": 353,
+      "sha256": "c00a6ee954e515bb19ed16c2fd7b4ae83fb4178d3a2c1b920d70dcf6a21af13f"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/caltech101_metrics.json",
+      "bytes": 339,
+      "sha256": "59a7b1585a4b830478a80d06255036a25ddd0ac19f8456f6682e254e271bfbd5"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/cars_metrics.json",
+      "bytes": 357,
+      "sha256": "2b8769085a42d4ee4719655515398f5e016c6b14af1b45cb0536eb784e771d3a"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/cifar100_metrics.json",
+      "bytes": 344,
+      "sha256": "afd05c3bcb749c518cfd8542d3e53e40d9a3774dc9ccdbb6fb1e70c4569259f1"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/cifar10_metrics.json",
+      "bytes": 341,
+      "sha256": "bfde10a9b9cb6392645b73955c7201ad09372498f1c79f46dfaa5e09c3d918f5"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/dtd_metrics.json",
+      "bytes": 342,
+      "sha256": "7890af849dc1a1ad4dc967ba5896443e2a2a3e5cbe7bb1301281fc9eee24cf5b"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/flowers_metrics.json",
+      "bytes": 345,
+      "sha256": "c0d7157e2d0bc4eb3af386fd09cf9c46b1a11b9f06b86d06c618062003223467"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/food_metrics.json",
+      "bytes": 349,
+      "sha256": "af874de1796b1b7a99fba68726df700479c0195a7976949e07bd50b653924faa"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/pets_metrics.json",
+      "bytes": 338,
+      "sha256": "1775df59625a93d6ff3164df61106c003998e99582658ca3acba2cd8fbe7f851"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/sun397_metrics.json",
+      "bytes": 344,
+      "sha256": "31871e3a3d6a0142be23f8208019dea0955a527d4dd45506b6536575b4864e86"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/leep_g/voc2007_metrics.json",
+      "bytes": 338,
+      "sha256": "b840040219380b47552a95912d641e655cd56b7fe25a1c40f72c82a2e7daa6e0"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/aircraft_metrics.json",
+      "bytes": 337,
+      "sha256": "9270c15d0fc53243efd09bbcb766c3ac992fbb79b8d9b6d83354b7c2a6c1910e"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/caltech101_metrics.json",
+      "bytes": 334,
+      "sha256": "6ba37b8f75765d80100813343c5caa258a93ea206f88c583653fc7d372a560cc"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/cars_metrics.json",
+      "bytes": 331,
+      "sha256": "beb3683d2b45951f768a16fdddeb43e94add49f79189f5ab71ed451f95ed84e6"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/cifar100_metrics.json",
+      "bytes": 336,
+      "sha256": "7e026d9ccd0a0e740070939c6e0691fb650f2cf0fabec1f9f3e109701b5cf05a"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/cifar10_metrics.json",
+      "bytes": 340,
+      "sha256": "420fe8bb34524e54d5068f4e289d2698a91b52f9fec2cce5e4aa2b092c4ed193"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/dtd_metrics.json",
+      "bytes": 335,
+      "sha256": "b64ee53a584f84f45957d265eb5dcf925fbe0a05c489493eea54fc7b73aff7d9"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/flowers_metrics.json",
+      "bytes": 332,
+      "sha256": "cabf551093d31b747288bd6f25767db444340fe04e00ac6fa6ca0f7d256ad112"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/food_metrics.json",
+      "bytes": 335,
+      "sha256": "058a3281a9bd83488f20165141abdbf4e2097bf060061cda39c1f02ad57b3371"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/pets_metrics.json",
+      "bytes": 336,
+      "sha256": "93836cec71581e5a5908f3d6da62efe661f5196e7ffb77c7ce677b181b1e8853"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/sfda_metrics.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/sun397_metrics.json",
+      "bytes": 337,
+      "sha256": "eededdcb7f99687d8d58caee8d0e777c4a19c8b8c3834982a8acadc754a1e0aa"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/logme/voc2007_metrics.json",
+      "bytes": 338,
+      "sha256": "68040497163c7fdba5d6144e1d94e3b6482445a981197f002aa4942eb59c5429"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/aircraft_metrics.json",
+      "bytes": 343,
+      "sha256": "7210e834698049b4372179bcd7c628977b0c5e7a864aae3a51555dfca9b38438"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/caltech101_metrics.json",
+      "bytes": 334,
+      "sha256": "be4d50a57ce048f649227203da303331c59608b92c1b19e216940553a703f62c"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/cars_metrics.json",
+      "bytes": 345,
+      "sha256": "91a91ce1de1929b6c5bef68bfbbc34b1ef7e10374b8a5b8832c6ebc883f9473f"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/cifar100_metrics.json",
+      "bytes": 341,
+      "sha256": "ec5db453ab2e9baaf219fecea306fd7580a908903c01b528f3d825d35ffb9490"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/cifar10_metrics.json",
+      "bytes": 338,
+      "sha256": "9457962c473ec643b6edce8700429c47eb6fa588c2998873b6aa1da261376494"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/dtd_metrics.json",
+      "bytes": 140,
+      "sha256": "6ade96068fa1f9e4d157b9895fbfd19494ef4177bf36f6b1487336e14e075c39"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/flowers_metrics.json",
+      "bytes": 336,
+      "sha256": "a5047b2840d8a7abf2024e667d761f0ed5b49df8f6999bd61ff55fa9439df113"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/food_metrics.json",
+      "bytes": 279,
+      "sha256": "dbbe62cee2295183069bf7374e02744315636b96bb7269ce31be8cedc1418a19"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/pets_metrics.json",
+      "bytes": 338,
+      "sha256": "07f16ee9507270949a6084c7b6c5d16a6dac2b946d0f16a99ee93646406b0db1"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/sun397_metrics.json",
+      "bytes": 340,
+      "sha256": "0b21057b904a5bfb6c5b8782a6abd0609b5015429b5f1ec3ee4a5d585cc8b27f"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/nleep/voc2007_metrics.json",
+      "bytes": 338,
+      "sha256": "2d535ab1da4c7a4169293078ec0933fdf42d08f222b67962fe817eef53d84d7c"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/aircraft_metrics.json",
+      "bytes": 348,
+      "sha256": "91eb63eeb55626fa99256a0c5f37eabf4c1e999590487002b3986fc1b13f3b5b"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/caltech101_metrics.json",
+      "bytes": 345,
+      "sha256": "23a4c65dedd641906eeda15334e203dc27c7b4cff7554ff00e6fa9fb1fec5078"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/cars_metrics.json",
+      "bytes": 343,
+      "sha256": "2a925a06fc637fe8771397dc9bc2c2ee87576c048adef4e0871c2323479027e1"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/cifar100_metrics.json",
+      "bytes": 344,
+      "sha256": "b202e2b5af161b232b1ccc1619ea43a877ab8b7b39ea0d1e1a9ba16bacc399f7"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/cifar10_metrics.json",
+      "bytes": 350,
+      "sha256": "e14465425b4fd55982883cf894ebdd28402933560be3ceca4ca6d66b4fcdb9c8"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/dtd_metrics.json",
+      "bytes": 339,
+      "sha256": "d3144ac0245f70e7b1b69db20ba3821a1546b219fc1bb422cac541af9c318902"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/flowers_metrics.json",
+      "bytes": 344,
+      "sha256": "85225ab0eba7d12755a80d49824b87ededb1b3f116d30db2db3eb9932fcce911"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/food_metrics.json",
+      "bytes": 346,
+      "sha256": "561769584825a567c5841876b60870656d9e53d931a51e65241625695e6569b9"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/pets_metrics.json",
+      "bytes": 338,
+      "sha256": "8f68d9872267c948739d2f7f71e3db6aa7d5b251a269c6837e9ce71cd46e2c89"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/sun397_metrics.json",
+      "bytes": 346,
+      "sha256": "f7f94b35dca3e299cfc620e57fc96c2a29b943b12690743d212ac0dd2fb96aa1"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/pac/voc2007_metrics.json",
+      "bytes": 344,
+      "sha256": "edf38f85d40dbabaafb9d92e3b64d56afe4bc6e032402d3ab1b6a286331fd5e3"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/aircraft_metrics.json",
+      "bytes": 358,
+      "sha256": "d13a527e6fb644afa49934581649579dca5b3d251bb590a652394910dfc0df0f"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/caltech101_metrics.json",
+      "bytes": 356,
+      "sha256": "2c0666a0fc2bb94e752942660ac6aea63183fd57db84cc475df2a7997aad8bc6"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/cars_metrics.json",
+      "bytes": 360,
+      "sha256": "5c1ef82e35ec934455c035fc249e592c27dfea62a0562addf1c74f366fe423ea"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/cifar100_metrics.json",
+      "bytes": 357,
+      "sha256": "1db02d1d8ccf1541ba4bd9d7a3b5e86a63c406e966aa687d695adb7961f2a3d4"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/cifar10_metrics.json",
+      "bytes": 348,
+      "sha256": "db4dc3743a3e8303c229c986963e6aa6be28e45fcc3481bdf28f59f42b1af389"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/dtd_metrics.json",
+      "bytes": 358,
+      "sha256": "b49fcd519ad3bc120982bdfdf8c78dec6dde8cb4b4c94cf587cba22bc535d142"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/flowers_metrics.json",
+      "bytes": 355,
+      "sha256": "c92bd8853ee4ae31b89874da4c97648e8729457cc4e5dacae609fd4aaf8d21af"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/food_metrics.json",
+      "bytes": 353,
+      "sha256": "80b59689c635e8f5f41e3619c18d26202d46a9d6c8fa00aa65f7bb5a42d13a04"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/pets_metrics.json",
+      "bytes": 352,
+      "sha256": "5a81ee471241c3240950517d17f04a9b21f73b11bddc61b01ab32d5a4bcde3e0"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/sun397_metrics.json",
+      "bytes": 364,
+      "sha256": "00dc12d4f27779e7c1507c92418c9214a077db3ca1c46e9248c951de2921f001"
+    },
+    {
+      "path": "results/published/EXP1/results_metrics/group2/sfda/voc2007_metrics.json",
+      "bytes": 348,
+      "sha256": "96b6635d1c05d4090d1fda3387200266c86f9df2f8d63d36ef1208aa94f120fc"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/metrics/GLEEP.json",
+      "bytes": 2760,
+      "sha256": "fdf08670532cf5aabe98f50c3a05e51bc0e0f129e8014c341a04584e8d0338df"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/metrics/LEEP.json",
+      "bytes": 2784,
+      "sha256": "d4b8d1c65194ddea291f5e808b845aa844e5a887a58862b78e17cd138f81606c"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/test_ACC/GLEEP_ACC.json",
+      "bytes": 2327,
+      "sha256": "231b7bdb86a1e5f01d8bd7fdf8dd80013e0e39661320e1de2934793a8aee9c2d"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/CIFAR10/test_ACC/LEEP_ACC.json",
+      "bytes": 2327,
+      "sha256": "231b7bdb86a1e5f01d8bd7fdf8dd80013e0e39661320e1de2934793a8aee9c2d"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/metrics/GLEEP.json",
+      "bytes": 2812,
+      "sha256": "664b3c03c72e1d2f30c9602c03c3100494ee6723d4447522fef94e232a4424a5"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/metrics/LEEP.json",
+      "bytes": 2810,
+      "sha256": "b5123fe650caa84408f04a0e8ed3c4080afa1dc4126b424f5e7fc80eaaa76101"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/test_ACC/GLEEP_ACC.json",
+      "bytes": 2307,
+      "sha256": "5160009a3f5444aa5d8b5b1c1374ad3cd2d0704244690be9248da059390e2de6"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet18/ImageNet/test_ACC/LEEP_ACC.json",
+      "bytes": 2307,
+      "sha256": "5160009a3f5444aa5d8b5b1c1374ad3cd2d0704244690be9248da059390e2de6"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/metrics/GLEEP.json",
+      "bytes": 2756,
+      "sha256": "c82a2bd039072c3c68d4389382abaa9109f3cb9a62ab765c29f339c9e6282656"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/metrics/LEEP.json",
+      "bytes": 2787,
+      "sha256": "77aa78eaaf3223c5b3f45cc5c1f49083ab67442a32cd488bf2f8e515e76cba25"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/test_ACC/GLEEP_ACC.json",
+      "bytes": 2242,
+      "sha256": "0bd2bf4a3f7fe8fa0d5d1615a89d20f19cff53168c0abee92198935e395de2b8"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/CIFAR10/test_ACC/LEEP_ACC.json",
+      "bytes": 2242,
+      "sha256": "0bd2bf4a3f7fe8fa0d5d1615a89d20f19cff53168c0abee92198935e395de2b8"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/metrics/GLEEP.json",
+      "bytes": 2795,
+      "sha256": "363389c80cce24a800bd28806f16196d76d9f35f7b3fbc25ae6006011216318b"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/metrics/LEEP.json",
+      "bytes": 2817,
+      "sha256": "ffd2a02ad548ea501862966401808ec91e3ce06d54f7545a8b60a882c9738329"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/test_ACC/GLEEP_ACC.json",
+      "bytes": 2325,
+      "sha256": "0aacdc568482a9db21b6f2469054d6862bb1c7a049da98d097661ad23222b1a0"
+    },
+    {
+      "path": "results/published/EXP2/result/Finetune/ResNet34/ImageNet/test_ACC/LEEP_ACC.json",
+      "bytes": 2325,
+      "sha256": "0aacdc568482a9db21b6f2469054d6862bb1c7a049da98d097661ad23222b1a0"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/metrics/GLEEP.json",
+      "bytes": 2754,
+      "sha256": "94feac53e079a18dee6129f7e4d6c31ab3eddf04df0c02533d0405f84f341d57"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/metrics/LEEP.json",
+      "bytes": 2784,
+      "sha256": "d4b8d1c65194ddea291f5e808b845aa844e5a887a58862b78e17cd138f81606c"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/test_ACC/GLEEP_ACC.json",
+      "bytes": 2359,
+      "sha256": "066cdd78f105f6f2d4e4ae6b9d9bdbd8ce0aa69b6b3851d1174399258708af8a"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/CIFAR10/test_ACC/LEEP_ACC.json",
+      "bytes": 2359,
+      "sha256": "066cdd78f105f6f2d4e4ae6b9d9bdbd8ce0aa69b6b3851d1174399258708af8a"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/metrics/GLEEP.json",
+      "bytes": 1803,
+      "sha256": "ea9f7715276723112ad0b53a5c7e539a10d6ec3bf1ba72c7ff3fbbc08e8f52d4"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/metrics/LEEP.json",
+      "bytes": 2810,
+      "sha256": "b5123fe650caa84408f04a0e8ed3c4080afa1dc4126b424f5e7fc80eaaa76101"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/test_ACC/GLEEP_ACC.json",
+      "bytes": 1477,
+      "sha256": "4d4dae1b66803bb41b5f7dd567f3ef975878200fb8fea52352629e12291ffc82"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet18/ImageNet/test_ACC/LEEP_ACC.json",
+      "bytes": 2363,
+      "sha256": "4b36b01f732efa2a155bae4887b9f18cab81c254bafab41b6b6668305d59254e"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/metrics/GLEEP.json",
+      "bytes": 2764,
+      "sha256": "807f6357bd9daad71998e9d1fb7e7132bf385edd06e50ca5240550eaa2e72741"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/metrics/LEEP.json",
+      "bytes": 2787,
+      "sha256": "77aa78eaaf3223c5b3f45cc5c1f49083ab67442a32cd488bf2f8e515e76cba25"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/test_ACC/GLEEP_ACC.json",
+      "bytes": 2304,
+      "sha256": "d4958d089c9571ee155f9e3b75e0e2fc23435ef7d3b17eed5ebf365b358ba724"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/CIFAR10/test_ACC/LEEP_ACC.json",
+      "bytes": 2304,
+      "sha256": "d4958d089c9571ee155f9e3b75e0e2fc23435ef7d3b17eed5ebf365b358ba724"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/metrics/GLEEP.json",
+      "bytes": 2795,
+      "sha256": "d4fdd954e5c018573ee7074a0842dc5fe8d6f72f3912a675aa681ca83939f4e5"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/metrics/LEEP.json",
+      "bytes": 2817,
+      "sha256": "ffd2a02ad548ea501862966401808ec91e3ce06d54f7545a8b60a882c9738329"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/test_ACC/GLEEP_ACC.json",
+      "bytes": 2347,
+      "sha256": "6559efa294c17c61ae18439757c9d1f40057df5f6072c1c0e10bf88be0bf2d83"
+    },
+    {
+      "path": "results/published/EXP2/result/Retrain/ResNet34/ImageNet/test_ACC/LEEP_ACC.json",
+      "bytes": 2347,
+      "sha256": "6559efa294c17c61ae18439757c9d1f40057df5f6072c1c0e10bf88be0bf2d83"
+    },
+    {
+      "path": "artifacts/checkpoints/Pretrain/ResNet18/40_64_0.001/best_model.pth",
+      "bytes": 85453720,
+      "sha256": "88324e64eca48302bdaf1330c9c66f0c9921f5275590faef0e60ef8191726314"
+    },
+    {
+      "path": "artifacts/checkpoints/Pretrain/ResNet34/40_64_0.001/best_model.pth",
+      "bytes": 44959544,
+      "sha256": "33b6235f8feae581a32286cf250b7ec69d0a4cc75ba2c373fbb15e3c2aeb06d8"
+    }
+  ]
+}

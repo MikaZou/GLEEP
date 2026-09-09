@@ -1,0 +1,37 @@
+{
+  "dataset_order": ["cifar10", "voc2007", "caltech101", "aircraft", "cifar100", "food", "pets", "flowers", "cars", "dtd", "sun397"],
+  "table1_kendall": {
+    "leep": {"values": [0.733, 0.733, 0.733, -0.022, 0.764, 0.600, 0.644, -0.067, 0.556, 0.674, 0.644], "average": 0.544},
+    "nleep": {"values": [0.600, 0.644, 0.689, -0.467, 0.719, 0.378, 0.600, 0.333, 0.333, 0.719, 0.822], "average": 0.488},
+    "logme": {"values": [0.778, 0.600, 0.511, 0.244, 0.539, 0.289, 0.689, 0.378, 0.333, 0.629, 0.378], "average": 0.488},
+    "pac": {"values": [0.822, 0.022, 0.244, -0.289, 0.360, 0.244, 0.333, 0.200, -0.333, 0.270, 0.022], "average": 0.172},
+    "sfda": {"values": [0.778, 0.600, 0.556, 0.067, 0.719, 0.689, 0.600, 0.644, 0.511, 0.674, 0.733], "average": 0.597},
+    "gleep": {"values": [0.644, 0.689, 0.733, 0.289, 0.809, 0.644, 0.733, 0.067, 0.511, 0.539, 0.733], "average": 0.581}
+  },
+  "table2_pearson": {
+    "leep": {"values": [0.627, 0.641, 0.631, -0.068, 0.680, 0.516, 0.792, 0.115, 0.243, 0.602, 0.609], "average": 0.489},
+    "nleep": {"values": [0.792, 0.885, 0.921, -0.733, 0.737, 0.242, 0.761, 0.481, 0.132, 0.789, 0.842], "average": 0.531},
+    "logme": {"values": [0.736, 0.676, 0.641, -0.120, 0.518, 0.288, 0.660, 0.553, -0.118, 0.618, 0.439], "average": 0.444},
+    "pac": {"values": [0.695, -0.154, 0.196, -0.331, 0.012, 0.008, 0.126, 0.438, -0.461, 0.014, -0.039], "average": 0.045},
+    "sfda": {"values": [0.853, 0.901, 0.685, 0.282, 0.859, 0.798, 0.875, 0.705, 0.472, 0.786, 0.860], "average": 0.734},
+    "gleep": {"values": [0.574, 0.769, 0.841, 0.243, 0.719, 0.655, 0.921, 0.230, 0.346, 0.664, 0.806], "average": 0.615}
+  },
+  "table3": {
+    "Finetune|ResNet18|CIFAR10|LEEP": {"pearson": 0.925, "kendall": 0.936},
+    "Finetune|ResNet18|CIFAR10|GLEEP": {"pearson": 0.955, "kendall": 0.931},
+    "Finetune|ResNet34|CIFAR10|LEEP": {"pearson": 0.902, "kendall": 0.933},
+    "Finetune|ResNet34|CIFAR10|GLEEP": {"pearson": 0.928, "kendall": 0.930},
+    "Finetune|ResNet18|ImageNet|LEEP": {"pearson": 0.793, "kendall": 0.943},
+    "Finetune|ResNet18|ImageNet|GLEEP": {"pearson": 0.807, "kendall": 0.939},
+    "Finetune|ResNet34|ImageNet|LEEP": {"pearson": 0.790, "kendall": 0.946},
+    "Finetune|ResNet34|ImageNet|GLEEP": {"pearson": 0.809, "kendall": 0.947},
+    "Retrain|ResNet18|CIFAR10|LEEP": {"pearson": 0.944, "kendall": 0.980},
+    "Retrain|ResNet18|CIFAR10|GLEEP": {"pearson": 0.970, "kendall": 0.976},
+    "Retrain|ResNet34|CIFAR10|LEEP": {"pearson": 0.936, "kendall": 0.977},
+    "Retrain|ResNet34|CIFAR10|GLEEP": {"pearson": 0.955, "kendall": 0.973},
+    "Retrain|ResNet18|ImageNet|LEEP": {"pearson": 0.922, "kendall": 0.965},
+    "Retrain|ResNet18|ImageNet|GLEEP": {"pearson": 0.959, "kendall": 0.940},
+    "Retrain|ResNet34|ImageNet|LEEP": {"pearson": 0.898, "kendall": 0.971},
+    "Retrain|ResNet34|ImageNet|GLEEP": {"pearson": 0.913, "kendall": 0.969}
+  }
+}

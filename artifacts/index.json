@@ -1,0 +1,4381 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-09T13:46:15.781147+00:00",
+  "official_commit": "20d8d7f91c8c5f409ef31081257676d655a27f29",
+  "remote_policy": "Large artifacts are excluded from Git. remote_uri remains null until a stable Hugging Face or cloud-storage release is published.",
+  "profiles": {
+    "exp1": {
+      "files": 242,
+      "bytes": 7805370496
+    },
+    "exp2": {
+      "files": 21,
+      "bytes": 186466719
+    },
+    "source-checkpoints": {
+      "files": 2,
+      "bytes": 130413264
+    }
+  },
+  "entries": [
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_aircraft_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 13336128,
+      "sha256": "803e815773eec11f47ade4aa8046d2ce720ffe56ae9b3d218260038e5315793d",
+      "shape": [
+        3334,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_caltech101_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 9792128,
+      "sha256": "1139417fee72a287b0dbe1aeded238e8e517c3f8e8a34f28e4a46791a299f9eb",
+      "shape": [
+        2448,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_cars_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 25732128,
+      "sha256": "4b5a88aca7cad687aa3736ecea8df52bf80613bb7ee4c718ec0a607f6ada0a02",
+      "shape": [
+        6433,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_cifar100_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "ff5fe35ba7bf6229b95a6de10604955c1aaa5e0fbdd86e6e45be3d826f5af987",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_cifar10_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "e4c6fbb5fefd4e0738a6592fc2b0569cd9da0a3402be890c62c402e99340f559",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_dtd_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 7520128,
+      "sha256": "39aaf22c3fde7bcbefbea54ffa10c91038db9a4cd6e3e291444143d8a8ca527d",
+      "shape": [
+        1880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_flowers_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 4080128,
+      "sha256": "f8da4457771fc6ab5ef0be72c8aa571a34f685736e7461390619972f326eade7",
+      "shape": [
+        1020,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_food_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 242400128,
+      "sha256": "b9ee2e62019a3edb955e7ee3879788eb05c7a47181cabb9f470107a0ec0b06f9",
+      "shape": [
+        60600,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_pets_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 11776128,
+      "sha256": "93383f987b7c0ebeef55679b841361b9d5c2de45d8c846d6aa9b6797c0921796",
+      "shape": [
+        2944,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_sun397_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 63520128,
+      "sha256": "1fa273b7fb6aedca6f2c5bb03ba60053e84d2d4cc0b35c5808a2deeb760cc49e",
+      "shape": [
+        15880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_voc2007_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 10004128,
+      "sha256": "d37b4f9851cd44115d5b134f1a6bcd8ddc9b43652973524af31db659aa838727",
+      "shape": [
+        2501,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_aircraft_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 13336128,
+      "sha256": "9b57b8d78eb58a4c3ced6de9ec8c438a346cf31e13f92cff07b22a3dd054ce1e",
+      "shape": [
+        3334,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_caltech101_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 9792128,
+      "sha256": "e6fc7fc1b055eb42e1f498c56a60a8d5d4961907c5fa05eebdfa5d892e2a27fe",
+      "shape": [
+        2448,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_cars_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 25732128,
+      "sha256": "54e232ac3000fc8a130c1526c1ce476db92480679f19b314f0f676c116d31aeb",
+      "shape": [
+        6433,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_cifar100_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "71cf520f4c6799da10d3595c2522ab8f96a9aa5e20751b7f5feaaef871b79a94",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_cifar10_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "17d779692a9900fbcf6b73c836baca95831228d6d296b6262782819c870a0fb0",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_dtd_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 7520128,
+      "sha256": "105dab0760f181214e9304ea6cf8931ee852cd517c8112abf111e62cd6496918",
+      "shape": [
+        1880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_flowers_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 4080128,
+      "sha256": "3e9b67aa5a4a52e5f4d52469b5289eba2201155471019d3562a4d04a7eee3a50",
+      "shape": [
+        1020,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_food_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 242400128,
+      "sha256": "c1902aebe374c7947b1d58b6c4b40498fb4bba4988a3c00b0697ace7c09633dd",
+      "shape": [
+        60600,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_pets_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 11776128,
+      "sha256": "b695d8490b9a83e06f112cae8f70258920d458fc7970a181b165f2060f5ed604",
+      "shape": [
+        2944,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_sun397_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 63520128,
+      "sha256": "c5532cd78ddc726efcf0c4db0da0c413e9dc81e4880da77d02b80be4ec6f30db",
+      "shape": [
+        15880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_voc2007_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 10004128,
+      "sha256": "f869d8e602d6a5f3bb45eafb3a115994f2a8bf06368c05d65ccfec999bf8e46b",
+      "shape": [
+        2501,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_aircraft_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 13336128,
+      "sha256": "1705a56df6b830636d001fa8e9cfa9f22ccd612fa316009003149d17115b223c",
+      "shape": [
+        3334,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_caltech101_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 9792128,
+      "sha256": "214779504f8f842b95c6a4ea8cb4a0f82d6ed28cd05f1d01413bc7609be90e37",
+      "shape": [
+        2448,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_cars_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 25732128,
+      "sha256": "1895934925a42676ea0bb060717c9b20ae86cda8996b79a155e040ba1ee6298d",
+      "shape": [
+        6433,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_cifar100_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "871e27b961bf87c18c60c5051d78bcc9517b430c858a64588eaaa969f20b5e87",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_cifar10_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "38ba14265b9f0cf8bda5487b572fa952547df82131270291a19d324e2f98b9dc",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_dtd_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 7520128,
+      "sha256": "d344846dd383a7fc0fa322e5ddd47405a604a3c1ce96f987354efef1c02b1637",
+      "shape": [
+        1880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_flowers_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 4080128,
+      "sha256": "0f7cd52478e8e19bdeba0825b6a07803f2635212c5dab68ce27c10eb04cc483b",
+      "shape": [
+        1020,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_food_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 242400128,
+      "sha256": "735ddf6f0294bdda7bd9d30ff6b431285f50719394e4070a02201608c74547bd",
+      "shape": [
+        60600,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_pets_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 11776128,
+      "sha256": "d9c15401335de2f4d6d93e68884df45cca3780ce9a1206418f4a6b1624400b3b",
+      "shape": [
+        2944,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_sun397_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 63520128,
+      "sha256": "b6c213678dc7fc55ae62fabbbe7a07c59636b0537d4b534140d0640527fc5b27",
+      "shape": [
+        15880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_voc2007_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 10004128,
+      "sha256": "62b91c438374194c022378132e383447db06f1ee41bea4e14f40710da00b2238",
+      "shape": [
+        2501,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_aircraft_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 13336128,
+      "sha256": "a0991f98905c1145f28bc75b22dd9ace45ff7343e2a8a75cdc29523450fd3af5",
+      "shape": [
+        3334,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_caltech101_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 9792128,
+      "sha256": "68e68f7c59ef4455531546f4ccd964b22880af1c28d98e974d84a816ee99d109",
+      "shape": [
+        2448,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_cars_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 25732128,
+      "sha256": "656d2bd4f14a8e90190c8a15c3b83e85ea7cb1efdaa1cf992644fe6296b4e8fc",
+      "shape": [
+        6433,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_cifar100_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "b2edfe3fde108080ce5302803e402e2864cfb3955e5653a1c81f034333161e76",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_cifar10_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "31e21c9cbe1cb73e97f8e5331256c58aa90f8f391ab1db2a4dffd4fd6f578b57",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_dtd_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 7520128,
+      "sha256": "7f09e409b225d36b6a2d8e446b63ccd16f47de6cb0169162ea7a299fa2045db0",
+      "shape": [
+        1880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_flowers_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 4080128,
+      "sha256": "9290548b2f00a99bb225ce0a13d7dad75ba49086753e595ddaf8b1268f7ed77c",
+      "shape": [
+        1020,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_food_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 242400128,
+      "sha256": "0295a40914c86b302c83dfa7c58da6348c292cd10b30ee94b7367fd6691ff260",
+      "shape": [
+        60600,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_pets_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 11776128,
+      "sha256": "056fa13e0ece4f9c0a6f186483c0b6697a28fcc07ff21907a8baa892ee1641a9",
+      "shape": [
+        2944,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_sun397_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 63520128,
+      "sha256": "a49fef3bf91b0cb3aea4b26ec2180536dce2f99fd354bba3cde1721ec89b5a8e",
+      "shape": [
+        15880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_voc2007_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 10004128,
+      "sha256": "0f96c904474bbd9b5b5a0aa5bc8303206f4700117c0cb1adbf6305ca997659c9",
+      "shape": [
+        2501,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_aircraft_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 13336128,
+      "sha256": "76f5c6183407eb59fb802dc9ba6ab2be7ddf5313450c8da768782e5c331f17d9",
+      "shape": [
+        3334,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_caltech101_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 9792128,
+      "sha256": "b00c67572f4a5205b37db62949d3f3c9ac9840d7f666bed41cf340e62c38e876",
+      "shape": [
+        2448,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_cars_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 25732128,
+      "sha256": "d78a512e1fffddd87991788427e1378ed6215eb455ccae9fd54d343ede9df7ee",
+      "shape": [
+        6433,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_cifar100_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "637b27ab951fb97aad07c3e2d1686dd69f8f18de2449c5b9900871685eeefef6",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_cifar10_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "3c2fdc2dcaaef3cf6ba76259ba6141e74842c97e7d328f928848c72c6524b9cd",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_dtd_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 7520128,
+      "sha256": "6d6897e4f5152acd2556387a3bebf27c0f0569a5b81e551121caa7b7c4eae9fb",
+      "shape": [
+        1880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_flowers_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 4080128,
+      "sha256": "e77dd536876d5826f1089c9b8b599acee567bc7f0bd3d4ba02130043c1ad0baf",
+      "shape": [
+        1020,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_food_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 242400128,
+      "sha256": "4211ef73c09436c22acb194af10e505a5531676cbd3707ca0e585949772790c1",
+      "shape": [
+        60600,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_pets_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 11776128,
+      "sha256": "1e13f90e6d04f8f64fabc0a5a3c80ea501ecf91b2b5e7c43ea2825dd8b04e494",
+      "shape": [
+        2944,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_sun397_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 63520128,
+      "sha256": "95ffa959aca8a1f1164f691a95d4dd72352e031351bd39207f7cbaa575d2b26f",
+      "shape": [
+        15880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_voc2007_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 10004128,
+      "sha256": "507e88df460349eee31b995312c19db79f7bf113aad18c7fb979e5ffd0366055",
+      "shape": [
+        2501,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_aircraft_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 13336128,
+      "sha256": "ab9e6df1388d02dcb011d7f1e44cc655aa8bbed60d8edae5bcf4118d88aeccd4",
+      "shape": [
+        3334,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_caltech101_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 9792128,
+      "sha256": "2ae74b136cd55dea0d9a42edb539701b981cb65346af5ca934df633a8be815a6",
+      "shape": [
+        2448,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_cars_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 25732128,
+      "sha256": "b90ec9537a91959461bc8ea8c9d801fea5dd9c94a3654629a6fa4b11530a5aeb",
+      "shape": [
+        6433,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_cifar100_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "6381c29ebe9fe4a53b85ccf64b4a94d892bb81b3daee387d3adaef14dfd6c910",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_cifar10_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "f021e868613c040c1cbe75a3fb66dd02c36a3caa2b776fe1712ff90d688ad1e1",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_dtd_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 7520128,
+      "sha256": "60ce2f0ab2cd308c203862a48f55abab4a591a06630bf876ca1d59acfc436e00",
+      "shape": [
+        1880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_flowers_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 4080128,
+      "sha256": "2f43cce96765228ffea693c16e68d0cbb74cf0ce076e4ebd768df43f136ee225",
+      "shape": [
+        1020,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_food_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 242400128,
+      "sha256": "35867f042be90951f887e249cc2bb03e97c76af3f8c76df748cc8d4aae2b9538",
+      "shape": [
+        60600,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_pets_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 11776128,
+      "sha256": "9967781183a1c5d52ca2e29bd6abd3797988682ae5928da732f97d4a79349840",
+      "shape": [
+        2944,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_sun397_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 63520128,
+      "sha256": "f1ab44be6b2b05516dd273bacb292e9de3e7514f8a4537a2ee1816a8cb6a9c1f",
+      "shape": [
+        15880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_voc2007_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 10004128,
+      "sha256": "2a48e00d1543934a600a409ef85042da72f65e0ffbd4220cae183ef22c5c7102",
+      "shape": [
+        2501,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_aircraft_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 13336128,
+      "sha256": "ba779c9393607eb400ae9983aaeacd4f16e57019f7adea72a7701c186f93259a",
+      "shape": [
+        3334,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_caltech101_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 9792128,
+      "sha256": "6e9d03386f50de803b150b9f5ff67155f7aea4c0555d7c15883696d5eff847c2",
+      "shape": [
+        2448,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_cars_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 25732128,
+      "sha256": "4eb2791e9ba13a6e22d51b44395df3115974026e28dba7d5923edc17f1bc8bd8",
+      "shape": [
+        6433,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_cifar100_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "0cdb2b5ebd2712c0d77812e71076939f074fb80d62a320f3d3fbe3baedc2a5bf",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_cifar10_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "f60a1d1f468bb51d6f1751bd7067a737a802338b8f444a08a1715d8f6904f58f",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_dtd_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 7520128,
+      "sha256": "2802db02ad83999023201a58de74ed7c095252d0d9786d9ba8ec8b26e9deedfa",
+      "shape": [
+        1880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_flowers_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 4080128,
+      "sha256": "1b8e58d47c03ae767a4e9493b1c73ebc910a18335e970193abb15a67daeeeab1",
+      "shape": [
+        1020,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_food_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 242400128,
+      "sha256": "7d584eed86af61e9e38b6b227eb816aeb50a3f2fd8440fc23705f6c83f5c5404",
+      "shape": [
+        60600,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_pets_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 11776128,
+      "sha256": "50c94b6ec8c864a3ca0dbcab15a043fd52456e77e9f416f4ac6fc9482980d7cc",
+      "shape": [
+        2944,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_sun397_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 63520128,
+      "sha256": "f09236d77e804110c148ebfde7ab8c122235b860f133e930d17cb845d015254d",
+      "shape": [
+        15880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_voc2007_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 10004128,
+      "sha256": "fe93dd51d226cbd6e3b42fc39223c49c477b251efed1a02958ff9cd507ae08a3",
+      "shape": [
+        2501,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_aircraft_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 13336128,
+      "sha256": "d73b6ab1ccb58abd14ae326eea5160f01d9bc78fe14762a4fb38f00bd5dd365b",
+      "shape": [
+        3334,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_caltech101_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 9792128,
+      "sha256": "47b8a4beae7be8cf6cd74b5a8f8582bffad0da2f9b59038267eb6886d3e915ef",
+      "shape": [
+        2448,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_cars_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 25732128,
+      "sha256": "78afaef3e3ea78a1fc495acee0ef3f60441c15ff17262356306e73ffd1a30a44",
+      "shape": [
+        6433,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_cifar100_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "d5a6607752b85d5dbab0c2a80f46f9d80767d78ead919361d38643c518287369",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_cifar10_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "30216582bb68de3036133b21f0e0a37f662d0406fcd12a43a70e4f81b1b865e3",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_dtd_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 7520128,
+      "sha256": "372ad575516d53ed335c6a6ce53e45419d8c930029f78d016065bf1161689940",
+      "shape": [
+        1880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_flowers_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 4080128,
+      "sha256": "f2a315bca9ebd2bd045493e4cce5617f682d335afc130fab5171440d86ab2a70",
+      "shape": [
+        1020,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_food_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 242400128,
+      "sha256": "6e05dae9e7c59088d09ea982a7aa0168134e3aaabd9bb9556ca83c5e888d334e",
+      "shape": [
+        60600,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_pets_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 11776128,
+      "sha256": "202a190f31803ed87652858d4aa58a32ca8dacec9567adbdfb88bcabd0db3379",
+      "shape": [
+        2944,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_sun397_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 63520128,
+      "sha256": "07b421571784989e72f70f01dd4ad4366eddd1c1c3c0016c5e64def1c5ca2580",
+      "shape": [
+        15880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_voc2007_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 10004128,
+      "sha256": "07ad39619ecf7486715d9940f2a091ad58caf3dbaf1e30acd70d7f64af9fb301",
+      "shape": [
+        2501,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_aircraft_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 13336128,
+      "sha256": "7ee3394786cdb8ee4eb5b133355df49fa86a7bb1f21333d519e7de6fa21fff38",
+      "shape": [
+        3334,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_caltech101_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 9792128,
+      "sha256": "38f4827cacc7603d42a4325aa118d95e10141401d2018d3bc8dc54e8a10c74a4",
+      "shape": [
+        2448,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_cars_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 25732128,
+      "sha256": "dca36cd71a512007130b9b56d1149657055345e19f88692cbdaac079a319b344",
+      "shape": [
+        6433,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_cifar100_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "c788d7ba4fae7213de2c28e5fa3291a4baa8965b2fb8c935c840a0e86dd025b8",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_cifar10_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "4069b58bcb8458db7cf9570b596c01c66cc29b9757321be405099fd3d518e935",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_dtd_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 7520128,
+      "sha256": "64e7e863e731a39d996e2b18a65c143ffee82fc9131144d42d5b4c65e8df0167",
+      "shape": [
+        1880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_flowers_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 4080128,
+      "sha256": "46cf23b213ab7c6f0956f0403d130f6580ea52dd0ebdf42a6ba78084cdb6cae9",
+      "shape": [
+        1020,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_food_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 242400128,
+      "sha256": "477f8f66ff9e17edb529b0377bc41f9ca186c75d00252c5d06d3bac05bd02d2b",
+      "shape": [
+        60600,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_pets_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 11776128,
+      "sha256": "1abf6be6913875e8e4724fe6030767f9d0de825e2be80d4483d7c5525dd07be0",
+      "shape": [
+        2944,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_sun397_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 63520128,
+      "sha256": "f0b6633215944553521e0f2a54f642f369a2f8144a3de03af7785ae6ff27c805",
+      "shape": [
+        15880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_voc2007_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 10004128,
+      "sha256": "f326d490252bcafad63164d132d3d9a7bb07aa89b23875f5b365422c6034992e",
+      "shape": [
+        2501,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_aircraft_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 13336128,
+      "sha256": "a943c631a78da5670beb48e76d38fb3ff47c0b777a6858b8c113a294b863febb",
+      "shape": [
+        3334,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_caltech101_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 9792128,
+      "sha256": "1896cea26e8372587a75bb3c3d32757fbd19b6c151334832d955ec1eb5c0f64a",
+      "shape": [
+        2448,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_cars_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 25732128,
+      "sha256": "4029dc37714ce7a7e7dc1b4a1820fc37dd09b845c40d10246cf5c48e58de9c87",
+      "shape": [
+        6433,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_cifar100_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "fb459422a030476e8a026c8c8d6b5efec8e00381b85791c1ffe7083426c8aa6b",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_cifar10_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "ea7d7b6c4d2c66dd990b2a61d20533222bcf4117ec076a2e565e6b6ced4e76c5",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_dtd_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 7520128,
+      "sha256": "05c515efe0d07ba5bcbf119e17d2815ff5d832d710da6fbfccd05dba878fbdc7",
+      "shape": [
+        1880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_flowers_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 4080128,
+      "sha256": "fb72bc3cd4f33aeb47ec2f4f645da7cfd5c212c8027c7e45c86c990f9380af05",
+      "shape": [
+        1020,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_food_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 242400128,
+      "sha256": "6575419f44986d9540a84795797b8722c375f41c599a7b7370974542036fcd8a",
+      "shape": [
+        60600,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_pets_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 11776128,
+      "sha256": "1afa58fbda9a3e5641faa5781992ff20852409b5d9ef0b6039517243254a76ea",
+      "shape": [
+        2944,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_sun397_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 63520128,
+      "sha256": "98836af06d90e11af14743c23ac2b74ac24527a95b7a7d793aa9c15b9db2f518",
+      "shape": [
+        15880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_voc2007_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 10004128,
+      "sha256": "9e39952f20c4ec53962c937f08e35176f853766ad0016a5b2790b231076399e0",
+      "shape": [
+        2501,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_aircraft_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 13336128,
+      "sha256": "15589c2831057b37b044c9ed132eaadd21a2cb772c0fcc8b6a93b728335d7783",
+      "shape": [
+        3334,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_caltech101_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 9792128,
+      "sha256": "106ca9a4a7a149cf100061e9f68b96746053a55909e4490337691662c1210734",
+      "shape": [
+        2448,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_cars_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 25732128,
+      "sha256": "671f0fb46eb401616b024be124934abee952b8af15bd1804ee415c11df50c0b5",
+      "shape": [
+        6433,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_cifar100_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "ded6148060006ebb78971a8bfa6f9394fad42cd4d6d407940aa43d7ef2e38f1f",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_cifar10_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 160000128,
+      "sha256": "be3799c0492a50cac79282effec18df0f013557f748de6b523fa03aaa798a6b8",
+      "shape": [
+        40000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_dtd_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 7520128,
+      "sha256": "ff23dff4f9254b3f65c0d8fdbdca5dbdc3151e9791f514451a474c99de72d415",
+      "shape": [
+        1880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_flowers_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 4080128,
+      "sha256": "a4edb82928afacff11b53b18ff8bd66569d378c580724975d49495a96c29b5cb",
+      "shape": [
+        1020,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_food_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 242400128,
+      "sha256": "9eb6bdb0ce20092829f06ab18d7d56393d2d463ef44e3f450082b43de754a5aa",
+      "shape": [
+        60600,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_pets_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 11776128,
+      "sha256": "7477754219ac251fca912db9f5aed35ca645ce3a6aae94a055824e10ed17a184",
+      "shape": [
+        2944,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_sun397_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 63520128,
+      "sha256": "ff27d021966eb5de488648a1a1b7777682623731179f42a6b0269e22fc3513f7",
+      "shape": [
+        15880,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_voc2007_output.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "source-model logits",
+      "bytes": 10004128,
+      "sha256": "4aa282f752acd855d41ad68c23c63cf961c5f6849bdfa00e9690e553157708ae",
+      "shape": [
+        2501,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_aircraft_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 26800,
+      "sha256": "a297b46ed36058521fda55b40904e0fc11c0719985c293bd54a077d349509a79",
+      "shape": [
+        3334
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_caltech101_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 19712,
+      "sha256": "f2f4dd5df63c135e11d214534d66cd4b3e43effdd09002d86491c7db8c310fc1",
+      "shape": [
+        2448
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_cars_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 51592,
+      "sha256": "bc0cf7674125b819e7fc8a01db929aa2311cbf6e2d4fc41fc270cad888f847fa",
+      "shape": [
+        6433
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_cifar100_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "9970d163b558702e02d2317c9507f6a96160ff28757deca27e6cf85740946d71",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_cifar10_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "8ac1992d02afcf27b15127930aef34e65da742012c8c09e4ce6ebd9f5f94bdc4",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_dtd_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 15168,
+      "sha256": "490ae59ab565370436992eddb4212e4caf54efebddbfb5b95aa2ac61350a8b32",
+      "shape": [
+        1880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_flowers_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 8288,
+      "sha256": "f711ab1ccbde673038e2df73f67fd83ef170364a6237e5572061adae0eea1bf1",
+      "shape": [
+        1020
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_food_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 484928,
+      "sha256": "7b57ff44585105d965f73aeaba3534eed07d19c3e37fcb7df8ec6816707c2554",
+      "shape": [
+        60600
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_pets_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 23680,
+      "sha256": "aafe9dd70adcc6477d70d4165797bdb7d197a6cda282fa2ef920ea45fc62f4a5",
+      "shape": [
+        2944
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_sun397_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 127168,
+      "sha256": "845b6e73d4a69cc810c3d113917cdcab572f5d68adf7f6a886e84d967d030dfc",
+      "shape": [
+        15880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet121_voc2007_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 20136,
+      "sha256": "3c64dcfc9a98270c3e46dfcdef572cdb96fa9c559517b340852b0e5c1fb31c96",
+      "shape": [
+        2501
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_aircraft_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 26800,
+      "sha256": "8f3477afdc5002b2348072351383bf4a8748846c89c7ff0c558473329b45d349",
+      "shape": [
+        3334
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_caltech101_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 19712,
+      "sha256": "4b28ff9e72c5d40405bfdeaa9f4a508e1cd1098bfa4ec6d039145c3832e8e6f4",
+      "shape": [
+        2448
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_cars_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 51592,
+      "sha256": "087c11d5b1719ecb51a73d14257fa72145e66d98a9e5e35305249ec9d2acb57a",
+      "shape": [
+        6433
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_cifar100_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "cfcd5d277811648eb32cce3d5d963d8758f3f4463742df9ceef695f673382559",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_cifar10_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "cedbb4e5757ee62174897ed9ffa2f0fd895ce1f1bfcfaf987e27768ce760220c",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_dtd_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 15168,
+      "sha256": "991bd5ec31e708779b8d18b258781a7a96d4bf39db5dba24a3fca35eddac3ac9",
+      "shape": [
+        1880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_flowers_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 8288,
+      "sha256": "dec32d097158e830d26d4b1c105327fb62fdde75aa42cda4d3f2584ac1004762",
+      "shape": [
+        1020
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_food_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 484928,
+      "sha256": "f194e492de23e0ca3ac21e11a603f8876a620308c011c6a71b6395380f9501d2",
+      "shape": [
+        60600
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_pets_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 23680,
+      "sha256": "6d3ea653ef40e55440250dfc837db6d9260d57355eecc503b24db2b3292c1871",
+      "shape": [
+        2944
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_sun397_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 127168,
+      "sha256": "64cc56df2d1494b08ac8046d493b4a9c3f696e52211693fd13260321b4948a4b",
+      "shape": [
+        15880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet169_voc2007_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 20136,
+      "sha256": "aa311ca8aed3fdf57dd1e9ee2ebd1037bf0b93973c4dc14efa27ee731f7ba1fd",
+      "shape": [
+        2501
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_aircraft_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 26800,
+      "sha256": "7022f6f3e1c9f4fe25781ef7fd6541776fd69df6474cbe988dd3c0140df69dbc",
+      "shape": [
+        3334
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_caltech101_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 19712,
+      "sha256": "376d63dd013de23e2d708a3986f47a19f1e159e509f16abac66fc52414af49b7",
+      "shape": [
+        2448
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_cars_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 51592,
+      "sha256": "793ef892436dc2dc303c1280dad47d095e09a834873bbb02dc18025865492f0c",
+      "shape": [
+        6433
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_cifar100_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "fe8e81fcd53a118f27c7192171bdc73a73267da141255318d9630cd167b8fe12",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_cifar10_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "57adb064191dce37efb0ff4463be9f63646a67223745c86e7a61f8f6e0d69327",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_dtd_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 15168,
+      "sha256": "312e0032e1833abd8ea8a0d04d0d829abaef0e1b5d977fc47a2269de092a0bb6",
+      "shape": [
+        1880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_flowers_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 8288,
+      "sha256": "f633fb32134bb76fec8e54f0d9f223ded9c837df1294603805ec9012b5a39f28",
+      "shape": [
+        1020
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_food_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 484928,
+      "sha256": "d7bb57545171f8c8821a5225afad34e48c191f08737c710c3b428d3c82fd4f00",
+      "shape": [
+        60600
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_pets_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 23680,
+      "sha256": "355a7fee033187d80d5659db05aa7fc4d4993ea7044106355992aaaa29c04c3a",
+      "shape": [
+        2944
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_sun397_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 127168,
+      "sha256": "756cd507a9db201e85ceb5791ddf36fffd883b221da504ac01057a85f83851b2",
+      "shape": [
+        15880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/densenet201_voc2007_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 20136,
+      "sha256": "4f8dd9ff18ae554d60b6066ad633c0075022c00c0bc1ecd35e0fc56669733894",
+      "shape": [
+        2501
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_aircraft_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 26800,
+      "sha256": "110167cc24fe74dfee349f22162e773be0d999a52c426cecfdbb316f1d4a3eff",
+      "shape": [
+        3334
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_caltech101_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 19712,
+      "sha256": "34b1cd8e4f231d3114cb072851bfaa27721bd4ffd7f53f9cb4529e11e4639ebb",
+      "shape": [
+        2448
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_cars_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 51592,
+      "sha256": "47fcfd3b3691420ad3933e58792138c48352b6e88d0ac5cfb665bf664e821b7f",
+      "shape": [
+        6433
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_cifar100_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "b885d278f86e968d13d15d50e564c1a2809d85cace87147433bf5b69e1772708",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_cifar10_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "355e1456954a7c0a99fb0c155efdaa5cb7a86aeafb8246066eed0c4316053199",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_dtd_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 15168,
+      "sha256": "3dca92fa60d359f83a9bcf7267ec06c0c5a38995541fd2024ccc289e192f4677",
+      "shape": [
+        1880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_flowers_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 8288,
+      "sha256": "13f42b08c8116b4ee04fd5898de35814a780056107afbe20bed608a82e5b3125",
+      "shape": [
+        1020
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_food_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 484928,
+      "sha256": "83dd61e032450967146b1da0479b914b42a4c4e6a9164d9ea0a6a5bdccb3aceb",
+      "shape": [
+        60600
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_pets_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 23680,
+      "sha256": "a16eb09039a2ec777f54a040e19697a9105176c6129fbc4dc96e2dda4e981165",
+      "shape": [
+        2944
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_sun397_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 127168,
+      "sha256": "ab2dbf470b94415a8a13e065a963d693c55851794a66cfee5e5c179dcd1d282c",
+      "shape": [
+        15880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/googlenet_voc2007_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 20136,
+      "sha256": "424b3e081e4b5cbe71b6608a8bf6b387980d58405bed68a6ba8916c97a5d4ba0",
+      "shape": [
+        2501
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_aircraft_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 26800,
+      "sha256": "d65ef778796150c5d95cc2a2610972878f561939635094d4a0b75371bd0a84e5",
+      "shape": [
+        3334
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_caltech101_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 19712,
+      "sha256": "f62bcc368bda907a95050c6840e5e45eddac01257b0fa8b10095795294859066",
+      "shape": [
+        2448
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_cars_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 51592,
+      "sha256": "9afdf504d75e36ddc9013c6885f5845f264117fed8e73d01026d4f20f2094559",
+      "shape": [
+        6433
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_cifar100_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "f4f0fff62019ef1706169e179f61ec7f86cdc3c628b1e95aca77dcda7cc93360",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_cifar10_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "24136039c7ccb030b129462f9e08623535a4be7f57869e88495a7ee19d8bcfb4",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_dtd_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 15168,
+      "sha256": "55c08a79d8e08ab9ab6d6d04c91e542dd2f7178b0f9ae3531133830a3ed0ea5c",
+      "shape": [
+        1880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_flowers_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 8288,
+      "sha256": "68457d49c7858590ad6e8adf2e82c3511dc80ee8f3bc3847dfcb292804e1a1b0",
+      "shape": [
+        1020
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_food_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 484928,
+      "sha256": "0332ec0039d2c90aeb47cb5fcc97947c889040f58581a9bfeb9b7d968ebdd823",
+      "shape": [
+        60600
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_pets_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 23680,
+      "sha256": "b1e95e3b77fe77314c53b773fe7fbafeeb580ac5ff21600c69f861dfc28f5573",
+      "shape": [
+        2944
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_sun397_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 127168,
+      "sha256": "2e3cac8521e9165d84ac92b979049a3ca5d6ab8e9da985fb36efb8cbb62d2142",
+      "shape": [
+        15880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/inception_v3_voc2007_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 20136,
+      "sha256": "1b463e11269a78da54b9ff10b31f06b824f1c4def33700e922966f0818f61548",
+      "shape": [
+        2501
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_aircraft_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 26800,
+      "sha256": "bb1a34c73a2f9160568ee1a9d715ac1d2b85fccddce885108d89624865e92366",
+      "shape": [
+        3334
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_caltech101_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 19712,
+      "sha256": "911a7195590af852067d2f2e9febe2eb0b5c200e83d7d98814f6e0bbe76c4d98",
+      "shape": [
+        2448
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_cars_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 51592,
+      "sha256": "ae37adbeea03c02990e08a7a539d67a490806d51a1663cd5df25ea715f6f0664",
+      "shape": [
+        6433
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_cifar100_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "f5e5f44d01245a4baa655903d1d1e3fe373fc18d4e532db40f67dfcf889ba54f",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_cifar10_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "25a3b2df5d0a97d99c522494c490ce863ad98f3a6e30ebbc5d0b9469caabf53b",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_dtd_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 15168,
+      "sha256": "44ced582cf18aecc83a743065aa5d5155370d9bdcb4da6622522f52db9e88481",
+      "shape": [
+        1880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_flowers_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 8288,
+      "sha256": "a26a2ef6a6f3cccb04728f65838b7c31fff3db760b48ee3b0a3e189c3bd86471",
+      "shape": [
+        1020
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_food_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 484928,
+      "sha256": "b0296922da42a8be85a0794b140f93984752de0499bcf28bb3a27d394bad3e3b",
+      "shape": [
+        60600
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_pets_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 23680,
+      "sha256": "76ce9395a00062240a27ce2596f59e868080cb83655e783053bab1ca64823765",
+      "shape": [
+        2944
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_sun397_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 127168,
+      "sha256": "ee20baa1f627399f7feac8d610a95a45bdcbb5bdd01c6ddd4dac3d77b769e7c1",
+      "shape": [
+        15880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mnasnet1_0_voc2007_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 20136,
+      "sha256": "e7daaedc93526e45acb8defa7035b7da4365d70dc6a3146f13169ba46b875fa7",
+      "shape": [
+        2501
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_aircraft_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 26800,
+      "sha256": "56cf81cfb37e5b7c05710be78fa1b4cd390ec82b53fe99b4fadecc64f10852b6",
+      "shape": [
+        3334
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_caltech101_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 19712,
+      "sha256": "07baa4b5d2caf98724f5ef66ccd90eba0e1b5a8fdd04739a3d4dfd0a8b53230b",
+      "shape": [
+        2448
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_cars_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 51592,
+      "sha256": "f960bba5ead97e6e9e1d6d3ae396100539a9c107535fcc35b593d79f321d9c43",
+      "shape": [
+        6433
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_cifar100_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "757b210261f6baa9fdec0c9a2788b872f2cdb9397e3dbcabbf17596bac0646d1",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_cifar10_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "ce54cd4eb844691fccf07ffe6d7fd42e7f48f09195b284f64ab22a219f11f708",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_dtd_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 15168,
+      "sha256": "d9f7d37e3d065098777a8af2a476173dcab0c799970a07c86997ef549ee57318",
+      "shape": [
+        1880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_flowers_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 8288,
+      "sha256": "a52afd46533d1574b6f59d9841bfa6c765fe16d413744c7925df9a3b56578f36",
+      "shape": [
+        1020
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_food_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 484928,
+      "sha256": "a82764b08266f73bf069ed74b19c0325251b1b88f52479edb142e4a3edcc61e8",
+      "shape": [
+        60600
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_pets_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 23680,
+      "sha256": "30c64f9f07944bfd3e81ca9be1808159d653a0bff0c9cab6e59676f89ca7fa21",
+      "shape": [
+        2944
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_sun397_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 127168,
+      "sha256": "50c6a1b1914c2000ece13b0773551c538e88a77c18e455b312159c37e0c8182c",
+      "shape": [
+        15880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/mobilenet_v2_voc2007_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 20136,
+      "sha256": "cf5d41c875ed0da7dd2f2aab2860a2f0342d4f04789a2a287245a92c3ea08d4e",
+      "shape": [
+        2501
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_aircraft_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 26800,
+      "sha256": "52fb59c99a014f471352ea0076b2d6de26129aa28ef04e09c692e925a5ff52f2",
+      "shape": [
+        3334
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_caltech101_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 19712,
+      "sha256": "79abf54eb76b8c0de2cd5f20a082b1103c2b716eb35898267c351f84559917ec",
+      "shape": [
+        2448
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_cars_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 51592,
+      "sha256": "8e7ea7ac50ac920bc81b8fcb5424d3e021715d80e9f15272d4d55b346d772fc0",
+      "shape": [
+        6433
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_cifar100_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "78f69d825bc3feef7925a090c7cc01d4c8e7b7d3136651059e57ab2084056d0a",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_cifar10_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "843b6f28dea36117a8772bfe297260bbd33ff1b2694065c9ba248be1be3b6874",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_dtd_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 15168,
+      "sha256": "9a1c3fd2af0cdcb161a25a40fe08d6bec8ab0aeb4acc1cbb835b649aed50a956",
+      "shape": [
+        1880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_flowers_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 8288,
+      "sha256": "a41a39eca591990b6bfcb86dc8cda0ff670ce6486aa95809f1a1f8df80e0aee9",
+      "shape": [
+        1020
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_food_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 484928,
+      "sha256": "546d7e1a4dc883da79aeb8a445577e166effae29f93926d58644f5f2092b5ab9",
+      "shape": [
+        60600
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_pets_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 23680,
+      "sha256": "f1bffd0fb258af5fb46997dfcd233370bf44c0c554a9c9a1dcb7b1d736d4a0e8",
+      "shape": [
+        2944
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_sun397_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 127168,
+      "sha256": "8225f5f12959e339f51a548f27121e5642cbabdb41bd5aaf1460745150b963e5",
+      "shape": [
+        15880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet101_voc2007_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 20136,
+      "sha256": "db66c5b89595928f975e85294324e9b9aabc94a7d2e20c3416a64a91f5e5282a",
+      "shape": [
+        2501
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_aircraft_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 26800,
+      "sha256": "39210357ff21d936563fe8caaaa4a25663b2b5aab26f0ce74be01e11a6e89d82",
+      "shape": [
+        3334
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_caltech101_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 19712,
+      "sha256": "d5b25a530d50dc9c3322286c2195df08cb8cd7f26fc35e0ad13eed3c744b57b9",
+      "shape": [
+        2448
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_cars_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 51592,
+      "sha256": "bdc6a982051fe1d33f59054b28ae0cee574b748c774e4ce77b8e7e2dff779466",
+      "shape": [
+        6433
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_cifar100_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "b1fb6d79a0d56d10e44a4a6ccba732d4d019f8dea0878d2d230150760051bdbc",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_cifar10_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "9baa9c6858d3375839b57ed065374de3189cb29a106da319ffb16d44c9348b3f",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_dtd_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 15168,
+      "sha256": "f22c803063ee591a1a50f89e8f2724e45ec41a5045bc915a925bffadb2c4a992",
+      "shape": [
+        1880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_flowers_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 8288,
+      "sha256": "dd7e3005bee119801f72c9a557994c8dfeb33ef2f66c20d590b20ce869be8d4b",
+      "shape": [
+        1020
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_food_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 484928,
+      "sha256": "da990f18ffb04f2753fe77c01db3be1207a7f14f48e2b226cbd7b97ea649925a",
+      "shape": [
+        60600
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_pets_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 23680,
+      "sha256": "ae5da789888ac2f3e9696ffdef7312fdc297d314b338f6f54517475adeabeb44",
+      "shape": [
+        2944
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_sun397_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 127168,
+      "sha256": "fadd78d6f159dee7c01cc98615c5b9d99b63ca776792c7b4428de4c6d1cc14d6",
+      "shape": [
+        15880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet152_voc2007_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 20136,
+      "sha256": "7d31aec307ca66c686c207f0dac0f99910f158edb34908677d65190472016e57",
+      "shape": [
+        2501
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_aircraft_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 26800,
+      "sha256": "305a44efcd76e6a9359ade9f38631f22518e739a49b4e66fc877ef3033fbfd4a",
+      "shape": [
+        3334
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_caltech101_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 19712,
+      "sha256": "0778db010dd950efa53ec0fd17cb57ca98e5109b58d67a2ea9753ae071b491e9",
+      "shape": [
+        2448
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_cars_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 51592,
+      "sha256": "73c00c6fa6d785c9cc2121a5282d0715c1ad661ffdc4d50a8936314867872848",
+      "shape": [
+        6433
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_cifar100_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "e37a35cd08e18f8d1a3cf5d26ee969ca2b7ac0adba9048e0f4c543b61a903553",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_cifar10_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "68fff290bb72cba58c971c5c642cb7401a382a172415b174a3a24ad04ea6cc88",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_dtd_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 15168,
+      "sha256": "e67e4d74fdda1cf0d374e6ed12ade35b4ce7b72d71f05542f59d6ed3f44f542a",
+      "shape": [
+        1880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_flowers_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 8288,
+      "sha256": "2f0eeae7a4ce6975cd051b104b932f2e92a6b0b990b99fdfb754c0c3558adeab",
+      "shape": [
+        1020
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_food_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 484928,
+      "sha256": "c0d77e55c7d6883b8897732d878333c49e804fb4d0055cbe65a4a9b58e5218bd",
+      "shape": [
+        60600
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_pets_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 23680,
+      "sha256": "974e7245f32e515a1b713c5f78bee045277bbb83569ca6d32ab107e13143bff2",
+      "shape": [
+        2944
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_sun397_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 127168,
+      "sha256": "9e593ded0a2a4ffa36083639313a93f843c4806351a949ca22ad9e0e635acba1",
+      "shape": [
+        15880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet34_voc2007_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 20136,
+      "sha256": "1de8498793b0c321670422abb7cf14a9a8f50bac40fb4cb0be1799c4cec3f990",
+      "shape": [
+        2501
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_aircraft_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 26800,
+      "sha256": "b340bfccde46b722aa0912d34aa520d198bca11b40896e5bd321fff450787d29",
+      "shape": [
+        3334
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_caltech101_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 19712,
+      "sha256": "cd3f0383aa56ef80fc91212c347819d29951c2aeb6b9704b2cc794073c98ca20",
+      "shape": [
+        2448
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_cars_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 51592,
+      "sha256": "aa13c25138757ae74909457436c56beba42e7f266b95a3fa3a10195fea2d6a46",
+      "shape": [
+        6433
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_cifar100_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "25b2d61eec0392e1f8becabf15a106be2212477fb62c394a093d25da7b446bcf",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_cifar10_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 320128,
+      "sha256": "06a8bdec30db2a5b940ba781188f5889c118b4ebeae4cd67b988f08e87ac5114",
+      "shape": [
+        40000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_dtd_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 15168,
+      "sha256": "2b5d00aea8514447f2b70bf4fe5994b5d2ca8524d3af0b7ce7d2cd8827b1f9dd",
+      "shape": [
+        1880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_flowers_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 8288,
+      "sha256": "340f833871cfe5bbf801a8eb82d001182e1ba16225b17779bfeba635d1d4808e",
+      "shape": [
+        1020
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_food_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 484928,
+      "sha256": "29ad34be6afc645815fe26399a93313c389b98df88cdb0e06740215738981221",
+      "shape": [
+        60600
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_pets_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 23680,
+      "sha256": "f6b9e0efbf21b213a9fc102b30f95393cc6c62443a09f349e9bbdbf9020c6154",
+      "shape": [
+        2944
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_sun397_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 127168,
+      "sha256": "03de79c6f2f81efe8fdef9a2ec1c1fb3af331621feafa5d7928ec5ca21715fbd",
+      "shape": [
+        15880
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp1/group1/resnet50_voc2007_label.npy",
+      "profiles": [
+        "exp1"
+      ],
+      "role": "target labels",
+      "bytes": 20136,
+      "sha256": "417f323d35fed706d4ffe072fa942f7bb3d467775e676d4572dce258dc43413e",
+      "shape": [
+        2501
+      ],
+      "dtype": "int64",
+      "storage_status": "local-only",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp1 --source stream --metrics gleep leep"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/cache_manifest.json",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "cache manifest",
+      "bytes": 6611,
+      "sha256": "74926be41abc103f6f4301c002734746c58d4c84a1a55a0bc150cd1101089e9f",
+      "shape": null,
+      "dtype": null,
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet18/CIFAR10/clustering_logits.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 4000128,
+      "sha256": "079946b9ae4f3d238e0965948cbf6f7d54242813514b244364fdcd92f9a30192",
+      "shape": [
+        10000,
+        100
+      ],
+      "dtype": "float32",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet18/CIFAR10/features.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 20480128,
+      "sha256": "26b5004b52c620e4cb422ae2415c709c516365defac40c7f375afe8816862472",
+      "shape": [
+        10000,
+        512
+      ],
+      "dtype": "float32",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet18/CIFAR10/labels.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 80128,
+      "sha256": "7827272d0fbeee517a81b235f35fae2128af64393371c2fdde1c8f9a638e4a1a",
+      "shape": [
+        10000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet18/CIFAR10/manifest.json",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "cache manifest",
+      "bytes": 54500,
+      "sha256": "cafe6aa1513399697df2a68b05050848f5f97667e8aa2d0b46edb104a2e511c2",
+      "shape": null,
+      "dtype": null,
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet18/CIFAR10/prediction_logits.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 4000128,
+      "sha256": "079946b9ae4f3d238e0965948cbf6f7d54242813514b244364fdcd92f9a30192",
+      "shape": [
+        10000,
+        100
+      ],
+      "dtype": "float32",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet18/ImageNet/clustering_logits.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 40000128,
+      "sha256": "b567eaab1d92e70c21359d5d143e025aaa1409169eb69b4856b1c47f42d4604d",
+      "shape": [
+        10000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet18/ImageNet/features.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 20480128,
+      "sha256": "3ee6bcc9ebde60ff1a88e3e46fa3e0cbd171ddbdf566b59d63fab8829ac2e282",
+      "shape": [
+        10000,
+        512
+      ],
+      "dtype": "float32",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet18/ImageNet/labels.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 80128,
+      "sha256": "7827272d0fbeee517a81b235f35fae2128af64393371c2fdde1c8f9a638e4a1a",
+      "shape": [
+        10000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet18/ImageNet/manifest.json",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "cache manifest",
+      "bytes": 54530,
+      "sha256": "a647fd0d518488144f6975eec0f332f86129c5e45566e6bbe969b7852fc47fd6",
+      "shape": null,
+      "dtype": null,
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet18/ImageNet/prediction_logits.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 4000128,
+      "sha256": "bae0f2feb11b55e1af859448cf4d6d35bb3c47c7ce9b4ed96aacc2d72086a0da",
+      "shape": [
+        10000,
+        100
+      ],
+      "dtype": "float32",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet34/CIFAR10/clustering_logits.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 4000128,
+      "sha256": "48b622c598fae2aae3205f1432b3d7f93e7adbb62e95523c3794684f0e2755cc",
+      "shape": [
+        10000,
+        100
+      ],
+      "dtype": "float32",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet34/CIFAR10/features.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 20480128,
+      "sha256": "3c367b9098ec9b9465cd89982a69c1c7282b108b64d33e3f5f93c14a9605a17d",
+      "shape": [
+        10000,
+        512
+      ],
+      "dtype": "float32",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet34/CIFAR10/labels.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 80128,
+      "sha256": "7827272d0fbeee517a81b235f35fae2128af64393371c2fdde1c8f9a638e4a1a",
+      "shape": [
+        10000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet34/CIFAR10/manifest.json",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "cache manifest",
+      "bytes": 54500,
+      "sha256": "ce8474b97da6f447dbbe24d0994ef43b9742b9418e035480b7a45d15f02022be",
+      "shape": null,
+      "dtype": null,
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet34/CIFAR10/prediction_logits.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 4000128,
+      "sha256": "48b622c598fae2aae3205f1432b3d7f93e7adbb62e95523c3794684f0e2755cc",
+      "shape": [
+        10000,
+        100
+      ],
+      "dtype": "float32",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet34/ImageNet/clustering_logits.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 40000128,
+      "sha256": "cdcbc4f7a75594c53d8b958e3120cd9405c8a4000b1855ec92a370c2a2cddd3d",
+      "shape": [
+        10000,
+        1000
+      ],
+      "dtype": "float32",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet34/ImageNet/features.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 20480128,
+      "sha256": "a49fe8d1add7d599fab16dc0251370d696117a97081c058aca87eb1467de95ad",
+      "shape": [
+        10000,
+        512
+      ],
+      "dtype": "float32",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet34/ImageNet/labels.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 80128,
+      "sha256": "7827272d0fbeee517a81b235f35fae2128af64393371c2fdde1c8f9a638e4a1a",
+      "shape": [
+        10000
+      ],
+      "dtype": "int64",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet34/ImageNet/manifest.json",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "cache manifest",
+      "bytes": 54530,
+      "sha256": "1cc9b796785dc27b39cc32c72384aae7ba9878c99222493ce7d6556555c1e440",
+      "shape": null,
+      "dtype": null,
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/cache/exp2/published/ResNet34/ImageNet/prediction_logits.npy",
+      "profiles": [
+        "exp2"
+      ],
+      "role": "source-model feature/logit cache",
+      "bytes": 4000128,
+      "sha256": "84b2bf57a52ae439edadc0b2ec5711af65bf850f58753cb9d9ebc3bd3fd1c785",
+      "shape": [
+        10000,
+        100
+      ],
+      "dtype": "float32",
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode cache --semantics published"
+    },
+    {
+      "path": "artifacts/checkpoints/Pretrain/ResNet18/40_64_0.001/best_model.pth",
+      "profiles": [
+        "source-checkpoints"
+      ],
+      "role": "CIFAR10 source checkpoint",
+      "bytes": 85453720,
+      "sha256": "88324e64eca48302bdaf1330c9c66f0c9921f5275590faef0e60ef8191726314",
+      "shape": null,
+      "dtype": null,
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode train --retain-checkpoints best"
+    },
+    {
+      "path": "artifacts/checkpoints/Pretrain/ResNet34/40_64_0.001/best_model.pth",
+      "profiles": [
+        "source-checkpoints"
+      ],
+      "role": "CIFAR10 source checkpoint",
+      "bytes": 44959544,
+      "sha256": "33b6235f8feae581a32286cf250b7ec69d0a4cc75ba2c373fbb15e3c2aeb06d8",
+      "shape": null,
+      "dtype": null,
+      "storage_status": "local-and-server",
+      "remote_uri": null,
+      "rebuild": "python -m gleep_repro run exp2 --mode train --retain-checkpoints best"
+    }
+  ]
+}
