@@ -1,0 +1,33 @@
+# Runtime environments and Python caches
+.venv*/
+.repro-verify-env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+
+# Datasets, downloaded weights, checkpoints and generated arrays
+artifacts/cache/**
+artifacts/checkpoints/**
+!artifacts/cache/.gitkeep
+!artifacts/checkpoints/.gitkeep
+EXP1/data/
+EXP1/output/
+EXP1/results_f/
+EXP1/models/group1/checkpoints/
+EXP2/data/
+EXP2/checkpoint/
+EXP2/models/group1.zip
+*.pth
+*.pt
+*.npy
+*.npz
+*.safetensors
+*.h5
+*.bin
+
+# Generated packages and scratch results
+dist/
+*.part
+*.tar.gz
+*.zip

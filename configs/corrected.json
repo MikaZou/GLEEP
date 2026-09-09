@@ -1,0 +1,11 @@
+{
+  "inherits": "published.json",
+  "description": "Corrected semantics are opt-in and never overwrite published results.",
+  "corrections": {
+    "exp1_duplicate_pets": false,
+    "exp2_discarded_first_class_permutation": false,
+    "exp2_cifar_model_depth_swap": false,
+    "exp2_imagenet_uses_cifar_classifier_head": false,
+    "leep_formula": "canonical_log_probability"
+  }
+}

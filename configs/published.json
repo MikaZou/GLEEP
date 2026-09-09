@@ -1,0 +1,57 @@
+{
+  "official_repository": "https://github.com/MikaZou/GLEEP",
+  "official_commit": "20d8d7f91c8c5f409ef31081257676d655a27f29",
+  "exp1": {
+    "published_models": [
+      "mobilenet_v2",
+      "mnasnet1_0",
+      "densenet121",
+      "densenet169",
+      "densenet201",
+      "resnet34",
+      "resnet50",
+      "resnet101",
+      "resnet152",
+      "googlenet"
+    ],
+    "extra_models": ["inception_v3"],
+    "datasets": [
+      "cifar10",
+      "voc2007",
+      "caltech101",
+      "aircraft",
+      "cifar100",
+      "food",
+      "pets",
+      "flowers",
+      "cars",
+      "dtd",
+      "sun397"
+    ],
+    "metric_paths": {
+      "leep": "group2/leep",
+      "nleep": "group2/nleep",
+      "logme": "group2/logme",
+      "pac": "group2/pac",
+      "sfda": "group2/sfda",
+      "gleep": "group1/leep_g"
+    }
+  },
+  "exp2": {
+    "models": ["ResNet18", "ResNet34"],
+    "sources": ["CIFAR10", "ImageNet"],
+    "strategies": ["Finetune", "Retrain"],
+    "metrics": ["LEEP", "GLEEP"],
+    "task_min_classes": 2,
+    "task_max_classes": 100,
+    "task_count": 99,
+    "seed": 42,
+    "epochs": 30,
+    "batch_size_train": 64,
+    "batch_size_test": 128,
+    "learning_rate": 0.001,
+    "gmm_random_state": 0,
+    "gmm_covariance_type": "full"
+  }
+}
+
